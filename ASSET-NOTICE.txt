@@ -1,0 +1,15 @@
+GFL2 STATIC DATA API - ASSET NOTICE
+
+Project/API license
+-------------------
+The source code and API implementation of this project are licensed under the GNU General Public License version 3 (GPLv3). See LICENSE for the full license text.
+
+Girls' Frontline 2 assets
+-------------------------
+Game-derived assets are NOT licensed under GPLv3 by this project.
+
+This includes, without limitation, character portraits, full-body illustrations, acquisition/gacha illustrations, costume/skin images, weapon images, icons, user-interface artwork, names, logos, and other visual or game-derived materials originating from Girls' Frontline 2.
+
+All such game-derived assets are copyright and property of Girls' Frontline 2 and its respective rights holders. This project does not claim ownership of those assets. Redistribution or use of game assets must comply with the applicable rights holder terms and local law.
+
+This notice is provided to clearly separate the GPLv3-licensed API/source code from game-derived assets.
