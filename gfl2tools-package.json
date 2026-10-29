@@ -1,0 +1,4325 @@
+{
+  "schema_id": "gfl2-tools-offline-data-package",
+  "schema_version": 2,
+  "data_version": "table.1199366",
+  "generated_at": "2026-10-29T05:27:11.649261+00:00",
+  "game_version": "3.0.5388",
+  "game_version_source": "LocalCache/StreamingAssets ClientRes_Windows directory",
+  "source_table_version": "1199366",
+  "bv_version": "1198375",
+  "layout": "static-api-mirror",
+  "purpose": "Manual/offline GF2Tools data import when remote delivery is unavailable or rate-limited.",
+  "entrypoints": {
+    "latest": "latest.json",
+    "manifest": "api/v1/manifest.json",
+    "core_gzip": "api/v1/bundles/core-data-table.1199366.json.gz",
+    "images_index": "api/v1/images.json",
+    "asset_coverage": "api/v1/asset_coverage.json"
+  },
+  "counts": {
+    "dolls": 67,
+    "weapons": 194,
+    "unique_keys": 402,
+    "common_keys": 158,
+    "expansion_keys": 50,
+    "combined_keys": 65,
+    "images": 832
+  },
+  "asset_coverage": {
+    "schema_version": 2,
+    "dolls": {
+      "total": 67,
+      "portrait": 67,
+      "gacha": 67,
+      "fullbody": 67,
+      "skins": 67
+    },
+    "weapons": {
+      "total": 194,
+      "image": 194
+    }
+  },
+  "payload_bytes": 50801884,
+  "files": [
+    {
+      "path": "latest.json",
+      "bytes": 179,
+      "sha256": "5840f32b633dc09951117fa55606c2c77d5742f621ca1a872328fa0d9155dc95"
+    },
+    {
+      "path": "api/v1/asset_coverage.json",
+      "bytes": 189,
+      "sha256": "c73411f28e24d0a3023bd33c53354ada02e4c475899645e431b54e6df013c586"
+    },
+    {
+      "path": "api/v1/bundles.json",
+      "bytes": 1274,
+      "sha256": "87599c68784a11240711c5ee2b8ff4d353cd1f66db5d907101eb747421f4609d"
+    },
+    {
+      "path": "api/v1/combined_keys.json",
+      "bytes": 38019,
+      "sha256": "7212982a45ce0a3c944388c60d81b43ef6481fcacb73622ca636e0a28c884c84"
+    },
+    {
+      "path": "api/v1/common_keys.json",
+      "bytes": 104313,
+      "sha256": "49218198c0be54c0f21201f5faade4f2caaeb04c68b0af81a7fff41f4e7fb998"
+    },
+    {
+      "path": "api/v1/dolls.json",
+      "bytes": 123808,
+      "sha256": "6009a39ab6ed0af2e0c311946891f456995f987117afd1f40ab1c805994891d5"
+    },
+    {
+      "path": "api/v1/expansion_keys.json",
+      "bytes": 73534,
+      "sha256": "21943ddedc9416305aa1fad38234f39c64bb0c14494324b73ff0f3bc50dbf061"
+    },
+    {
+      "path": "api/v1/game_config.json",
+      "bytes": 4782,
+      "sha256": "196e551738c9cbc0ce96d8e86623ba73f3e9df58bc89de4d8a318ebe93918a72"
+    },
+    {
+      "path": "api/v1/game_version.json",
+      "bytes": 560,
+      "sha256": "e1ac62fb7bc766db1adc08d011e7cee976566489fbe035c61821c0603347e46e"
+    },
+    {
+      "path": "api/v1/image_catalog.json",
+      "bytes": 542499,
+      "sha256": "9db5446e2bc396ec3e1cdd38b346a60e25832ab5bf3cb89f072e051c1ca46c16"
+    },
+    {
+      "path": "api/v1/images.json",
+      "bytes": 968900,
+      "sha256": "cbf9c537a698fb336414960e53ee27ed9a204973170f7e9bdb09da776d3e691a"
+    },
+    {
+      "path": "api/v1/item_ranks.json",
+      "bytes": 469,
+      "sha256": "ec6ebc2ce760768e58683491ca00e62e37023a0bf83e7711b9c1d1b69d1def0a"
+    },
+    {
+      "path": "api/v1/manifest.json",
+      "bytes": 4315,
+      "sha256": "ffeaab0785df2a2c0c0617542a81d7b6be3e820881cd301232ffb6271c3cb979"
+    },
+    {
+      "path": "api/v1/remolding.json",
+      "bytes": 38609,
+      "sha256": "5018372966f4ee1bb229427a2a475f025a7f92208bd438eec71a0678082c9c75"
+    },
+    {
+      "path": "api/v1/unclassified_polarity_plans.json",
+      "bytes": 547,
+      "sha256": "f946469f110c4de2bf3354763fd45ca3b0f6e29193c6b4a573c6cfa179ec477a"
+    },
+    {
+      "path": "api/v1/unique_keys.json",
+      "bytes": 338471,
+      "sha256": "deeb1c0326dce7fe2097687b65d525a99932d6d38d63a0bfab0dab4e478de65d"
+    },
+    {
+      "path": "api/v1/weapon_part_effects.json",
+      "bytes": 2251,
+      "sha256": "88fb83d7fd32212e9e47d378e5b3972a3b1d19bd7962e541f580ae4fb348f5ad"
+    },
+    {
+      "path": "api/v1/weapon_part_power_map.json",
+      "bytes": 3875,
+      "sha256": "f995911879034cc6d8c208308c9b3023ce69a58482c72f7570cf624146e1d0d0"
+    },
+    {
+      "path": "api/v1/weapon_part_types.json",
+      "bytes": 9220,
+      "sha256": "180ed057ba7cb462c1ee2e6906cbae0b60a2570f26eef0f83a58b712f9b19d79"
+    },
+    {
+      "path": "api/v1/weapons.json",
+      "bytes": 144809,
+      "sha256": "1c39b4f920f1b1779060ee8d82aebca423c734d2a1b018577e0d1c04517e82c0"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "ASSET-NOTICE.txt",
+      "bytes": 1029,
+      "sha256": "04be3031be435982ff40fbdebae8022bf818c24a01eca03dec4196757986cf41"
+    },
+    {
+      "path": "api/v1/bundles/core-data-table.1199366.json.gz",
+      "bytes": 225105,
+      "sha256": "fc8518e5ca62c9f89df6b39c6533b940416bfbe802fa8569b47f87cfc4bb5bf8"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_AgentSSR--81ea864785.webp",
+      "bytes": 126678,
+      "sha256": "81ea86478548b43033282b1a9029677e710e56d5ae740f36879465a19f035402"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_AlvaSSR--eed0bdf574.webp",
+      "bytes": 132018,
+      "sha256": "eed0bdf574f942cbc1d71563dab7778d46dd1f61e8efecb721e233fd45e3a083"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_AndorisSSR--d1dab7917d.webp",
+      "bytes": 162250,
+      "sha256": "d1dab7917daa861fe1579680959eace75f276606338f77cd25f1a05258bdeefa"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_AsteriaSSR--4cb6d00c39.webp",
+      "bytes": 122268,
+      "sha256": "4cb6d00c39fb041ea9379e9cd6e7ca84f620d40a5f5941511257c015498348b2"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_BalthildeSSR--54415fd689.webp",
+      "bytes": 130288,
+      "sha256": "54415fd6892009d6b69d24173e5ad015b72ddfb614c74c11526863da10ac8ae5"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_BastiSSR--900f1315ee.webp",
+      "bytes": 135236,
+      "sha256": "900f1315ee9f9c64cba9c678dba64acea6ca934b834d8dac95777b8149a87b75"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_BiyocaSSR--f1b0e84358.webp",
+      "bytes": 313022,
+      "sha256": "f1b0e84358ef76c97296a9f013f3ff6b6c66a7e5edf6e80aff9fac73dc365070"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_CeciliaSSR--d8337bf23e.webp",
+      "bytes": 153304,
+      "sha256": "d8337bf23ec673bb6c8c262521bfd94f4f40088546e1f7c501114d428fb03033"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_CentaureissiSSR--b8537edd7d.webp",
+      "bytes": 288556,
+      "sha256": "b8537edd7dc08eddfeebc0e4e5601e3ee09bf29f80a64a80271fa3bcb46608c4"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_CharolicSR--c63d64a366.webp",
+      "bytes": 208142,
+      "sha256": "c63d64a36640022268f32234e74962efb6de484ca98c14814a243b1326ca811d"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_CheetaSR--7a7629c264.webp",
+      "bytes": 103680,
+      "sha256": "7a7629c2640b1721502632e40fbea08857562c7a928943833f60ea9495936570"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_CheyanneSSR--ef10677da3.webp",
+      "bytes": 180776,
+      "sha256": "ef10677da30fd62497bee94174832404ea341823b30b5d8b7a5f2ce6b6de7012"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_ClukaySSR--34d0c98203.webp",
+      "bytes": 134496,
+      "sha256": "34d0c9820320082a9b19d070e00a11812b33b88b037842625c49a003b4fcba3a"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_ColphneDoppelgaengerSSR--76c5bd41e9.webp",
+      "bytes": 148990,
+      "sha256": "76c5bd41e9f6b58baa81282a343e374ab480d47f7d741e832e678f57eed9afaf"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_ColphneSR--1f6bdd0f89.webp",
+      "bytes": 104280,
+      "sha256": "1f6bdd0f8980fa7d26e6827918584e378168c4346ee2889eab4168c81780f82f"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_DaiyanSSR--8de42eee07.webp",
+      "bytes": 204750,
+      "sha256": "8de42eee07fecf61033b4c2f3a98939183665344ffbee9c8f3b6f3528877f49a"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_DusevnyjSSR--43f0f4e345.webp",
+      "bytes": 243708,
+      "sha256": "43f0f4e3452cec21bb42a3ad735e2ef2d6d3ae0d180904492d15e02bbe1e017f"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_EaglettaSSR--08835336e4.webp",
+      "bytes": 195098,
+      "sha256": "08835336e4a7484368f452d03ca1252fad0bdf1427b9de1202ecdef4bfb6295b"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_FaelynnSSR--f2d65fabe8.webp",
+      "bytes": 239238,
+      "sha256": "f2d65fabe82ce434d1745531b8bd0f61095c84b2b553394d3bf3a547304764b4"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_FayeSSR--c52530b262.webp",
+      "bytes": 161952,
+      "sha256": "c52530b262fd386831ee3a822b47e5f197e55021a1b548b495948b6d4c51b3a3"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_FlorenceSSR--c944d4d363.webp",
+      "bytes": 219174,
+      "sha256": "c944d4d36338cfcf79d44e513ead80db2188949f326b24a99c2b8a3bfd5b7d5a"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_GrozaSR--e9fcf9be82.webp",
+      "bytes": 195982,
+      "sha256": "e9fcf9be8205f1de539bcc1584696c59fb0c35ae47843c5e0a8362cd8839b22f"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_HarpsySSR--968dd7edbc.webp",
+      "bytes": 140352,
+      "sha256": "968dd7edbcf2fc6c3879b0a6da44899c6401a6867723c0b7295d89d698f30608"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_HelenSSR--3ecb98c17e.webp",
+      "bytes": 441838,
+      "sha256": "3ecb98c17e86c4ddef0c8d835ea59cb6f460c246049cef07805bcd1b9da536e1"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_JiangyuSSR--5bd04b02c3.webp",
+      "bytes": 231198,
+      "sha256": "5bd04b02c363c8fadd84d41cce653eb8ecd27060f8e17e28ea19ce0b154e7d44"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_KoledaSSR--7c02dd0b75.webp",
+      "bytes": 128030,
+      "sha256": "7c02dd0b751ffd49d03dd9bc1fd79b35aaffa8af9d92d198961b438db6a17a1a"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_KseniaSR--22c5baff42.webp",
+      "bytes": 124488,
+      "sha256": "22c5baff4214f224ff6a89a00b53c084a813bf0fbb769fda40446f2e829e3993"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LeneSSR--9b0f25e789.webp",
+      "bytes": 143280,
+      "sha256": "9b0f25e7894663fc98407971a1c95e7f9eded48c55745bff4690a830474054c2"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LennaSSR--b8f1289b42.webp",
+      "bytes": 160342,
+      "sha256": "b8f1289b4274a49ed93b19a981915d952e4d1e8912c0364fbd882b9bd3c316ba"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LevaSSR--ea29d02b17.webp",
+      "bytes": 133124,
+      "sha256": "ea29d02b175a014ddd107323d77eb8a65fcb958ecea7756d3f9d670adeedaee2"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LewisSSR--92cc521364.webp",
+      "bytes": 154396,
+      "sha256": "92cc521364e5eea505ca188bcb80260771f47fe6ca34d898856922d3417b7533"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LindSSR--186fa1f8cf.webp",
+      "bytes": 136450,
+      "sha256": "186fa1f8cf2956abcb0323876b511306bcc8eb5df99adac35bf0cc0727a5ebe0"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LittaraSR--5cb64d6d3c.webp",
+      "bytes": 219082,
+      "sha256": "5cb64d6d3cdf9248c8fbf77f81b02d9329e07f1ab55644d55d1336c3b9d9fc2b"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LiushihSSR--2ecfd58aea.webp",
+      "bytes": 219286,
+      "sha256": "2ecfd58aeaefc6c12e51135e51d6558e63333631b85c3e7b45fa91b602a2f840"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LoreleySSR--1d419bb735.webp",
+      "bytes": 171788,
+      "sha256": "1d419bb7357546c6f1340cf629107ed02a6ce8de9a5a123d03f445147ed1ba96"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_LottaSR--a636519f1b.webp",
+      "bytes": 141130,
+      "sha256": "a636519f1bd5642373502d2db3bd39ab8a655b9399a2e2d01c168d74d69b785e"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_MacqiatoSSR--88de2cd92c.webp",
+      "bytes": 125416,
+      "sha256": "88de2cd92cd8cc8d8abe83cf8aeabcdf11aff613951561023f588618e019304b"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_MishtySSR--5d799ba21c.webp",
+      "bytes": 376910,
+      "sha256": "5d799ba21c6912e6dfb3eaa0bf375bf985eb4524d46b655b3953b7327bcbf1f8"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_MitylSSR--ad6d1cd941.webp",
+      "bytes": 139902,
+      "sha256": "ad6d1cd941f103c86ba455810bcdcd78369535ea76bff7d511265f70afdfe2db"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_MosinnagantSSR--d5ce808e84.webp",
+      "bytes": 326946,
+      "sha256": "d5ce808e84c661705c67eef74e6e612a89bfc28391f22846da0b5aacdb07d830"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_NagantSR--09213b1958.webp",
+      "bytes": 126680,
+      "sha256": "09213b19586d41b8702ebd84b2e6fb45b56fcc10b9e433a87c0d55b3c74692d4"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_NemesisGnosisSSR--22c319e8bb.webp",
+      "bytes": 181408,
+      "sha256": "22c319e8bbc2ec26dc719020f36707ffef3615cf4741f0b76e89aadc4a987825"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_NemesisSR--d1658ae613.webp",
+      "bytes": 178866,
+      "sha256": "d1658ae613f75f500866b790355461493031b41fb9f6c4e2d74ef2758b803310"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_NikketaSSR--c29eb2fa11.webp",
+      "bytes": 336818,
+      "sha256": "c29eb2fa11a9c36df9fecbe9babcc787ff08b1fc31887239844aa2fb27280c92"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_OTs14SSR--7f4d9c9cea.webp",
+      "bytes": 110794,
+      "sha256": "7f4d9c9cea21f161b2a677e58f32fd086d0bfe3658333926add25e322c37dd90"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_PapashaSSR--e49f5d3d47.webp",
+      "bytes": 136406,
+      "sha256": "e49f5d3d47626a1f4780a4ac873a3cd3daac5d91d02bcab0d3ffe0a3a95e2b85"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_PeriSSR--d75701f29d.webp",
+      "bytes": 140862,
+      "sha256": "d75701f29d048c4faf719d1d8b34ad5743bf25093cfbb000dc7bfcecf49ba394"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_PerityaSSR--9ed805bc88.webp",
+      "bytes": 161156,
+      "sha256": "9ed805bc88a7cc9ee920ce70a088924ab44331627323daa4e935d893fd7154fe"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_PhaetusaSSR--0b593cdb6d.webp",
+      "bytes": 232688,
+      "sha256": "0b593cdb6d097bf8213cb9547f2f5ad4a840ef5c1bd3b4c3ada04b2e6159a6d0"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_QiongjiuSSR--9d000bceea.webp",
+      "bytes": 157028,
+      "sha256": "9d000bceea9d6f4fefaae64de3a39805d0246bd150ab02076b12c22783ebcfea"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_QiuhuaSSR--eb9f6dca67.webp",
+      "bytes": 170828,
+      "sha256": "eb9f6dca67bbe595d50ae120757ec4b8133e6f0e0ee946f1c059fcc4c0142e97"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_RobellaSSR--305482cf19.webp",
+      "bytes": 161522,
+      "sha256": "305482cf19a21488b131800470c254218ee54c87053b38f7b7616faa18652e93"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_SabrinaSSR--efa329d8b9.webp",
+      "bytes": 179466,
+      "sha256": "efa329d8b9ea8ca47232ce08435d41fba808f23e2840a207b9bf375b72201e4b"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_SakuraSSR--149ba2cf02.webp",
+      "bytes": 323068,
+      "sha256": "149ba2cf02574854ac30c063c929454291610f053344f171d8a5e7ef64fb3a5f"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_SextansSSR--34554d9ec5.webp",
+      "bytes": 173856,
+      "sha256": "34554d9ec58b34bcd26477c185c94a610a4aa5e66811015b2a7b873a7df99b40"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_SharkrySR--8b49d68421.webp",
+      "bytes": 142560,
+      "sha256": "8b49d684216cab9e36ee57afee74e49862bd0ac4b4d2dae97008ccfb39f137c4"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_SoppoSSR--21ec91fa4f.webp",
+      "bytes": 141390,
+      "sha256": "21ec91fa4f20725794bb22baf6cbd2fbfd7eb7675ee3efc48e0c4d0d4a30b46a"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_SpringfieldSSR--ed65d58fba.webp",
+      "bytes": 240154,
+      "sha256": "ed65d58fbab21cdc39d869540efc3f1f63d7bf45d828ee38bf95084203c5fde9"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_SuomiSSR--f8f30fc2fe.webp",
+      "bytes": 296440,
+      "sha256": "f8f30fc2fe8a1080e91db04441462c513e0eb84efcd75ff81da44bdf192bf48f"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_TololoSSR--5f346bab82.webp",
+      "bytes": 176924,
+      "sha256": "5f346bab8219a1562cb292a929102aa05eeb48274562d1f6ba2030b4dbdbe37e"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_UllridSSR--a2e3ad45cb.webp",
+      "bytes": 452828,
+      "sha256": "a2e3ad45cb94387172a669b15d5cf308f20d355bc7872e892959451d22b83df3"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_VectorSSR--9211562fc1.webp",
+      "bytes": 160804,
+      "sha256": "9211562fc1813ac659bb03fc80e35b5ac45a6642029d570087e9c32a17844b1b"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_VepleySSR--fe7d6b5432.webp",
+      "bytes": 123966,
+      "sha256": "fe7d6b543268b6e04345e3772204ba080e414e5bd8025c94c5fafbad6bfeb4da"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_VoymastinaSSR--8898977a8a.webp",
+      "bytes": 142330,
+      "sha256": "8898977a8ae35bcdf210ad6d5fcc2adc1d3d438a3486f34660404a95b0a44f49"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_WelrodSSR--446fac8fa3.webp",
+      "bytes": 140114,
+      "sha256": "446fac8fa36106587649d8791e41d9997df1cedc2e27bde3e3d578805796a3a0"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_YooHeeSSR--2c491c850f.webp",
+      "bytes": 156776,
+      "sha256": "2c491c850f310fef392b206750e26bf0af8474c1bf7237f8f5f33f40fc7b3b1e"
+    },
+    {
+      "path": "assets/fullbody/Avatar_Whole_ZhaohuiSSR--49c9de88da.webp",
+      "bytes": 555518,
+      "sha256": "49c9de88dadbc91e150898f7d071e001728c9d82290bd24a108411e8884530d9"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AgentSSR--e43925e730.webp",
+      "bytes": 27418,
+      "sha256": "e43925e73034d83b2e4b131c3d3409fb6affc479d199334547bdd3357f8b3a08"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AgentSSR01--5d7559da3a.webp",
+      "bytes": 27824,
+      "sha256": "5d7559da3aee5aa6343c9d5a503167e05ef3aea05927b67a22bb2de5df1874a1"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AlvaSSR--f42e307471.webp",
+      "bytes": 71562,
+      "sha256": "f42e3074712a0473311f87f1dd2c18749ee9108865c4705a7657a09178533ea9"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AlvaSSR01--20815d0c52.webp",
+      "bytes": 58308,
+      "sha256": "20815d0c52c5c9e1ee83c8b79fe816222a0d9749246bd8202a1c703cf209bac2"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AlvaSSR02--0d32e5add1.webp",
+      "bytes": 48186,
+      "sha256": "0d32e5add1d7849499aa4c01f85d05715bd4fe70c9795254f45193114ef2ef1e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AndorisSSR--df129395bd.webp",
+      "bytes": 73316,
+      "sha256": "df129395bdc1782e96df9c05f223bc67b099214abcd1e848a9553f9f4e0ce927"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AndorisSSR01--68e1e5d1d8.webp",
+      "bytes": 85394,
+      "sha256": "68e1e5d1d829c457ec3590ce9749fb430607dd0051007c2b89126e44b8b6aecc"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AsteriaSSR--6278161419.webp",
+      "bytes": 70152,
+      "sha256": "6278161419530c51bcc7446ada6e2074966d625ef73eaaba5d658e734545eace"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_AsteriaSSR01--85edf43178.webp",
+      "bytes": 67410,
+      "sha256": "85edf4317860b509daa302414f6c33d5eca8290eb7f19115a60cb3b35331e5a2"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_BalthildeSSR--057f30b8a1.webp",
+      "bytes": 65300,
+      "sha256": "057f30b8a14168bfc36a5634153aa3517c27536f0955e8b4bf302016e176cec1"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_BastiSSR--4dcb853b5d.webp",
+      "bytes": 63148,
+      "sha256": "4dcb853b5daf3856bb4d06fba78e597ca58b3679c7d35856cdae8fb5d4fc2c58"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_BastiSSR01--6b306c41b2.webp",
+      "bytes": 61108,
+      "sha256": "6b306c41b2ff07f70164b7081e2640b4e29ca8efc23cd3131235267dab1e1ddb"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_BiyocaSSR--f6ff0d7f09.webp",
+      "bytes": 65322,
+      "sha256": "f6ff0d7f095d08907befb9485cbaf61d022bc4c586b4567b670f2ed525ffe1de"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_BiyocaSSR01--a9c1942e87.webp",
+      "bytes": 70334,
+      "sha256": "a9c1942e87e8cffc9d4a833ee7dc5e760833090a438bd4511564b4e51be3e0ae"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CeciliaSSR--df537dc97e.webp",
+      "bytes": 63486,
+      "sha256": "df537dc97e3afe2ac4340b067170d0d6aa1bccae4f7c0117fb157da653d3591a"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CeciliaSSR01--603b327c6c.webp",
+      "bytes": 60022,
+      "sha256": "603b327c6ce6cbf79f2135d0ded2bfb31b0f49732ce0e345e29bf1fbc5de1945"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CentaureissiSSR--8b46738e83.webp",
+      "bytes": 72988,
+      "sha256": "8b46738e83c5ff2a07916e9ed7d6eb93caa00df3d8a7e828adc2d42fda5c0ece"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CentaureissiSSR01--8677587668.webp",
+      "bytes": 72324,
+      "sha256": "867758766859256b2c33c96bbf124cc7f4ca467352dd811036af4817bacf0ad1"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CentaureissiSSR02--05fdebaf62.webp",
+      "bytes": 40018,
+      "sha256": "05fdebaf62e84a730f4b74e8b5358b015cdb50a343d45ac5356008fb46512bb7"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CharolicSR--01dc280672.webp",
+      "bytes": 58502,
+      "sha256": "01dc280672da77fc84ddec44f3a997c23c5d5192e403f20f662a238070163f8a"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CharolicSR01--2470e1dd03.webp",
+      "bytes": 66706,
+      "sha256": "2470e1dd03436c9e2ec154f5f57196ef16f3f81d9af7cca12548ac10ab58a84b"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CharolicSR03--97dc0f9fce.webp",
+      "bytes": 61572,
+      "sha256": "97dc0f9fce6cdef7a8daff8dc66d1c86aa9a3afc33a19f1c582016b38324295d"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CheetaSR--066d66b460.webp",
+      "bytes": 58862,
+      "sha256": "066d66b4607f88ec8b9bb9da4c3cc59a78241332055f596501f154e4ab3fab46"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CheetaSR01--01676711f3.webp",
+      "bytes": 56192,
+      "sha256": "01676711f30ec4299572ebfe814c67891d128f57e95e8212de3c9b54e460bb22"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CheyanneSSR--23a30a31ca.webp",
+      "bytes": 78994,
+      "sha256": "23a30a31ca0ab3a63561eec631d6543d439122e9054c09779aa235c78928aae4"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_CheyanneSSR01--63c1ebda16.webp",
+      "bytes": 45250,
+      "sha256": "63c1ebda1622f01c8e6972ea1457c0b169e34aae5eaaf9e17fac5a2f1c8ace1e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ClukaySSR--a306a64e58.webp",
+      "bytes": 55908,
+      "sha256": "a306a64e584043ce7125e6bb8151e134b918861ee6a24bc45b6ff97b8c3cb288"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ClukaySSR01--d9da93b656.webp",
+      "bytes": 70190,
+      "sha256": "d9da93b656a085501db10d323866a88941f5ce61eef423fd569e701ae9a0586c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ClukaySSR02--75082283c9.webp",
+      "bytes": 78494,
+      "sha256": "75082283c90bd4a55544c4eef2da7a9297d54966fc2240e96956f7712093bc35"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ClukaySSR03--02a9430e14.webp",
+      "bytes": 62306,
+      "sha256": "02a9430e14ae4f4bd306c96194d1bba1ba6375687a6985e731442fd8e6f62ce6"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ClukaySSR04--c3f9881475.webp",
+      "bytes": 61942,
+      "sha256": "c3f98814753becc588489885fddd20dc8b86f707093aab0049e2b617d9055342"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ClukaySSR05--d3a0f1d37c.webp",
+      "bytes": 62646,
+      "sha256": "d3a0f1d37cf383337b1f96557b58a1a10f5e95cc2af6e883a83aede4e8e44205"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ColphneDoppelgaengerSSR--5083fb10f9.webp",
+      "bytes": 31466,
+      "sha256": "5083fb10f95c549aa76c148a6b1cf4ef41f9536add6b26d878691f1b6d4a0758"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ColphneSR--adb13ab5f8.webp",
+      "bytes": 66090,
+      "sha256": "adb13ab5f8783947ed34922db8c144e09f05eebde1751eec16b859054f21ee1d"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ColphneSR01--d6bd12f26d.webp",
+      "bytes": 81004,
+      "sha256": "d6bd12f26d376f8e8459ec5e268325e75c60a4dcd0ec6f73000d7f40af3813c5"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ColphneSR03--47c34f7aac.webp",
+      "bytes": 64002,
+      "sha256": "47c34f7aaccd1d9d24ad7c57ac4361f4e1c28a651d875a6dc04fdaa3697eb94a"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_DaiyanSSR--40774dd85e.webp",
+      "bytes": 79378,
+      "sha256": "40774dd85e5a9e499b8b6bada9dd375f9841a4564208367b8c58cb20c391f2c8"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_DaiyanSSR03--a743ae546e.webp",
+      "bytes": 63546,
+      "sha256": "a743ae546ea5fd4f2df707ad1ef62d79c1e4ff68a2261bc567f1c6243c684fa8"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_DusevnyjSSR--d8741e9692.webp",
+      "bytes": 69916,
+      "sha256": "d8741e96925b527c7a184f8169b352688ca5662af56f070d03fc5f8701f0e24e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_DusevnyjSSR01--787665f13b.webp",
+      "bytes": 60478,
+      "sha256": "787665f13b84e10e97548e1d16e086ea5fbc0f65cbd67fe86d2e049cd7ea2565"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_EaglettaSSR--817027c411.webp",
+      "bytes": 66630,
+      "sha256": "817027c41148b761a3d630241613a5ef7b37e238ec2a4cc6eaf1d465b72c7050"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_EaglettaSSR01--ce99480997.webp",
+      "bytes": 75758,
+      "sha256": "ce994809972ae8c6f3c0c19a8b07fc6a362ef6e7fb9d0af998c0e780f3c75c78"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_FaelynnSSR--5804ad5c82.webp",
+      "bytes": 65124,
+      "sha256": "5804ad5c8256e1d83ec1494b1cff99cfd3496dc8b90085ac3a64824d865f2b28"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_FaelynnSSR01--b962b41878.webp",
+      "bytes": 59154,
+      "sha256": "b962b41878f234c4abddc949d5b66ee1520b8fe443e3dce20de7574fe9493a9f"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_FayeSSR--78cc31818a.webp",
+      "bytes": 68216,
+      "sha256": "78cc31818a44347a74aca2771af06adc312f1b9622ff32058ccd28a3d00b0a4c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_FayeSSR01--f3f6c2ae3f.webp",
+      "bytes": 84616,
+      "sha256": "f3f6c2ae3fe86661fe320194c1f7399808500c8ca79bf32189315e990a2cdab0"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_FlorenceSSR--7458423b73.webp",
+      "bytes": 71124,
+      "sha256": "7458423b7395efd2260264acda22408d84ce360be7551e7d774b42b1342d3d93"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_FlorenceSSR01--8f491206ea.webp",
+      "bytes": 48454,
+      "sha256": "8f491206eace7ec8362b37235bc01a9e8d65c157203995dba9fdd3a748655101"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_FlorenceSSR02--b1b4543f9c.webp",
+      "bytes": 67776,
+      "sha256": "b1b4543f9cbb32140cc60e6b177702f0b6dec8d31dbc81dc4162671515fa3fe6"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_GrozaSR--fffb144eea.webp",
+      "bytes": 60828,
+      "sha256": "fffb144eea7b8c740a1f30d2bf13b0e7718570dd3245b49544fc8ec6a33ad552"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_GrozaSR01--c47073608e.webp",
+      "bytes": 61348,
+      "sha256": "c47073608e2a81536daffd303e81dd723e74c97ae0aa3211742dc03d7f9e4e02"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_GrozaSR03--f4e77cedad.webp",
+      "bytes": 69594,
+      "sha256": "f4e77cedad834986d896421e3a515100330941005f23ce0e73d6af9225636e17"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_GrozaSR05--5979c8826f.webp",
+      "bytes": 76834,
+      "sha256": "5979c8826fd4fe59d01536c472d0dcb79918f14743ee9ebcf5c4f32f6a4dddf4"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_HarpsySSR--16f52100c6.webp",
+      "bytes": 56180,
+      "sha256": "16f52100c684155ecaa3c51d2f548c111f2da0841ef6c9554bde66305ee66bd8"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_HelenSSR--219e3639d7.webp",
+      "bytes": 60572,
+      "sha256": "219e3639d7c3f9d198b51825f384b5f37916f3686484bfe8d0dda3860cbb5a65"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_HelenSSR01--820eb11964.webp",
+      "bytes": 52914,
+      "sha256": "820eb1196446f540337791dd733b76b362dbfe6a31839e899702ab3677e7c0f8"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_HelenSSR02--4b72736fbc.webp",
+      "bytes": 59054,
+      "sha256": "4b72736fbc38e1c0ab5dca94e021d435f64cb587febfac9d05e477b57ae4f494"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_JiangyuSSR--92f71e4b94.webp",
+      "bytes": 79888,
+      "sha256": "92f71e4b94145a67b99a3c7209f34db85a7a6eb310f9f43aaae7008ad15a6ebc"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_JiangyuSSR01--c0dd37d7a4.webp",
+      "bytes": 70960,
+      "sha256": "c0dd37d7a4404d13f588987ccfc78650285a9fd91f45b0e33eba160388f4692e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_KoledaSSR--d27a57207f.webp",
+      "bytes": 62724,
+      "sha256": "d27a57207f47783cf34cf92a8d07a2847023015fe007eba63244875159b58038"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_KoledaSSR01--a8b3a523b1.webp",
+      "bytes": 75784,
+      "sha256": "a8b3a523b1209a13cd957602c4d4d929468be0f972cf49897b4bf33f867255c9"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_KseniaSR--cb144343f7.webp",
+      "bytes": 62254,
+      "sha256": "cb144343f7eaf36f6746d6f8ffb5b0cf6da65b1ed9d0daecc07d77d3c342139f"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LeneSSR--4599dc3d56.webp",
+      "bytes": 56984,
+      "sha256": "4599dc3d561584889f9659dbd9f75bd6d5b7199708e4cf4da4d835a9aac44000"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LeneSSR01--6a489fba05.webp",
+      "bytes": 64204,
+      "sha256": "6a489fba05b09c9dc4e0eb824602ab2e83afe1d7a41191eb9edc1a48583906d9"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LennaSSR--f0a2c82f99.webp",
+      "bytes": 72990,
+      "sha256": "f0a2c82f99bcceda4fc78bd3387b7fc116ecefdcfe553bafd6362727146928dd"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LennaSSR01--321ed5ba65.webp",
+      "bytes": 70514,
+      "sha256": "321ed5ba652a35b7a2024bfb877d37f98ae892c46c41c5f0b6dff30a808ec386"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LennaSSR05--cad220b0fc.webp",
+      "bytes": 85456,
+      "sha256": "cad220b0fcd8ed393c10d5849f6f39cc91ff58e1d355d0444c168457014d77e1"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LevaSSR--c0bf35e940.webp",
+      "bytes": 63672,
+      "sha256": "c0bf35e940ceeacde43757c8c042f7f42c2ee7b9c05044c0d5df60904f342244"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LevaSSR01--1d8fc0f64d.webp",
+      "bytes": 55864,
+      "sha256": "1d8fc0f64d2d7d3fd68429a526abb895ce3bb53a1e15071f83baab18beb2681e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LevaSSR02--d802ddacbc.webp",
+      "bytes": 67434,
+      "sha256": "d802ddacbcaeda020cfd41697ce418c862cef5401c418d19b91ace3a7ca68282"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LevaSSR03--1b4b388fd6.webp",
+      "bytes": 95096,
+      "sha256": "1b4b388fd640b9267d6f367fe6b49bbf087717569528ac1ba4360fdc14df361c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LewisSSR--20fe4c0c1b.webp",
+      "bytes": 62516,
+      "sha256": "20fe4c0c1b79de14aaa12da9253d38c9a3cbbfd893713502867164268527791a"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LewisSSR01--b8aa6e1a76.webp",
+      "bytes": 69194,
+      "sha256": "b8aa6e1a763dc82e89218246a350854240a5ae742df7f2a76f5e9aa4ad17799c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LewisSSR02--dff45a135e.webp",
+      "bytes": 34068,
+      "sha256": "dff45a135e57488d5ec2074a68462769eb27faccd6dcc3f938f748a36519c3a1"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LindSSR--5a79c3e1f0.webp",
+      "bytes": 58064,
+      "sha256": "5a79c3e1f009bd35b19c797aa98df6e30215b77b4c6a0db8b51db2cfcbe39c6f"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LindSSR01--9d6fb3e58e.webp",
+      "bytes": 67292,
+      "sha256": "9d6fb3e58e02ab8c868e465c16a4833d6f9af0bf0d956dad1a29903241a7d150"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LittaraSR--26434b310f.webp",
+      "bytes": 76586,
+      "sha256": "26434b310f75d4d6c741d6ab51d1a79bbdcff01c9ef4910fb0fb31a05c91a0b3"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LiushihSSR--3ba58d860e.webp",
+      "bytes": 64458,
+      "sha256": "3ba58d860eac9d23755c2d52cbda8b68c20ef5659e0f52c6c921c57956fc8157"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LiushihSSR01--76eb9e9ea8.webp",
+      "bytes": 71446,
+      "sha256": "76eb9e9ea87fbeb9e95e6447367652d75968e8624e7c9e44cb57e5241f4223a7"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LoreleySSR--ee6a1cabe1.webp",
+      "bytes": 68432,
+      "sha256": "ee6a1cabe13912a54889da29d7d18e794eead07a73d2ab8e7833118c661a1d6c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LoreleySSR01--28fe641511.webp",
+      "bytes": 64780,
+      "sha256": "28fe6415118250f78e4882390f46ccb39dcb7cfd4c92ba80f2a04ee0c7adb5be"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LottaSR--c38e9f81b6.webp",
+      "bytes": 59330,
+      "sha256": "c38e9f81b64ff7e2a16ded7c0f436ed0d854fabe498e15d7b2a6d9e4b076eed4"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_LottaSR01--6dc08cd6f7.webp",
+      "bytes": 67736,
+      "sha256": "6dc08cd6f7942c64f319a12a98e8cde484fdb034001a45ba53e5bac5d201baa9"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MacqiatoSSR--c3648b330b.webp",
+      "bytes": 61992,
+      "sha256": "c3648b330be6dc4882807fd2cdc2d0e2e7c9887b31e855aff9c0866cf8df1717"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MacqiatoSSR01--d81574d918.webp",
+      "bytes": 48028,
+      "sha256": "d81574d918f3b02c8302bb15a22309d107871b4a1fdbe9577a4013ce06ef5082"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MacqiatoSSR02--b148ec7e36.webp",
+      "bytes": 53856,
+      "sha256": "b148ec7e367c2123139e682cd5c7f91c7a246c3a8b1979cce99cce857e6d8fbd"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MacqiatoSSR03--5ff3992ad9.webp",
+      "bytes": 30414,
+      "sha256": "5ff3992ad98b83c189ddc59d07a2430060468aab425d0d86e0aa41c550b9552d"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MishtySSR--7ed7a62cb9.webp",
+      "bytes": 76076,
+      "sha256": "7ed7a62cb9a4da5decd51f883eab7b7f4f8be2cc48ad0323bc37c326e6d12b4f"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MitylSSR--b536c0a812.webp",
+      "bytes": 72890,
+      "sha256": "b536c0a812d57dea468f330c014b097c35c7f8e5846291ebae23ddaeb48e98f1"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MitylSSR01--bfabff151b.webp",
+      "bytes": 86906,
+      "sha256": "bfabff151be8aa4141102600f3ca4a604e900442e226b925b209096b8a73bb1d"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MosinnagantSSR--9bb4ecfc58.webp",
+      "bytes": 59178,
+      "sha256": "9bb4ecfc580d2112311de0d82d9e1cb1a959e3e652617d99e20291f840ce1e06"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_MosinnagantSSR01--b7173eb391.webp",
+      "bytes": 96974,
+      "sha256": "b7173eb391ae5f7d58984a037b45a886233d169e85987d0426e96e2308e9049e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NagantSR--46ccab5fee.webp",
+      "bytes": 70572,
+      "sha256": "46ccab5fee222a9fdcc928fd7a8234d68f78af8049c92d4c627adc2d72afbaa6"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NagantSR01--e5699be019.webp",
+      "bytes": 62370,
+      "sha256": "e5699be019dcd9710364b28b14b993538c6f11f31be3d6bd717867250f9515ec"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NemesisGnosisSSR--8a1475ecf4.webp",
+      "bytes": 66910,
+      "sha256": "8a1475ecf430d79440c167817e996738395faac3a6872d980d9eca0bb63faaaf"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NemesisSR--1c51276544.webp",
+      "bytes": 57856,
+      "sha256": "1c5127654448e213a47b9bd11b4734f0ed7db55c76c6d352d33d0f3f1a71bd63"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NemesisSR03--7b45af9b32.webp",
+      "bytes": 68224,
+      "sha256": "7b45af9b32b1ea6dd5f0f3fa12d37c72a4282a051f386bfd1c0503ff0938a3e1"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NemesisSR04--025e64d6d1.webp",
+      "bytes": 57360,
+      "sha256": "025e64d6d1c8fe17749a005ca5d3559b28c471c68cd067addd6feef9787c376a"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NemesisSR05--086a2474c8.webp",
+      "bytes": 57098,
+      "sha256": "086a2474c82034a3803edc956b6487d6da8dcb12047972cd3baa690f3ee033eb"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NikketaSSR--46ed2d0363.webp",
+      "bytes": 68220,
+      "sha256": "46ed2d036382944d9883b46bc7809e2835d38e378e6bd3aa0d513f933068534c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NikketaSSR01--f03bccacf4.webp",
+      "bytes": 55206,
+      "sha256": "f03bccacf4e67eb07fd770b1b7b2ada4d04a7708f4abf4e6589ce4373322c045"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NikketaSSR02--5585fb7008.webp",
+      "bytes": 66254,
+      "sha256": "5585fb7008b544bd50c78570d0fb39af698593b172dd326a4da19b63af1cd719"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_NikketaSSR03--895216b656.webp",
+      "bytes": 75834,
+      "sha256": "895216b656921f667615c693a566e31b217921c436f3625ebbe5cca0a7223c52"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_OTs14SSR--c33d729471.webp",
+      "bytes": 50354,
+      "sha256": "c33d72947117317ec29951a625ee54563ec8b71767612ab4ee6cf50bbb2cf6df"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_OTs14SSR01--209135d393.webp",
+      "bytes": 43856,
+      "sha256": "209135d393d303c11a076b0920fba8306d5de6de8c2ff8c34e33e5907592301f"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_PapashaSSR--25dfa1ed83.webp",
+      "bytes": 74746,
+      "sha256": "25dfa1ed83956a507140ebabba045f3abb788715e6d99014f9e5722fd0f63b61"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_PeriSSR--825ddf917f.webp",
+      "bytes": 73634,
+      "sha256": "825ddf917f8ae4b2a2b50df46ede78dfc9f8b4c1a692885121ad91202d82a439"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_PeriSSR01--887062cbdf.webp",
+      "bytes": 60582,
+      "sha256": "887062cbdff1aa53af387cfdda0760e1fafff24a26c0178b452e0f04b14dafe0"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_PerityaSSR--c288d579e2.webp",
+      "bytes": 65892,
+      "sha256": "c288d579e27bc613887d75f5877ef123a06aaa71d5a37ed110bffd1d21cda8e4"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_PerityaSSR01--4c3314b059.webp",
+      "bytes": 78638,
+      "sha256": "4c3314b059d877b4fda81231150339f945ee6dea869b823dc732dc25ff6be26c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_PerityaSSR02--5859a81d5c.webp",
+      "bytes": 73566,
+      "sha256": "5859a81d5c5860a83ba2870666635813c20408235be87be57d272a94c39bfff0"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_PhaetusaSSR--6fbaf1d177.webp",
+      "bytes": 71118,
+      "sha256": "6fbaf1d177d95e151e46d642e65685cb61fd5d7059e18e87b0d33a94df0406ce"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_PhaetusaSSR01--fb577cc9cb.webp",
+      "bytes": 85756,
+      "sha256": "fb577cc9cbc31b293786e3b116a35fb351fe89ba971c05f24b41489aa02d364e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_Player_Female--b6876752c2.webp",
+      "bytes": 57514,
+      "sha256": "b6876752c2524543364a8f6a6a3aad304dd3b1b354aa3c735367b956889c4a24"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_Player_Female02--3b0bcdfb91.webp",
+      "bytes": 46152,
+      "sha256": "3b0bcdfb912fdcfb96040c8fc183e3b2cde2c664da06982b8cef90036dc3a3cf"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_Player_Female03--b34da0c89e.webp",
+      "bytes": 49328,
+      "sha256": "b34da0c89e4fd16708c9ee5a3a2959d6caa5f39043a9ebb097d0ff19beca808c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_Player_Male--8908480d1a.webp",
+      "bytes": 52430,
+      "sha256": "8908480d1a39dc19fc110cac604c85a9808a0f065bcf2fb7efe2b6831f2e0d11"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_Player_Male02--6bbcdda4d2.webp",
+      "bytes": 42354,
+      "sha256": "6bbcdda4d2c5646471d0f2f082405e402b13b35ac0b252791124ae7bbbd07327"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_Player_Male03--c09c0a6c6d.webp",
+      "bytes": 43668,
+      "sha256": "c09c0a6c6d69e67c0b2ae26972c999d0d523cf8e2ae5d64fcff8a3ee05f999c2"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_QiongjiuSSR--f16668ee1c.webp",
+      "bytes": 71784,
+      "sha256": "f16668ee1c82ab75b7fd0799650499f0ae60444d6bc511161bba4d36ff83b23a"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_QiongjiuSSR01--db56557711.webp",
+      "bytes": 91572,
+      "sha256": "db5655771159a2079158531eb04d36ef1ec1210ef45a6b4184bef12e2d431fea"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_QiuhuaSSR--eb4acc88b9.webp",
+      "bytes": 70648,
+      "sha256": "eb4acc88b9958393cc7b7b70adef4412492f88736104a7e7d8eaab50366c9fa0"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_QiuhuaSSR01--8b6ab3b84f.webp",
+      "bytes": 60268,
+      "sha256": "8b6ab3b84ff463c87cb623bb1fd27ecf1f3e54bf4afa683de837fe3863d485a4"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_QiuhuaSSR02--743f873c6b.webp",
+      "bytes": 62456,
+      "sha256": "743f873c6bbd7896f9f97b2860f676aa731110f7a9227c665712ee94c9bdb4fd"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_QiuhuaSSR03--0648c17a4c.webp",
+      "bytes": 50636,
+      "sha256": "0648c17a4c1d36fdd9946ede4442a8e22913c5231fffa1d9455b3911e7431de3"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_RobellaSSR--2f5f7e57d0.webp",
+      "bytes": 71922,
+      "sha256": "2f5f7e57d09fd0abdc2ed01be91fa8c66bcb3277f4b2e36361cbf05c714d266e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_RobellaSSR01--f0c3e281fc.webp",
+      "bytes": 63230,
+      "sha256": "f0c3e281fcb40f872c0639a03061a6cdb71e2094869c3f08bbc9ced64eea6498"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_RobellaSSR02--bc96ec3770.webp",
+      "bytes": 71762,
+      "sha256": "bc96ec37708568a4a4a565d6e1a467aa5f6207f01fe73e63527f3b6f84f18ec9"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SabrinaSSR--ff83a68825.webp",
+      "bytes": 70546,
+      "sha256": "ff83a68825947ce292a159e301e0b6e73545c7a156566edee78539995827ef52"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SabrinaSSR01--53cda0112d.webp",
+      "bytes": 56034,
+      "sha256": "53cda0112d4d84b8696a17aec51af2de512d52a4daf477c9d469a830302f0df3"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SakuraSSR--d1cf6e68a8.webp",
+      "bytes": 63160,
+      "sha256": "d1cf6e68a8af7ce50b0421b106c81644de4f22599bbb28f4d160e7e42e1a83d5"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SakuraSSR01--ffa1250db3.webp",
+      "bytes": 36104,
+      "sha256": "ffa1250db318cba597defcde640b4de026776b4c748394e266ef875c7f382ff3"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SextansSSR--7fe420d5e7.webp",
+      "bytes": 78978,
+      "sha256": "7fe420d5e7c9a24b196fbb185f7bbfb0b8903ccad221d484c38e78bb6a10dd4c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SextansSSR01--3d025f0c2f.webp",
+      "bytes": 70354,
+      "sha256": "3d025f0c2f4e116a50babc469f2970b8c5d3857497cf054544f53029f0eae8e7"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SharkrySR--fb39f9a86a.webp",
+      "bytes": 68734,
+      "sha256": "fb39f9a86a2ff2e28bd351f4719fed3d3200056a25c72ff1497148b7214a6295"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SharkrySR01--ba864be9a7.webp",
+      "bytes": 67388,
+      "sha256": "ba864be9a7123a438182084224c06825015f63654269958511f922bd06ddc601"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SharkrySR02--2f0a4e5fd0.webp",
+      "bytes": 46592,
+      "sha256": "2f0a4e5fd044b3dc6ac19ebac32c55fabfd0f6af8c2868fed3a7a9551e387dcd"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SoppoSSR--def2d25a7a.webp",
+      "bytes": 61754,
+      "sha256": "def2d25a7ab2f4da1056a28f5e323a3d18dae4468a77fb1d9f592f08beb475a2"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SoppoSSR01--42e237dfa9.webp",
+      "bytes": 88428,
+      "sha256": "42e237dfa9c03fa367aa0a88cb3781e806ca9a333c22097f2bb3846bb522f549"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SpringfieldSSR--49ce174277.webp",
+      "bytes": 82938,
+      "sha256": "49ce17427760d0ccbc93efbe2ab89698dfd599fc5186e373f88faf25d526c425"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SpringfieldSSR01--746af92b4d.webp",
+      "bytes": 58216,
+      "sha256": "746af92b4d42b7ea2bfa3cd6931a2eedd34edc30b9bae9eb59fe9f7fee3bcd98"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SpringfieldSSR02--6b5f390d42.webp",
+      "bytes": 45998,
+      "sha256": "6b5f390d42087d19290ca1e0aa6aee8190b5da42342febaf8a561b2010a89627"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SpringfieldSSR03--bf3af6cbf5.webp",
+      "bytes": 40370,
+      "sha256": "bf3af6cbf59d35627f9baa3165a265101cce21fb8ec250d8118051e55996b6b5"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SuomiSSR--b4dede95b7.webp",
+      "bytes": 81534,
+      "sha256": "b4dede95b75819f1300533f21140c087b9d11c6341f0f6b54de385687fc4895e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SuomiSSR01--5950b896b4.webp",
+      "bytes": 98994,
+      "sha256": "5950b896b41c0b4144202565eb763edc940e0e14c7fb628857a313de5e100f2c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_SuomiSSR02--a5e72d7679.webp",
+      "bytes": 63708,
+      "sha256": "a5e72d7679085d77bff94cdf33a8d85e459acfa5857dbd43c7695f889c85ffd3"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_TololoSSR--96983d4fc9.webp",
+      "bytes": 65354,
+      "sha256": "96983d4fc989c91d3fbbe2a447f466cbef5a0c3a1d7cf58281193f8eccfbc16d"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_TololoSSR01--493b08a333.webp",
+      "bytes": 66700,
+      "sha256": "493b08a333ffc73003c826de7c0174d6262016e9a47ccb4595ffe464db10636e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_TololoSSR02--0328eff288.webp",
+      "bytes": 68240,
+      "sha256": "0328eff288a6a050745c31f9e005cdb53f2c7436f9ebf9db4dc0186cc9bfd4a2"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_UllridSSR--4dd4e3156f.webp",
+      "bytes": 58906,
+      "sha256": "4dd4e3156f4a295924031583ecdc90a58e0c15e6d6c338e53fb2db0f57b51d1c"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VectorSSR--7ad29b9455.webp",
+      "bytes": 65844,
+      "sha256": "7ad29b945566abde9df7160e1a09df58cd703a6e79ce9eeec1d20d51645adaef"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VectorSSR01--25e388b72f.webp",
+      "bytes": 63738,
+      "sha256": "25e388b72fe1243e3ec425d6f69f9afe6f105d0eff2f7d4d77df33f90f2bfa78"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VectorSSR02--c4c5cbe745.webp",
+      "bytes": 78996,
+      "sha256": "c4c5cbe74501755b9fe5ddf060f83cb9b74b6dd8577db95dbf99b49836c62d9e"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VepleySSR--a8284ce184.webp",
+      "bytes": 67028,
+      "sha256": "a8284ce184bad8619428567f1c8292f28089e3cc1925b88afc1e8c07a46e61aa"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VepleySSR01--41cdc92f3f.webp",
+      "bytes": 67578,
+      "sha256": "41cdc92f3ffb7c46e4459dedc311acf8e057886bc281bec8ff9225407aa7f255"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VepleySSR02--4426453499.webp",
+      "bytes": 64804,
+      "sha256": "4426453499070dfe771171d8568ef6ad7652ab02176a66eb3031cc0a1ce22d6a"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VoymastinaSSR--6abcdf995c.webp",
+      "bytes": 65012,
+      "sha256": "6abcdf995cbea9e74887ebd959dfecdc6656432da238bfc3463f2e36fba31749"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VoymastinaSSR01--d1779e32a6.webp",
+      "bytes": 47076,
+      "sha256": "d1779e32a6a22138a69b338b967e536a3b1873aa50aab6ceb49178a638b447ac"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_VoymastinaSSR02--232cd608af.webp",
+      "bytes": 52806,
+      "sha256": "232cd608af882bfe9cb2a5fb11b5f5ac5dfea5d44d05fe30d05fdbca03cf21a0"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_WelrodSSR--18e0e53034.webp",
+      "bytes": 60840,
+      "sha256": "18e0e530349e78cfa7c786e651107d3bafee7dfb08e902ebe507950326c92379"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_WelrodSSR01--6adb10996b.webp",
+      "bytes": 60716,
+      "sha256": "6adb10996bf9e559bd11915ddbf04851d93c5de5ae0c4fa0eee4af618b4687a6"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_YooHeeSSR--bf3e105def.webp",
+      "bytes": 61260,
+      "sha256": "bf3e105defadad789f36984a2c9d54cdc03be17ff28639abe245695076fad382"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_YooHeeSSR01--09aa552f95.webp",
+      "bytes": 66788,
+      "sha256": "09aa552f95cd1ff2bd0bde0c92d294e18286966de37d99f079199971f27d4f7a"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ZhaohuiSSR--8089e87403.webp",
+      "bytes": 86322,
+      "sha256": "8089e87403003511cebdaf73b35debb8b5c447882d14d54200cd71ca3cef01c7"
+    },
+    {
+      "path": "assets/gacha/Avatar_Gacha_ZhaohuiSSR01--f159a0c95a.webp",
+      "bytes": 62236,
+      "sha256": "f159a0c95ac24372d0d0fecf19f340d307f9c782bb40451f4ee2a380d34998dd"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AgentDorm--8b293418c4.webp",
+      "bytes": 44118,
+      "sha256": "8b293418c4b77418b11cafbd2fdf83602dc984151966e0b220666ab856a6c899"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AgentSSR--eec97ec9b3.webp",
+      "bytes": 42006,
+      "sha256": "eec97ec9b34284a926fc4af23266ea7b4e8ff7f57b3cbc3568e1726211a4ced1"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AgentSSR01--a90688e83f.webp",
+      "bytes": 49642,
+      "sha256": "a90688e83f7864558bd12d2debdfceb2679d56e684f60e8f7af9fff946545bbe"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AlvaDorm--a15d365ed9.webp",
+      "bytes": 39340,
+      "sha256": "a15d365ed916f06e1f37817d65800160a72dc57a4ff6ce40098ca8f4366f9067"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AlvaSSR--ec983e917f.webp",
+      "bytes": 46706,
+      "sha256": "ec983e917f6988095b9354bc48b63503ddaef578fddb82dc3422d9e83d391f0a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AlvaSSR01--05e2f1a910.webp",
+      "bytes": 35434,
+      "sha256": "05e2f1a9107cdc0a2c656d6e70c917f1ab8e5e52c053f80ebf5e335616c977a3"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AlvaSSR02--c482c17ee4.webp",
+      "bytes": 43214,
+      "sha256": "c482c17ee47343b9776ab33dbde121324f3687973a758d50b14d27f9735ab703"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AndorisDorm--732752e2c5.webp",
+      "bytes": 45678,
+      "sha256": "732752e2c5b2a67c202736321d9409fc30a60d689269027c88f07be472780558"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AndorisSSR--4d61d575c1.webp",
+      "bytes": 50490,
+      "sha256": "4d61d575c152cb0748fadad00767b2c438d104e72d31b303f6731eb9e2cd2df7"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AndorisSSR01--d29b72ae5f.webp",
+      "bytes": 60508,
+      "sha256": "d29b72ae5f93fb37755efafa580c1c8092f3870a9e1b4884454c4b1496f553a4"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AsteriaDorm--08d151e0ba.webp",
+      "bytes": 50018,
+      "sha256": "08d151e0babc33597a56148101d8d9879aff42809be76df783b24d63f66243a3"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AsteriaSSR--45e3f96680.webp",
+      "bytes": 60596,
+      "sha256": "45e3f96680b3b29957ab76ae075dd2523b46a425879b12234686d2f4bb278308"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_AsteriaSSR01--b3f4d3e636.webp",
+      "bytes": 49730,
+      "sha256": "b3f4d3e636b1469313bfbeebeb9970d2f9bf477ed8b46d0b99e5c518ff7c90eb"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_BalthildeDorm--d575ec35b5.webp",
+      "bytes": 42410,
+      "sha256": "d575ec35b5a6691fd187553a0a9775445e99ba70822ad22498c2e504de278240"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_BalthildeSSR--56f800e893.webp",
+      "bytes": 43614,
+      "sha256": "56f800e89307b4f1320b711bc5d71855432980e7d8e142da3018e699668ad071"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_BastiDorm--1e1b3cca01.webp",
+      "bytes": 53950,
+      "sha256": "1e1b3cca011c99b69e390303115bdcfc9fec7fd405b79311527fa8e9d9bd5037"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_BastiSSR--afd11c704f.webp",
+      "bytes": 60026,
+      "sha256": "afd11c704fff6b33991c792f08cf8730c56396c52348ff6294c63bef16c0f8bf"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_BastiSSR01--44afa33ebf.webp",
+      "bytes": 55856,
+      "sha256": "44afa33ebfca50d23a0e57c959bd5a22707ab5e49a9e0226645e08d678bd126c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_BiyocaDorm--4a48045c5b.webp",
+      "bytes": 43884,
+      "sha256": "4a48045c5beff1e88ef520eeea187e8eb44a4f954e9109096e885e76c3f6eda8"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_BiyocaSSR--d85c263bc4.webp",
+      "bytes": 50640,
+      "sha256": "d85c263bc4816269690bdc5c3ad43a90a6848bd6f5e70f3731aeb875bd0f7b9d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_BiyocaSSR01--651a5b71c3.webp",
+      "bytes": 39610,
+      "sha256": "651a5b71c3c0899ea69f408ce5b32a71ba6c69535b2563bb43ffb63012a9ea30"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CannonDroneR--3624685418.webp",
+      "bytes": 59614,
+      "sha256": "36246854181958869349a2051cd0946bc7c662c12f0918b76009fae518dfdfa4"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CeciliaDorm--66843cdb7f.webp",
+      "bytes": 49470,
+      "sha256": "66843cdb7fbc3d080c89d5495f9c310e89514dd216e6e0df3514c69e16925d37"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CeciliaSSR--0f03cdd65a.webp",
+      "bytes": 50948,
+      "sha256": "0f03cdd65a35199c2c6b4f66813683b55eaf76849a36a88d84b6d864f8258f19"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CeciliaSSR01--d641ba4208.webp",
+      "bytes": 53392,
+      "sha256": "d641ba42085c862e838aef4b5ad5890ffd0c3408ee2fa8fb6c1ddc89214d3e78"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CentaureissiDorm--9b5d5255c4.webp",
+      "bytes": 46964,
+      "sha256": "9b5d5255c45d01cb4e34edc3555ab56c4b23521aa6bc479cd2ce5c7d6dc877ab"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CentaureissiSSR--6f7bf9594b.webp",
+      "bytes": 52232,
+      "sha256": "6f7bf9594bbf3d2c3e1db3f696aa64ac49d5e9682e49c1a38d1c2271284bde0a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CentaureissiSSR01--4d19c245d1.webp",
+      "bytes": 34680,
+      "sha256": "4d19c245d11a812c79a94e06c8e92a6e4dac178c6bae60f80e9ad81a0bcd97d1"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CentaureissiSSR02--3a5476ce1e.webp",
+      "bytes": 45808,
+      "sha256": "3a5476ce1e0eb2f7f3a8ddc1bea845132fe71421399402ad67f5065a36b1a358"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CharolicDorm--53d591d725.webp",
+      "bytes": 37158,
+      "sha256": "53d591d72559b965e61669e4dd131e69d66382ec85874669e54c36b0e47f261f"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CharolicSR--c995681519.webp",
+      "bytes": 49172,
+      "sha256": "c9956815198fa341b59aca587d3f5e3ec4f58235bdb1d927aaf8a087c4cc9329"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CharolicSR01--a6b307742b.webp",
+      "bytes": 51452,
+      "sha256": "a6b307742b8417905b4f6173611d46bae39f99e9b918006334f64fafff7fb5c3"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CharolicSR03--46fd6bd732.webp",
+      "bytes": 44564,
+      "sha256": "46fd6bd7328a19f835eeac35196ab34ffaf9cbb682b503a547346e25141c960c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CheetaDorm--21389cd0a7.webp",
+      "bytes": 41342,
+      "sha256": "21389cd0a78885287bd6c218842d4650886f5ff8cd3378e9cc605518c798f5c4"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CheetaSR--50c9d27053.webp",
+      "bytes": 51142,
+      "sha256": "50c9d27053363a749b566a8dfa59d918a33342bd33a087f3d8b91e7c95d0674f"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CheetaSR01--f538f7e87d.webp",
+      "bytes": 42194,
+      "sha256": "f538f7e87d84faa5b7521da0012e524687393c96f60ba15f8d996248231b08b5"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CheyanneDorm--c1d4344d53.webp",
+      "bytes": 39018,
+      "sha256": "c1d4344d53689266a44281da4aee8d4c8ea2f592cc1f3f3c1a01316ceef7470a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CheyanneSSR--17370f7c73.webp",
+      "bytes": 45824,
+      "sha256": "17370f7c736b34829f53f410a4a57bf01789b362954aa90ec4018cc6593c99ec"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_CheyanneSSR01--7138b518f4.webp",
+      "bytes": 34792,
+      "sha256": "7138b518f4251447a75258801e7a099f99cc45b2a0bfd5849120c8e6726f8e4a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ClukayDorm--187a05efb7.webp",
+      "bytes": 38244,
+      "sha256": "187a05efb7ed5928215621e5afc0b8ce42f22468b3724e85fab4c3f283e0acbc"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ClukaySSR--55ca444ab9.webp",
+      "bytes": 41416,
+      "sha256": "55ca444ab982accab987b39caa9907580ed99fc3730094b70567b2b677d13c7f"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ClukaySSR01--20ae68a35f.webp",
+      "bytes": 39914,
+      "sha256": "20ae68a35f29a95f52b849bc0be0812b80ec5a6320541c3b364ac994d127542d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ClukaySSR02--94acc7a979.webp",
+      "bytes": 45862,
+      "sha256": "94acc7a9795ff85b217e3acffcd6b609320bf9f97a05167ad732b04a562a3649"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ClukaySSR03--e4ba66e15f.webp",
+      "bytes": 47610,
+      "sha256": "e4ba66e15faa0b54a280cf427bc8d460946632b034891ef19e5276c41844595e"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ClukaySSR04--a2c40e8269.webp",
+      "bytes": 53136,
+      "sha256": "a2c40e8269e0c941de639869d4d9456cdefe20befa05d24e3524fb73e1d10d36"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ClukaySSR05--f7c6276e43.webp",
+      "bytes": 57580,
+      "sha256": "f7c6276e431a88f0a59e1916a7309648d0a56380a9df16a336dfd9ee70a80d0e"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ColphneDoppelgaengerDorm--52b495e4a6.webp",
+      "bytes": 55590,
+      "sha256": "52b495e4a6f0c6aef0dd9d7bcc2f6e91efb83c6150896023dbee64a23dca42f5"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ColphneDoppelgaengerSSR--af3ad49324.webp",
+      "bytes": 59554,
+      "sha256": "af3ad49324557d300b8a31673339ae5d7b319ee45c5739ebb3f1122d93959077"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ColphneDorm--41c76044fb.webp",
+      "bytes": 53120,
+      "sha256": "41c76044fb3588c0168a6e2b96f13a211b3852e7e1ee53cd1d71b10b6825dc64"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ColphneSR--76ad4deb66.webp",
+      "bytes": 58080,
+      "sha256": "76ad4deb669b47b3c5cc967b80b5166e7a695e680c0283021eac765e47cee177"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ColphneSR01--e47b3c6903.webp",
+      "bytes": 63920,
+      "sha256": "e47b3c6903e4641e3d280797b53e8491b7e2459926218804ed5cc103de3b34a7"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ColphneSR03--acf17294a4.webp",
+      "bytes": 56526,
+      "sha256": "acf17294a4b3a6cf7840e587ee13a25677a9498b6d6ceed8f8b2700b2b14454e"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_DaiyanDorm--19b2afa02b.webp",
+      "bytes": 37012,
+      "sha256": "19b2afa02bde4993e25682d4da18eb32c063fe5cf2450ebdd0b615a9fc79de56"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_DaiyanSSR--2a8031e7ca.webp",
+      "bytes": 45064,
+      "sha256": "2a8031e7ca748c2af9dbd1f4243265d7a920afeb50973e1e910dae8c39baee30"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_DaiyanSSR03--8c15f0d322.webp",
+      "bytes": 46102,
+      "sha256": "8c15f0d3221f6c217427a0b0f5b4b5fa251e7dd7d251a176e6b0d81b9564c284"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_DusevnyjDorm--5eee060424.webp",
+      "bytes": 45104,
+      "sha256": "5eee060424e1e7590fc40712e874feac1a7e04753a1522419ac61c7d5d5a3c14"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_DusevnyjSSR--39f88fc569.webp",
+      "bytes": 53512,
+      "sha256": "39f88fc569bb99a324d05ffbc25ffbd6f288d49009440311e08ef1147106180d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_DusevnyjSSR01--4c0584cda8.webp",
+      "bytes": 53496,
+      "sha256": "4c0584cda8291394b59fb96e446625a7ad2a081cd8cb56aa7e8058e98a098151"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_EaglettaDorm--18294d038b.webp",
+      "bytes": 59718,
+      "sha256": "18294d038bccb1077ebdc280d7c5a7bbf9d435a728beecea052f60e42c3f7a36"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_EaglettaSSR--92b3ffde3e.webp",
+      "bytes": 66314,
+      "sha256": "92b3ffde3e17cc863fa1e83c5f00f96c0c466a8e0c22b05bb5e707a923149cef"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_EaglettaSSR01--1f57f8c675.webp",
+      "bytes": 62486,
+      "sha256": "1f57f8c675ef9fcc7899208b2bf59d9636263e77985c9697f57d9234339ccd67"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FaelynnDorm--dfe206f215.webp",
+      "bytes": 56522,
+      "sha256": "dfe206f2152714e34d064da9030fe5b926100eb51eb90f053b3d9b63f434c00b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FaelynnSSR--d28c9d6228.webp",
+      "bytes": 58564,
+      "sha256": "d28c9d6228dd79e2ad1cf0528d67629239f5dccb2cf0a6fa003f6669e0eaad5d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FaelynnSSR01--91884c9ea7.webp",
+      "bytes": 49312,
+      "sha256": "91884c9ea78b1ab41d423eb3af7f5c06c3f96a0e345fa9a3314838f8b6647df3"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FayeDorm--0f910ff834.webp",
+      "bytes": 55684,
+      "sha256": "0f910ff8343b414d9af4b2e6345187d9080b91d978b2c30c75a4aed9be8c333b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FayeSSR--22c622a1c7.webp",
+      "bytes": 52192,
+      "sha256": "22c622a1c71f7b469e8189a4c66b1cc315b7f8e0ec7bf741aa3043da472776b7"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FayeSSR01--9bf6c66906.webp",
+      "bytes": 56806,
+      "sha256": "9bf6c66906fe3a03185db48e640be9eedba249390b285891285278822fdffb68"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FlorenceDorm--fb6d13958c.webp",
+      "bytes": 53828,
+      "sha256": "fb6d13958c60d6c21ade85da0487fe57d9662b964e27f9dd755e1d5b6060cf11"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FlorenceSSR--88e09d7a91.webp",
+      "bytes": 56856,
+      "sha256": "88e09d7a91f7cf0dbe3670a82819655a50b9a7a2c278df91541292f325641da0"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FlorenceSSR01--2dec5bf198.webp",
+      "bytes": 59630,
+      "sha256": "2dec5bf198e170b95e17d9c64ca95628a226711fea1ff9d6faaf0c37f4bde392"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_FlorenceSSR02--c9f002dc86.webp",
+      "bytes": 66074,
+      "sha256": "c9f002dc862bb9b964b0fe21f237591327884483717e7dd163153b1ac44f1551"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_GrozaDorm--1ec7243c24.webp",
+      "bytes": 40186,
+      "sha256": "1ec7243c2491227f296d6d2911fa8334fc05ac0da6fa2f5a60c7445b5af0b560"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_GrozaSR--52ab8be03a.webp",
+      "bytes": 51536,
+      "sha256": "52ab8be03a26eae2103340f361c04f30db1fb5baad084d7d089ee80a843a3d84"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_GrozaSR01--89250d8411.webp",
+      "bytes": 48240,
+      "sha256": "89250d841105d5e330bea88028d102ea6acc564486cfbcd78d327c5d9cf02cd7"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_GrozaSR03--ee93d6ad42.webp",
+      "bytes": 58812,
+      "sha256": "ee93d6ad42eed5bf03e199e91e6a9e893bdf870a345ff02e6173731ca0c95ff7"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_GrozaSR05--87bf849237.webp",
+      "bytes": 47050,
+      "sha256": "87bf849237e272f5384c9dc7cc02f3b7bcab5fedd929b46923b135eca44c9f40"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_HarpsyDorm--4fae76e41e.webp",
+      "bytes": 44462,
+      "sha256": "4fae76e41eefbffaaa477273e1b74b4cf7bfad9956e6064be1f4ee62d43a31fc"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_HarpsySSR--18520cd0a9.webp",
+      "bytes": 48834,
+      "sha256": "18520cd0a915ba46159ea83b5be2eb4e826e1e250490d627d3b035597161ac31"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_Helena--835c139e96.webp",
+      "bytes": 54548,
+      "sha256": "835c139e966cf8947dac8cc5053eb0b57c7501c5b7232564888d0eb766fd9426"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_HelenDorm--6a2ee7f270.webp",
+      "bytes": 40378,
+      "sha256": "6a2ee7f270f15776102d7a04fce51d748081996ac1323ecbcadd9a768e64ca03"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_HelenSSR--12a343c39e.webp",
+      "bytes": 45042,
+      "sha256": "12a343c39e7c49dc21752fdc3265acabfb6e3f1d6b82f1097c071d20654f5c9e"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_HelenSSR01--c98d83fc1b.webp",
+      "bytes": 50840,
+      "sha256": "c98d83fc1bdfe855cb4d64d1dbb4a0b05eb42f1b527ed1aadc2cc25c082758cb"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_HelenSSR02--0155760557.webp",
+      "bytes": 65342,
+      "sha256": "015576055750f64422aab7278fb41ce19def0c048a55b04e1d7072502d739dde"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_JiangyuDorm--0964bf563e.webp",
+      "bytes": 53686,
+      "sha256": "0964bf563e6f585348fdb8f6a454a2254dd2ea71421eb3d749bcbfa9b2b98cc7"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_JiangyuSSR--569b60bd94.webp",
+      "bytes": 54752,
+      "sha256": "569b60bd94b653b52ae069b7e9e24ed61d18bfc829d531b7632ecde234c3d327"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_JiangyuSSR01--c8192e8ce8.webp",
+      "bytes": 53226,
+      "sha256": "c8192e8ce8acd0030d3c78bdce309ef40d1c9dafd3117b26eecfd7a78f06a055"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_KoledaDorm--e1f51926cf.webp",
+      "bytes": 47184,
+      "sha256": "e1f51926cf13cd27f359560037822687bafe7f0c8c696d39d936ba1c51ce64e8"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_KoledaSSR--676d2c743d.webp",
+      "bytes": 51738,
+      "sha256": "676d2c743d967090e4c2a7cf77ae5242a9b4af5b75ab41298ef61d3b4d48f162"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_KoledaSSR01--3c68ae3c30.webp",
+      "bytes": 51066,
+      "sha256": "3c68ae3c30f51c7dd9d085ed4e41f3da32eed301c01e4bd839b4a35eb65a4910"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_KseniaDorm--f4d5f972a4.webp",
+      "bytes": 40314,
+      "sha256": "f4d5f972a4de8a830135c15d6fbc0f85313308409bf73c173391059831aa56dd"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_KseniaSR--d87a2bb285.webp",
+      "bytes": 51432,
+      "sha256": "d87a2bb285f25fe9d24f2b483604e8a43be428df478622cfa1d40372cc788a1d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LeneDorm--23c7e0bf75.webp",
+      "bytes": 42988,
+      "sha256": "23c7e0bf75cf3e002b264ecb37dac8b6cd279ed4a15c9cc0d0d579bb37a7a64c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LeneSSR--f6492cabde.webp",
+      "bytes": 46892,
+      "sha256": "f6492cabdeda2bf3f65abbe4a29b49a4b9633a80b17e5c15ca2a9b101df73f60"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LeneSSR01--079ce5903e.webp",
+      "bytes": 42384,
+      "sha256": "079ce5903e776fcdc8a8997740d1dcc53730175aef282f5dc7367774b39cef83"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LennaDorm--4f43dd9115.webp",
+      "bytes": 68466,
+      "sha256": "4f43dd91159dc683de3df4357a443d33be60fb10603fe7a61d92f2da55d7e247"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LennaSSR--b050f008d1.webp",
+      "bytes": 71664,
+      "sha256": "b050f008d1cc958555d38d6e602186cd5a306b3605d26e6da3b7eb0d539dd5bf"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LennaSSR01--31ced466fc.webp",
+      "bytes": 71538,
+      "sha256": "31ced466fc7ae51f01b02e99443929c9f65e28101e858126adea24b8300ff8a1"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LennaSSR05--e397421d80.webp",
+      "bytes": 71344,
+      "sha256": "e397421d80b259cb2a7d74f09c947f70f2e008ed5d6c4963963f392ce4c092ee"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LevaDorm--6e3e766477.webp",
+      "bytes": 45532,
+      "sha256": "6e3e76647787c3233d5fe0f58d8178755c4532db681dfa1f50c5c4c19581e24e"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LevaSSR--a51238504b.webp",
+      "bytes": 45196,
+      "sha256": "a51238504b0e047530ce9917e9dedbffa6067d72b64a2b248e24f263947dc91d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LevaSSR01--c51189e414.webp",
+      "bytes": 40584,
+      "sha256": "c51189e4144515318d999aa367e65b2a26f9ecaa3c119206117f7b217f7aa4b6"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LevaSSR02--808383ae7d.webp",
+      "bytes": 50394,
+      "sha256": "808383ae7de22219ec1da8a4a1a77465cdb4257cd8f63037da1fe8a5db804503"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LevaSSR03--05706e0a58.webp",
+      "bytes": 56596,
+      "sha256": "05706e0a5848bf3ba3cbb42262b46a293a6e81fe1f6d29a3bba805ee0340e099"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LewisDorm--be4309d730.webp",
+      "bytes": 41228,
+      "sha256": "be4309d7306fcf7d62101e8d7367b07e67b25be534fa1c5c5d7176b09dfe114b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LewisSSR--0639a84221.webp",
+      "bytes": 50718,
+      "sha256": "0639a8422153e0582d089232afaa4a45d864f18f79f5c71c8bb46c3fac873d51"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LewisSSR01--f1dd69127a.webp",
+      "bytes": 46400,
+      "sha256": "f1dd69127abefd1cf059f0cbb63e99b53678e3738ccaad764ea1bfc8146c7343"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LewisSSR02--e7d638d43e.webp",
+      "bytes": 45028,
+      "sha256": "e7d638d43eaeb8c7da358b2d9a191b53204224f83a1e9907010469cd5cfadf88"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LindDorm--8c4b1911d3.webp",
+      "bytes": 44772,
+      "sha256": "8c4b1911d339f7efa31a8e876ffcebfbab774db32b37dbd6d9501b51a1dbd35b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LindSSR--229e023e10.webp",
+      "bytes": 47782,
+      "sha256": "229e023e10f16ac2356021001aa8b5722871bf0fdcf847d05814a6a20f69d2ed"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LindSSR01--1ce8d1724b.webp",
+      "bytes": 45518,
+      "sha256": "1ce8d1724bd3e159ea3190f3cf8eee7397d5034f17cd877542a5f15c1e4e8e21"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LittaraDorm--7130dab7d4.webp",
+      "bytes": 48520,
+      "sha256": "7130dab7d4e583efde126ca6dd5ef9603e0497ff2c36cf9de7d3af4861d6cf22"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LittaraSR--6e97084f86.webp",
+      "bytes": 49150,
+      "sha256": "6e97084f863499a829e29a455f74d35b3be49e13c633884c21241fc9db58527c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LiushihDorm--565d05904b.webp",
+      "bytes": 39886,
+      "sha256": "565d05904b1cbc9f7c9f752b72a200d729b5e1864eec8e2f62ff3295e140ef88"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LiushihSSR--c77f1825c8.webp",
+      "bytes": 57182,
+      "sha256": "c77f1825c8c402dd8ca5ab0c03e4b20bbd25a517725b96bfa1ba1cdeb12c5a77"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LiushihSSR01--7cdcd8d2a1.webp",
+      "bytes": 49032,
+      "sha256": "7cdcd8d2a19c7e9a21130837fda32c1d65f2402fa6a071fa9d971bb76f971920"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LoreleyDorm--f3ba9037f7.webp",
+      "bytes": 35754,
+      "sha256": "f3ba9037f727c8ce0f7c941ff5d2984ed123296d50f3967d8460bdc2bddf3b4a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LoreleySSR--4aa2d74dcf.webp",
+      "bytes": 35844,
+      "sha256": "4aa2d74dcf7ddeeb9e0c260da6b753036f3e498dcca986f2a05a6046ea5868e2"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LoreleySSR01--6adb7daa15.webp",
+      "bytes": 35360,
+      "sha256": "6adb7daa1510a27f0ab64eb4da4635c743639d5ed837d33f380dc40fbd6df8cb"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LottaDorm--0eb98736a6.webp",
+      "bytes": 44784,
+      "sha256": "0eb98736a68993dc8cf2228fbe102c7598dd8031700b05d2fd48910020ee90d8"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LottaSR--b4a7d29ba6.webp",
+      "bytes": 55960,
+      "sha256": "b4a7d29ba6ca65b4d47de48e62f5734065847e4d9725f4be598c8fb3eb1be7bb"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_LottaSR01--938ccd83b2.webp",
+      "bytes": 48408,
+      "sha256": "938ccd83b2edcd7b472135e745081168bc9d218fca0123d75c802cebee48937b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MacqiatoDorm--1a49d24d2a.webp",
+      "bytes": 32850,
+      "sha256": "1a49d24d2af8436402be8beb384aee1565a56dace4de4ea0ae4e0da89613dd9a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MacqiatoSSR--3c0b118657.webp",
+      "bytes": 43684,
+      "sha256": "3c0b11865737fecc68c1a60b3f4eef88fd64d5d060b19b8ddd98a1f5712842c0"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MacqiatoSSR01--2e82c37e10.webp",
+      "bytes": 29642,
+      "sha256": "2e82c37e108e9cf7e69aa1c01363d5b2a1374fe28991e2cac723619d485209a3"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MacqiatoSSR02--55ad8500ad.webp",
+      "bytes": 37728,
+      "sha256": "55ad8500ada2de126930c3e99dfda6e761cd745f9ddaef0e9453674a3adc5b43"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MacqiatoSSR03--ccad1e33ae.webp",
+      "bytes": 27156,
+      "sha256": "ccad1e33ae43d63c028d0cb0b28b91b28b08f2975bc314e0b1b9ab397a8c715f"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_Mayling--635b74bb5f.webp",
+      "bytes": 51338,
+      "sha256": "635b74bb5fa54ada689be88e595a27b53e7ba322f6b7efc3c1ed59d214f30503"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MGDroneR--dae80cb001.webp",
+      "bytes": 52984,
+      "sha256": "dae80cb001576cb8b51df2aa8f3096e002e2cd7753ce17a58c0cbbf0d7d1f538"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MishtyDorm--b1b8cacc8d.webp",
+      "bytes": 41176,
+      "sha256": "b1b8cacc8d33e4db6aa400d0481ed550d02e9809737ebef1da4ee0c6a8d90416"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MishtySSR--fd7f2fbff6.webp",
+      "bytes": 53968,
+      "sha256": "fd7f2fbff66929f5cbc4cccb94b57fc2c23bf115f11b9f8bc7eee05a2a4e666d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MitylDorm--d40c1a2ec6.webp",
+      "bytes": 58314,
+      "sha256": "d40c1a2ec6d1380a24ad80980b20dc55afe26aecc903c657af469c022b48249b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MitylSSR--8def395845.webp",
+      "bytes": 62600,
+      "sha256": "8def39584549de55a7c950885d1d7c9ca5e575ce0743eaf417811965fd300291"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MitylSSR01--c509bd8a36.webp",
+      "bytes": 61988,
+      "sha256": "c509bd8a367524c2f2132dd25593d6a092c4d01f641291372337d84d683e0217"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MosinnagantDorm--341475a1fb.webp",
+      "bytes": 39456,
+      "sha256": "341475a1fb9e5f970618c0f0c996b4b6790c844327c509873be1e5652bac25f4"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MosinnagantSSR--436fec0e10.webp",
+      "bytes": 51788,
+      "sha256": "436fec0e101c4399e69a1f801dae9886e2f850a1770de565d5c3303763e521f4"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_MosinnagantSSR01--d25638b9b7.webp",
+      "bytes": 44448,
+      "sha256": "d25638b9b707ce99e58480a4e77cc870f4946c9c25755af5460e3dee3f6c3c4a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NagantDorm--4155cd5380.webp",
+      "bytes": 37458,
+      "sha256": "4155cd5380431ad8e821e76e8b817c0baeb093ab2493a72bd5c7688cfda2a760"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NagantSR--e356e1255e.webp",
+      "bytes": 48286,
+      "sha256": "e356e1255ecc10fae0a0a221a931ee5a988df060ae01c334dc1d7ddecbee1618"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NagantSR01--615a25241d.webp",
+      "bytes": 58236,
+      "sha256": "615a25241d486b231aab0b6630e8cf91ce2fb535a7f787fc8b1303f7dfe36f2e"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NemesisDorm--389eb9a07b.webp",
+      "bytes": 41948,
+      "sha256": "389eb9a07bc547e2acbfac0137336aaabb1ecc98014ba092db3ffac45a5ad982"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NemesisGnosisDorm--7a23aa6a92.webp",
+      "bytes": 45256,
+      "sha256": "7a23aa6a92ee67fee565bfc4c6567faf8f92dc23fa1f201b473f2c925bc7ab0d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NemesisGnosisSSR--c15c0c5bf6.webp",
+      "bytes": 48854,
+      "sha256": "c15c0c5bf62678b231563c9bb27fbe8377bf40d3d8da8fd348824536b1581f74"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NemesisSR--faf84a8281.webp",
+      "bytes": 48954,
+      "sha256": "faf84a8281e9135ff369dd67269ee2330b8b971dd7eb750e9f5bc9ec01470eb5"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NemesisSR03--b3a9532d86.webp",
+      "bytes": 45542,
+      "sha256": "b3a9532d861b4da610000fdd47c96ae8082bbb39031e7f18a2ed1d8394832bec"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NemesisSR04--c2fcdb2744.webp",
+      "bytes": 40594,
+      "sha256": "c2fcdb2744f811b706d1f7de272ce3d3ba7abc304e950451b823bf6c17995ee9"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NemesisSR05--3e32affdf8.webp",
+      "bytes": 59186,
+      "sha256": "3e32affdf832174b0f793c9c40823024c060f7aeb4612dd40956fd93641af5cb"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NikketaDorm--1eb5f7c79e.webp",
+      "bytes": 39586,
+      "sha256": "1eb5f7c79e12e58c1ae6c9fe120e63637d527d95801dcaa4bf1d438e9e27585b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NikketaSSR--52dd8a8cea.webp",
+      "bytes": 53454,
+      "sha256": "52dd8a8cea1028b4c205668111994e4344243a5db6e1467984d7c044cadda9f2"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NikketaSSR01--71ad8c2acf.webp",
+      "bytes": 41456,
+      "sha256": "71ad8c2acf637d6a210647157e2bafc7582ec136cfa2b0b7f645183e2f905c11"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NikketaSSR02--64a72e57ff.webp",
+      "bytes": 49310,
+      "sha256": "64a72e57ffc6b35c82a8f7fbdf4b4d70d3c70f8b653945180b461afd3e3689e6"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_NikketaSSR03--85ebbea357.webp",
+      "bytes": 53294,
+      "sha256": "85ebbea35788bbe8902ed98196e66848319b3b67887b02fc4dfed762da345d4a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_OTs14Dorm--e2f2fec7b2.webp",
+      "bytes": 44012,
+      "sha256": "e2f2fec7b2e75d291b0c48c31f7dca598ec4befd7f7684ac41a02b14546669df"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_OTs14SSR--493202966a.webp",
+      "bytes": 44624,
+      "sha256": "493202966a50ef1a0eaaa2899b1510759b39a0d457e8953a846d12ec34c2ab2a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_OTs14SSR01--176d4a9bcc.webp",
+      "bytes": 41064,
+      "sha256": "176d4a9bccaff4c88065685ce634014d648ec3994ca132ad19ac6cc377d21cc2"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PapashaDorm--d6325d711b.webp",
+      "bytes": 47748,
+      "sha256": "d6325d711b0358e9bff21596306bafe671d8d6f28822fcfb6f99f3c20924f726"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PapashaSSR--3376ff6685.webp",
+      "bytes": 52524,
+      "sha256": "3376ff6685a6c69ff0ca1ab146ef9c35871f12a166eca12424504d557b1da08d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PeriDorm--bb9d9a5780.webp",
+      "bytes": 43320,
+      "sha256": "bb9d9a578066b692e9d6fd1a838afe086f9c32762b714fa549dd38cfd91d3cf1"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PeriSSR--0e42e91b8a.webp",
+      "bytes": 50364,
+      "sha256": "0e42e91b8a1db26565e6762b0e001a5b99f5c5e71d22167f7973007f94778b9f"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PeriSSR01--0d5c728287.webp",
+      "bytes": 51362,
+      "sha256": "0d5c72828715aca28e223237a76f36ec270b9fb8e1d359ef45349e29fbb5587b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PerityaDorm--9c4451374b.webp",
+      "bytes": 48394,
+      "sha256": "9c4451374b945f7e42e45e379548cce1e084549e3fad2d1c5d1ff6c52dbe46fa"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PerityaSSR--cc8ff5f4a4.webp",
+      "bytes": 53996,
+      "sha256": "cc8ff5f4a458981ab5ef4a55f3125a7868b80305460f5c7904863646d3939ec9"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PerityaSSR01--1e06bb2059.webp",
+      "bytes": 49308,
+      "sha256": "1e06bb20597af6056c6e963ffcaf4589914dc58191e19322d2cf6c790e82ae87"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PerityaSSR02--2ab0b90347.webp",
+      "bytes": 51980,
+      "sha256": "2ab0b903470c70820c44d1147686330dc501bfe9d92df45bf868f2bcb87e5df0"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PhaetusaDorm--b898495bc1.webp",
+      "bytes": 44184,
+      "sha256": "b898495bc13874709e02951898fc87bb48eec557da6e1567866b570436575f5c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PhaetusaSSR--334239bc7d.webp",
+      "bytes": 39782,
+      "sha256": "334239bc7dcdb6b3f7b9b0e014d6533b82549d5c10ee946ace68dc0b574ee50d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_PhaetusaSSR01--85d1c9075a.webp",
+      "bytes": 67958,
+      "sha256": "85d1c9075abbc7635f783b3e26b02b3ceadc57608a3854939bbaae03cdbe585a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_Player_Female--b497dcc66b.webp",
+      "bytes": 39118,
+      "sha256": "b497dcc66bba32dcb76a4aa1820d32806cab37ceef139ef958ea9c7e6b255179"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_Player_Female02--4d29307725.webp",
+      "bytes": 36024,
+      "sha256": "4d29307725fb1545f0a469eee6b2afb5991dd134bc80a613536ef6c95c227bf9"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_Player_Female03--9cde9438f2.webp",
+      "bytes": 35400,
+      "sha256": "9cde9438f233923ec74b398e5fd2f51e8f878cfc295bcacc6f54f195ecd3680d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_Player_Male--c335253c7a.webp",
+      "bytes": 35052,
+      "sha256": "c335253c7a12870493fcb0c2c7b3c1e1d8c91e006d38659f9cbfca8969c81c1c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_Player_Male02--0aee55d147.webp",
+      "bytes": 32530,
+      "sha256": "0aee55d14706f10114f48fa0a5dfe6122c4c4dab4326450500f0826b81b3d576"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_Player_Male03--2eb798bbcc.webp",
+      "bytes": 30680,
+      "sha256": "2eb798bbcc23a9d6dd5c3b97e287b9fa8ea1908ea4b7acc7b65ce7efd2c8e07e"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_QiongjiuDorm--22460f9387.webp",
+      "bytes": 37704,
+      "sha256": "22460f9387b71f0481137ee08ecd3415911771ca2bb5af1c31fc49d14d08066d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_QiongjiuSSR--a091ed60ad.webp",
+      "bytes": 43402,
+      "sha256": "a091ed60ad53ddfd6ca2e0e5318f817fc44920592264161099ab98e4af959871"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_QiongjiuSSR01--ef97fa367c.webp",
+      "bytes": 47464,
+      "sha256": "ef97fa367c04dcbb88301e457a91896f1efe94bcb561696d905e2e54ebedc4dc"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_QiuhuaDorm--65e160846f.webp",
+      "bytes": 39542,
+      "sha256": "65e160846ffc14e1c946f8d5b5fc78b76d12e4ab15242105892f14c34858dbcb"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_QiuhuaSSR--28944439d2.webp",
+      "bytes": 45362,
+      "sha256": "28944439d26a36e64301058ee4a300048e03e7fa90a8c41202785c19bab766bf"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_QiuhuaSSR01--e868df084b.webp",
+      "bytes": 51080,
+      "sha256": "e868df084ba91e067e7800cacee7717934a89fed007b72cf87fec44f966584f9"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_QiuhuaSSR02--d019b8ae5c.webp",
+      "bytes": 50376,
+      "sha256": "d019b8ae5cb64a9808e52e5c44de89fc15cdb0a42dc1646f13350b9855f2fc60"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_QiuhuaSSR03--82f26d13ad.webp",
+      "bytes": 40152,
+      "sha256": "82f26d13ad03d5356dba5297cb3f8991380153295ed55465a941fdd6ce7188af"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_RobellaDorm--c7f34f0c92.webp",
+      "bytes": 36618,
+      "sha256": "c7f34f0c92e1d476b1e38dab2f77273aa9e835d29396d20c51bf643ffb79b0ea"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_RobellaSSR--62a43b950c.webp",
+      "bytes": 41102,
+      "sha256": "62a43b950ce2dea506c636545c3350d7a2d94282c5db4f437b53e2d84e57c763"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_RobellaSSR01--b5ca9c7d8c.webp",
+      "bytes": 37442,
+      "sha256": "b5ca9c7d8c2470eb588e84f29dcbdae5c2ae62f7e02153c5c8baa9dd2de20da0"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_RobellaSSR02--0d74ccc334.webp",
+      "bytes": 36136,
+      "sha256": "0d74ccc33401d3d27c1850bd80df793a18e10f5fa670337f812619e58dbe734b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SabrinaDorm--90086fa8b9.webp",
+      "bytes": 46820,
+      "sha256": "90086fa8b981b3b6a77ab9ce70ac3dd492d8aa1cd949df97f6db4dd9b3469786"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SabrinaSSR--ebec2b6408.webp",
+      "bytes": 52758,
+      "sha256": "ebec2b6408ad5715e4f7e073e8baebda5aeb500d0e15164b28b3dac3b9fe1223"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SabrinaSSR01--6f559e5750.webp",
+      "bytes": 47208,
+      "sha256": "6f559e57502f0436c402a72582181ea2d1305d68853cd747473226f9021d9340"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SakuraDorm--95c19247d4.webp",
+      "bytes": 36548,
+      "sha256": "95c19247d4d70615b295afe5db14d12562277ec6915618b30620db483583bf2c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SakuraSSR--73b1810ac0.webp",
+      "bytes": 43752,
+      "sha256": "73b1810ac0a730eb59a6d2009a158d8be75fafecc0239d5553e6a1a74b24beef"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SakuraSSR01--2aeb33f0be.webp",
+      "bytes": 34842,
+      "sha256": "2aeb33f0bea880d24077372a8b30395c6e5828fe6b0e8ae7f6c7db17fe1d3b70"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SextansDorm--4bdfa84463.webp",
+      "bytes": 42212,
+      "sha256": "4bdfa84463a987ca8ab59fae74615d565b872fa72a73df3e58ca15891f5d2d81"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SextansSSR--5bae40081e.webp",
+      "bytes": 47468,
+      "sha256": "5bae40081e4adae4182ff09002085917a391697cb4a55d77bf8d266cfc8e15b4"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SextansSSR01--2c2a0dbc9f.webp",
+      "bytes": 49668,
+      "sha256": "2c2a0dbc9f31e6e9814231058efcd010391900b06819431c155ebcde2c843167"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SharkryDorm--d26ad5aeec.webp",
+      "bytes": 61000,
+      "sha256": "d26ad5aeec038fd17df29ceeedbf10cc6e46dca62cded3d2f11a70189d472353"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SharkrySR--9fd7750f2a.webp",
+      "bytes": 65058,
+      "sha256": "9fd7750f2aaa6dd52bafe9dfef408abbf458e34508e1b589ef2850b58c65f782"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SharkrySR01--d652f744f2.webp",
+      "bytes": 57010,
+      "sha256": "d652f744f2bc05efd841329209babfc768755477a57478a9591983a50715a000"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SharkrySR02--2b29f62561.webp",
+      "bytes": 54790,
+      "sha256": "2b29f6256168f5588682dae6a76e13d0e749841b6037cd5bea436b1f9a81e164"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SoppoDorm--163a7a85a2.webp",
+      "bytes": 48578,
+      "sha256": "163a7a85a2b810cd471c8f25b39ab3a528833b7eacd969e0ce41f07fd390a3c4"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SoppoSSR--5dd0f39b9d.webp",
+      "bytes": 63586,
+      "sha256": "5dd0f39b9d234e62973707be23aa3ef098dfb63b8f4454148187b3ba931a756e"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SoppoSSR01--4854bc8104.webp",
+      "bytes": 51892,
+      "sha256": "4854bc8104ea2c5db35a737ca51954dd86afb1dcfb564901b8dcaae814206597"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SpringfieldDorm--0894d67dbb.webp",
+      "bytes": 43236,
+      "sha256": "0894d67dbb071f3be3ebbb97745c9e928450eb95cf0fe9c687cdbbccd5a4607b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SpringfieldSSR--a82ea5f9bf.webp",
+      "bytes": 54552,
+      "sha256": "a82ea5f9bf74667434d20391ac85d436513342f371a2910d6695cbe3180dc0e0"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SpringfieldSSR01--47e34f65df.webp",
+      "bytes": 34960,
+      "sha256": "47e34f65df107e6cde8c0094b0798ff9e3fce78dd14f64a4481994f9a3900a6f"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SpringfieldSSR02--bb66178419.webp",
+      "bytes": 39866,
+      "sha256": "bb66178419725e18bb8c53f57e41bafc8e94e7e60322e9297a09b60d1a656890"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SpringfieldSSR03--de90e7b722.webp",
+      "bytes": 50252,
+      "sha256": "de90e7b72235de2aeb676cdd43de1a9e130ae40b979ff6a404cdbaba4379bdaa"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SuomiDorm--845640aa35.webp",
+      "bytes": 57112,
+      "sha256": "845640aa35ac0c7f98f070f0b4f92582eedcd5a6c63aea51fc4e2bc4325558ac"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SuomiSSR--67136d193f.webp",
+      "bytes": 67476,
+      "sha256": "67136d193f6ea3aa3942a393213454ba9d0752e31f3945b974ab885b9637d920"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SuomiSSR01--3237256562.webp",
+      "bytes": 43038,
+      "sha256": "32372565626cbca1f3e5002b2fd7c6089ae670d60cf9377890724f498c304555"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_SuomiSSR02--c408496982.webp",
+      "bytes": 59326,
+      "sha256": "c408496982e5daa1c02a8a147451d10369ac91fefcc1e960a2988876ff7e71ec"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_TololoDorm--857394da92.webp",
+      "bytes": 42084,
+      "sha256": "857394da92360b375288e762a61692ff5c9fc72da9e62cc109ffb2580447ca9d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_TololoSSR--5d2e2848b7.webp",
+      "bytes": 48040,
+      "sha256": "5d2e2848b7cb3baaf954317b7562e5c2937bc21c1ba7068804d23fcef24f8941"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_TololoSSR01--36bb9c6896.webp",
+      "bytes": 39120,
+      "sha256": "36bb9c68966dc26ccbfaa108a886efd5dbbbbcb9dd2129b74e8020ee1907f63c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_TololoSSR02--86a84ad1ef.webp",
+      "bytes": 43248,
+      "sha256": "86a84ad1ef370587705a3e5296668e8d3606d6b85a689011d2acfcc358179afb"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_UllridDorm--59ea5fa45b.webp",
+      "bytes": 44402,
+      "sha256": "59ea5fa45ba53cbb45a6e68dc5385c5f44594687e5894fbe4d2fc316360191bf"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_UllridSSR--c0bc2c6805.webp",
+      "bytes": 49564,
+      "sha256": "c0bc2c6805772b294cc75fbcceb11bfd0bdb4b6fdd100143a68e1e49cccd6102"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_V3_Cat--55cf428b77.webp",
+      "bytes": 18444,
+      "sha256": "55cf428b7761d12cfe9124b5782655a7e165b7ec37480c4f1c58180765d794ad"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VectorDorm--09d4529ca7.webp",
+      "bytes": 39074,
+      "sha256": "09d4529ca79f4ffcc25172b156f5d1aa891c3184e19ec02eebc3b6d2d7c2382d"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VectorSSR--f28b1c5d3c.webp",
+      "bytes": 50682,
+      "sha256": "f28b1c5d3c29ffcf6eb1bb9ec507294f89e108eaf2c7edb5d7d8e308cccf67cc"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VectorSSR01--878e5b3e64.webp",
+      "bytes": 41536,
+      "sha256": "878e5b3e64770e060ea7d82c2f45c2b2a99ba939cca8a006e341b8c548e3b975"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VectorSSR02--3042d884a9.webp",
+      "bytes": 39430,
+      "sha256": "3042d884a99a93856bb556ecf612a62e211ba9bb545073f9ed18c8a02173ed1c"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VepleyDorm--70ef00c8b6.webp",
+      "bytes": 53918,
+      "sha256": "70ef00c8b660ee527cb824c56e75d65cbf41b1edc7197fd3abccc19dc1e9a712"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VepleySSR--806c41b33a.webp",
+      "bytes": 59916,
+      "sha256": "806c41b33a21c9a932fef3ef1cefa1c83e0c511269b9c9e1c2b8ed7801cd823a"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VepleySSR01--c91e141b64.webp",
+      "bytes": 62648,
+      "sha256": "c91e141b647857eb4b5a1335b1553d1b4bead01f1b44d0a3cb01c44eda666148"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VepleySSR02--05993cad32.webp",
+      "bytes": 62218,
+      "sha256": "05993cad3240498715af7d57153d11b0cf37b92e3d4ab858a120af8103c9b567"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VoymastinaDorm--261ad56434.webp",
+      "bytes": 36506,
+      "sha256": "261ad56434627cb87112c27e831490ced2a94908e0229fe9c9f90927016a8610"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VoymastinaSSR--d97158d072.webp",
+      "bytes": 44086,
+      "sha256": "d97158d072910367ea699ca8d8cac74a3bef037e5fd0ad4b2435e650cf7cda66"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VoymastinaSSR01--2e22863df9.webp",
+      "bytes": 34254,
+      "sha256": "2e22863df9defd7859d790b0c75eb41c5dc092891a18cabfcb9040086343a279"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_VoymastinaSSR02--49b64e47c5.webp",
+      "bytes": 42032,
+      "sha256": "49b64e47c54cee589bb30ed6776c468906beb47e00c8927864412535dbe48944"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_WelrodDorm--e99474a332.webp",
+      "bytes": 41176,
+      "sha256": "e99474a332f9494d3dfb65561990ed3d50feae815da0b346444486883d32ad74"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_WelrodSSR--1122951a0e.webp",
+      "bytes": 43728,
+      "sha256": "1122951a0ee88a8f8358622a0579fe4ac393d4b79be14580ab6c7d93154e42c3"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_WelrodSSR01--3fe0627a0c.webp",
+      "bytes": 48162,
+      "sha256": "3fe0627a0ce1ea34bbf88410bcc33355526726c845a9f5dcb56b22bd35cecad9"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_YooHeeDorm--127a397da6.webp",
+      "bytes": 44936,
+      "sha256": "127a397da6eea646133cd2a53ebf69df2c5c62722abeb4ba098c7b249b60927b"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_YooHeeSSR--8278919555.webp",
+      "bytes": 47282,
+      "sha256": "8278919555fd9a41318d646c8c2e6eb54526d83629557f9c8743c029b3c4e8ea"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_YooHeeSSR01--0e141fa651.webp",
+      "bytes": 48466,
+      "sha256": "0e141fa65190e52c0e6176f03c4f8420d30200cb963ce3096ff12143af3f6c63"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ZhaohuiDorm--f5bdfd9bb5.webp",
+      "bytes": 44474,
+      "sha256": "f5bdfd9bb5237ace90648cfa3c35ca28169fc91833cc8c6a9bcb8031b21b54bc"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ZhaohuiSSR--a34d7d86fc.webp",
+      "bytes": 46198,
+      "sha256": "a34d7d86fc178283171e221098440b2a65d80a82864fc7429cd542da2ac04060"
+    },
+    {
+      "path": "assets/portraits/Avatar_Bust_ZhaohuiSSR01--b6cf2c7f95.webp",
+      "bytes": 42338,
+      "sha256": "b6cf2c7f952f1124a2db8b4f048a5f06aefcd415ad0ac72e4214160d60ba721c"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AgentSSR--d34beb6090.webp",
+      "bytes": 38934,
+      "sha256": "d34beb60905ef74d3fa89a48caa306402e5a6004ca80785608673d23cf8875a0"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AgentSSR01--4fd6d979a6.webp",
+      "bytes": 58764,
+      "sha256": "4fd6d979a63dd6b69b4016c98eacf2e465fe7b10066659c670ce9e2d0358317a"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AlvaSSR--12036ba639.webp",
+      "bytes": 64002,
+      "sha256": "12036ba639d2ee2b92e0a42b960feb2d55d55d4802b589d3bd22e4d443bd497b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AlvaSSR01--97c70884bf.webp",
+      "bytes": 49340,
+      "sha256": "97c70884bfe30915ff7f5f50f1f2755f1d600693bbb0deec10d1e1aef377dbe0"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AlvaSSR02--cb835bf9be.webp",
+      "bytes": 48130,
+      "sha256": "cb835bf9bea08431a79596b2827b37004c02257954603af415c271229425cbaa"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AndorisSSR--9e7f7745f0.webp",
+      "bytes": 63162,
+      "sha256": "9e7f7745f03c02f6681ff6e96df211c9b69755a89449200c9d8f53125c62fe28"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AndorisSSR01--9520a172b7.webp",
+      "bytes": 100718,
+      "sha256": "9520a172b7467834f78afda6184a1951eb1b27eff56b19b50440f423779060a8"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AsteriaSSR--335b7f0384.webp",
+      "bytes": 59686,
+      "sha256": "335b7f0384c60bc43b7cac164592597318543bc329ea7923fb6a688ffa9d4a0e"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_AsteriaSSR01--1083f9766b.webp",
+      "bytes": 45122,
+      "sha256": "1083f9766b3654af1b95fdcdb3478d62dfd3dbb9a9b892a2e5c25233c989846b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_BalthildeSSR--7287298c6c.webp",
+      "bytes": 57628,
+      "sha256": "7287298c6c114b8e9e913dd2c11abe7ffafdf68f8a1b5c50acedf182169dadc7"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_BastiSSR--7f9645e49a.webp",
+      "bytes": 65240,
+      "sha256": "7f9645e49a78a7f9571c2af10b2db49ce032915f4463cbc6b803d0465e62569f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_BastiSSR01--06262f2208.webp",
+      "bytes": 71112,
+      "sha256": "06262f22085ea963ddff81e6555ff8d47fb0594fabbe0f9de0589f8c6448bdf5"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_BiyocaSSR--0ea76f36e6.webp",
+      "bytes": 76420,
+      "sha256": "0ea76f36e6373d6423ab1e10b2c0d59c3d7ef75c661d3f04f72661f4a7b5122f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_BiyocaSSR01--375f090614.webp",
+      "bytes": 66572,
+      "sha256": "375f090614c6133a6339d4d27270d8fc071160737144fdfa64e0b5837a23abc7"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CeciliaSSR--d450fbd425.webp",
+      "bytes": 50822,
+      "sha256": "d450fbd425b3f21040d39765b0fc1339bc34158fd19d845708e037e52e6499c1"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CeciliaSSR01--4f20d7f9d1.webp",
+      "bytes": 50786,
+      "sha256": "4f20d7f9d1bd9ca9745121df3493b8f482903d6490c4b61992a843696c8fee5e"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CentaureissiSSR--55563b37c8.webp",
+      "bytes": 84034,
+      "sha256": "55563b37c833fe0b84cc8fe63c162aeedf084fcf71c7bc353cae1b2f612eb005"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CentaureissiSSR01--1b340ddf9b.webp",
+      "bytes": 86238,
+      "sha256": "1b340ddf9bc33a027766e2f02fbe3742655a2ebcc8e02f7b9627a763d08f7b71"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CentaureissiSSR02--23a22a28e4.webp",
+      "bytes": 31316,
+      "sha256": "23a22a28e4d41a19d0a3501e144e5f2c2a4c7019cbf56085beb5f57f7b11edec"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CharolicSR--6305bdfe5d.webp",
+      "bytes": 69688,
+      "sha256": "6305bdfe5d810207110eb085b7c0612b9848865aeacf8074f44ed3ae54794e4b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CharolicSR01--0806a79997.webp",
+      "bytes": 64058,
+      "sha256": "0806a79997aba3e61734bdb4f159786c35005d5b5f0700e31b767be17c9fa82f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CharolicSR03--3930412577.webp",
+      "bytes": 62850,
+      "sha256": "3930412577610509edb56f3ee2203101fdba9d76d6a902a681350553d04fac53"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CheetaSR--77fa3be51f.webp",
+      "bytes": 62136,
+      "sha256": "77fa3be51f8c416ae6d152e74cfbb90cd118b169be1c451eefce3db848bb7683"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CheetaSR01--c32ca40024.webp",
+      "bytes": 53080,
+      "sha256": "c32ca400242e8637b7d22bc48558bdd6bffe52d073fdb7ce7cdfe5bf90900f54"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CheyanneSSR--11e1ac7787.webp",
+      "bytes": 65724,
+      "sha256": "11e1ac7787d04b5ef1354473451c9fa57cd8ee878da26889454c08cb79e3dabb"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_CheyanneSSR01--46b4143f5a.webp",
+      "bytes": 48750,
+      "sha256": "46b4143f5ac8f7368c877abf192991a76041905167f0dace605ed0dfa98e9b3d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ClukaySSR--0f75764192.webp",
+      "bytes": 58040,
+      "sha256": "0f75764192d474133122912c5e69136cce1b55d7c1c0d0959a226ecb19ac482b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ClukaySSR01--9900a8f088.webp",
+      "bytes": 50314,
+      "sha256": "9900a8f088af0b7edfd3d48688af546c5d29647350b87578d5c1cb197966392f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ClukaySSR02--4cadbff17e.webp",
+      "bytes": 70660,
+      "sha256": "4cadbff17e0b8fb7d68f1e11c88cc8f7dbbb9bf1efcc346662e932245cd94504"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ClukaySSR03--2205814a30.webp",
+      "bytes": 58506,
+      "sha256": "2205814a30fb5e0c5647f4d5d8254de59efe80086505f876305bed8c8d7fef63"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ClukaySSR04--18ad914d73.webp",
+      "bytes": 49898,
+      "sha256": "18ad914d73f5c595722a17c948f5312ea00253e3e0a67bce3b3e633341cacdd1"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ClukaySSR05--4d6b625c2d.webp",
+      "bytes": 52874,
+      "sha256": "4d6b625c2d29155c5121cac5edbe59c7c85dfa8a106a15df1e474517a7b24fb8"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ColphneDoppelgaengerSSR--9c5f53e91a.webp",
+      "bytes": 53624,
+      "sha256": "9c5f53e91adee3fa6a390ba90cafdd4ae6258a1f997be9e0b899bac6afaf2b67"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ColphneSR--aa69d60ad7.webp",
+      "bytes": 53146,
+      "sha256": "aa69d60ad7d242ace6eecc44353d007698ce66d2d1af54e7dc27f35e39cff752"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ColphneSR01--0b413740fd.webp",
+      "bytes": 65258,
+      "sha256": "0b413740fd7f846483edf0c8a6d2c2344d470d748e2a1e691018859c4c026762"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ColphneSR03--06cbb15466.webp",
+      "bytes": 54912,
+      "sha256": "06cbb1546664af25455d0e6831a89f36b782e4fad958e4687714d686e7d51a0b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_DaiyanSSR--dd631116f4.webp",
+      "bytes": 82256,
+      "sha256": "dd631116f491516776bf161a1881fbf7e4d35c783de0e1579bfbda7f4a6d27f8"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_DaiyanSSR03--740e8d056b.webp",
+      "bytes": 74554,
+      "sha256": "740e8d056bac0fea50de23b401126cd89861ba67b923539e3b5128daf03cf798"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_DusevnyjSSR--316eeca96e.webp",
+      "bytes": 66194,
+      "sha256": "316eeca96ef2801766674b787e2d7cb7338b2e7e7edfb07fa71ba70d43c3eb6c"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_DusevnyjSSR01--7d022fe13c.webp",
+      "bytes": 61766,
+      "sha256": "7d022fe13cdefbef503da988e943ac786d96101b20a21f9dbb39c65d899ee994"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_EaglettaSSR--55b21ff2a1.webp",
+      "bytes": 68314,
+      "sha256": "55b21ff2a169cf3103b6ad67459272274eb671aca8fa3f3acd78ecb75f246051"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_EaglettaSSR01--6a055263b8.webp",
+      "bytes": 72472,
+      "sha256": "6a055263b818bbf4c3de6b8b0b153e7ad9fe09209c2c8881b949e1834eec7396"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_FaelynnSSR--1b3150107d.webp",
+      "bytes": 62214,
+      "sha256": "1b3150107da928dadc2d4794bbfdad0a83f7acb047611d850e03ca8c051dc79f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_FaelynnSSR01--4ef2d2f1bd.webp",
+      "bytes": 49350,
+      "sha256": "4ef2d2f1bd4d59e77fbd82cb856af8a33ebacd1b7c856e9ece1a7326aa5565c5"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_FayeSSR--279287f403.webp",
+      "bytes": 62568,
+      "sha256": "279287f403c579f564ef110df7d4874185094a5859675f93b7bb10396693ea55"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_FayeSSR01--4dfde09f27.webp",
+      "bytes": 75020,
+      "sha256": "4dfde09f27774d3dc471a60e709e9c2682f5433ea167017d63d51113e62b74ad"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_FlorenceSSR--467b57acaa.webp",
+      "bytes": 76404,
+      "sha256": "467b57acaad75fd1c598191d2c0dd09b8cf52393bcb494a393da6ed51853c2d4"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_FlorenceSSR01--0110940389.webp",
+      "bytes": 57054,
+      "sha256": "0110940389ae97b9977c14180f9cdfeb910555426360f29d674ecb31bf6c2a35"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_FlorenceSSR02--25c4d8363b.webp",
+      "bytes": 72692,
+      "sha256": "25c4d8363b09f8ce6b8705d22053fdbb2f914f057225a510494039cc52ee6772"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_GrozaSR--225b7eb774.webp",
+      "bytes": 64628,
+      "sha256": "225b7eb774063705ce561833a601f3820f8543f9cfe8ff6377a872b79776f7ea"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_GrozaSR01--515030ac41.webp",
+      "bytes": 58868,
+      "sha256": "515030ac41e546328ce9123da108efb4e8ba664a40617cc2f7a1c5530ad9d528"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_GrozaSR03--161f78a541.webp",
+      "bytes": 67766,
+      "sha256": "161f78a54114be971b92f4ce886814072a599219aa6a30b487187f73e3d7b222"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_GrozaSR05--2339ca709b.webp",
+      "bytes": 68256,
+      "sha256": "2339ca709b8825e1610d1d182acc855359e0f3afe9f720584b4500832cd31d5a"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_HarpsySSR--0f8e80837c.webp",
+      "bytes": 57656,
+      "sha256": "0f8e80837cef3b4f0251e5c5afd20ec44ddb6a14526f0ace4d1cfe2a60d8ef39"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_HelenSSR--5245fd5b5d.webp",
+      "bytes": 67012,
+      "sha256": "5245fd5b5df8275ca89222e7850166ebed5d334c0f5f32c46d0f1d9eabb10fa0"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_HelenSSR01--b5d3ab3267.webp",
+      "bytes": 48852,
+      "sha256": "b5d3ab32674209ae5dca421dacd521118e2438257a19bbb54918ae54c4851111"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_HelenSSR02--071015d985.webp",
+      "bytes": 45988,
+      "sha256": "071015d98564e7cfbbd31fe829e2fb480644db6a4545065f9d42838c234e4637"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_JiangyuSSR--f083a8dd77.webp",
+      "bytes": 86312,
+      "sha256": "f083a8dd77ef27f3190b5050d07cf0d29db8e8bc725b0462860fefb9a6a9666b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_JiangyuSSR01--edaf9858a1.webp",
+      "bytes": 55472,
+      "sha256": "edaf9858a17147c658dfb1bd6a5cc29856b2da9dd276a9c461b95c45a18be98c"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_KoledaSSR--8d93b630c2.webp",
+      "bytes": 56204,
+      "sha256": "8d93b630c2bdc36b1d6b161dd7c1f393bbead1cef489a71a8109a3403bc6275d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_KoledaSSR01--df08333590.webp",
+      "bytes": 60220,
+      "sha256": "df0833359017da8b1210cd4a00eace81ab0d313bca14392361842120f7830f77"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_KseniaSR--843e154be8.webp",
+      "bytes": 61628,
+      "sha256": "843e154be87dc48ea71ed584fd161361ac80da3856b17d8be829b5e95e417aab"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LeneSSR--35d9c5bd16.webp",
+      "bytes": 67196,
+      "sha256": "35d9c5bd16cc0183794d0cea8624a71244b98171679659f739867015d79aabaf"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LeneSSR01--721ccacbc3.webp",
+      "bytes": 69072,
+      "sha256": "721ccacbc345f6d897e09ef902612af046e79222d88d4fd0ec5b643948d017ac"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LennaSSR--4bf483d440.webp",
+      "bytes": 78294,
+      "sha256": "4bf483d440f8b6cd95f4ea452e665f53bc1e209fd0068af9f0fcdc2594ca4e6d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LennaSSR01--3333e4c831.webp",
+      "bytes": 67122,
+      "sha256": "3333e4c8312e6d8e08867ad65e7dc28f1256825ee1a10ec486d8f029f28b5c4d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LennaSSR05--c04d4d4dad.webp",
+      "bytes": 80510,
+      "sha256": "c04d4d4dadbcbc7de8ba0f32c7f3f042198d0c2a730308471e09b7206d217a10"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LevaSSR--6fdcb91585.webp",
+      "bytes": 69224,
+      "sha256": "6fdcb915853c6f3d3e857d2bb008aa4be63bca5cc184a16961a98678cb02e761"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LevaSSR01--c088284732.webp",
+      "bytes": 60546,
+      "sha256": "c0882847325871d855b0a596239a4476cf7938143b3d60b9ec2bbca260a64929"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LevaSSR02--31dc2d3f53.webp",
+      "bytes": 60322,
+      "sha256": "31dc2d3f53cb7a1faade7ee055e2a2a5a7b9ae65803514611439e3ac02d17866"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LevaSSR03--db58722a22.webp",
+      "bytes": 77338,
+      "sha256": "db58722a22d98bacda9773b7455f2708d7e551d43ae4b33aa17673da812c9496"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LewisSSR--65ae1dfc2b.webp",
+      "bytes": 60552,
+      "sha256": "65ae1dfc2b9bd58b74fafacc77ab95fbb46f2a41e42a920ae4bf367dde396a5d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LewisSSR01--3c149884a2.webp",
+      "bytes": 72854,
+      "sha256": "3c149884a28f22cccf318dbff76cf628c7fa03d6eaf42eaddbef92352c07dd77"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LewisSSR02--021cf6fd51.webp",
+      "bytes": 50766,
+      "sha256": "021cf6fd5133a7cdd428404b580b4662457cc8b6464e2d42b3a3753b95de053e"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LindSSR--75e9947e24.webp",
+      "bytes": 61594,
+      "sha256": "75e9947e24b36ebbdd457c5d24200da525f7d95ad385a7908d7681d2747eaea3"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LindSSR01--140e4bdbc8.webp",
+      "bytes": 47090,
+      "sha256": "140e4bdbc8ff72de6450baf41fba44196fb3ffba82f25e0a51e1f34498643614"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LittaraSR--854bca7a67.webp",
+      "bytes": 75794,
+      "sha256": "854bca7a67270a20fc378a400072f428307f377e9487ed85df3fb29f91ba5f60"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LiushihSSR--ad58be5d17.webp",
+      "bytes": 48044,
+      "sha256": "ad58be5d17da9f6346e557f2854919c92b45fe8c420e42ef577479c32c5d6ff5"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LiushihSSR01--b3e84e3b41.webp",
+      "bytes": 59212,
+      "sha256": "b3e84e3b41235b6919fa037d854587242f1743cb059f832c2848cf97b75b5d2d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LoreleySSR--7a1d04bb49.webp",
+      "bytes": 55226,
+      "sha256": "7a1d04bb4983c67bb413d2981f5a55d57045b0305836b144dfce022f08ae8eb9"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LoreleySSR01--37ebfb793d.webp",
+      "bytes": 51996,
+      "sha256": "37ebfb793db2fba26c7b9b61b0582470cdb5093144d99e4986ac700a857441cd"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LottaSR--387d146b1f.webp",
+      "bytes": 61558,
+      "sha256": "387d146b1f577137e1c1f9a0de9655005fcbf4726b2975b9d086163513bf2085"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_LottaSR01--da729d98e8.webp",
+      "bytes": 54978,
+      "sha256": "da729d98e877d0b5c023ca93d5e9745f2b04f745e0288c592e1bb851b3824ed7"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MacqiatoSSR--3dffa36aa6.webp",
+      "bytes": 66068,
+      "sha256": "3dffa36aa6af91e1f7ccedf571343cdc3a6251dc36029dbd6f88404904598c3e"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MacqiatoSSR01--cfa0351828.webp",
+      "bytes": 47660,
+      "sha256": "cfa035182856b4a4e799ceeb1c5425e8104cbc8b0f57ddc6cf47bfb694020c3a"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MacqiatoSSR02--9f9b1696d6.webp",
+      "bytes": 51110,
+      "sha256": "9f9b1696d6878125249bd257c716ee68b013f5274b4376afd416669740e79de1"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MacqiatoSSR03--07cf6b0dc7.webp",
+      "bytes": 38482,
+      "sha256": "07cf6b0dc7ad102befb2e41abed90a127cc5b53c0466a907fa4f4ff7bd0b596a"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MishtySSR--b8392e8d5c.webp",
+      "bytes": 74260,
+      "sha256": "b8392e8d5c2557b5dcefadbd24b13ed1e340b4e93bbb0ec022bac9a5a0b56ced"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MitylSSR--6c70d1f2d9.webp",
+      "bytes": 61492,
+      "sha256": "6c70d1f2d90ed1c36dc3563d3bc89fe92e66d51beb97d15559b0713ae2f59c36"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MitylSSR01--03c8e0c7d9.webp",
+      "bytes": 61550,
+      "sha256": "03c8e0c7d920831bea1d2d1898d68adc15a3e5f2b30fd68e6e9bb91e60c78bb8"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MosinnagantSSR--21075ef378.webp",
+      "bytes": 69326,
+      "sha256": "21075ef3789febf0579bbed5bb4f820c48203ee7059a2bd144194dff7f524366"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_MosinnagantSSR01--a8bddba259.webp",
+      "bytes": 58282,
+      "sha256": "a8bddba259e07968048e29344a667d67109023f3e5dbe8c5bbff56efd2c12c01"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NagantSR--02256412af.webp",
+      "bytes": 56308,
+      "sha256": "02256412af6db61ad392d968cf4e851f4baae9bb3932d4d24316cfedfa79c86b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NagantSR01--ccee7a0bd5.webp",
+      "bytes": 73368,
+      "sha256": "ccee7a0bd57a197dd7430c138d1972f77bd2aad12bdcdbf67f50712f26e78db1"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NemesisGnosisSSR--8843dab9b1.webp",
+      "bytes": 51528,
+      "sha256": "8843dab9b15a2455622627ae19fd9d3dcd273a9fda579156cdf73f2fe9bb4603"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NemesisSR--eb4b70cc91.webp",
+      "bytes": 57564,
+      "sha256": "eb4b70cc91a0d5acba260df8bf11a42b9c2de0e25629405c3cdf48fd6a5d108e"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NemesisSR03--60af92d209.webp",
+      "bytes": 60008,
+      "sha256": "60af92d209e8dc61109bdba4e1ac32283e5d6e82ad0a66127d46c4d491f30171"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NemesisSR04--1d83f79c3b.webp",
+      "bytes": 56462,
+      "sha256": "1d83f79c3b24be1f42f36b5a58f895473524b53e806d8f18e8dfd1c731a0f75a"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NemesisSR05--f1ff7d09c1.webp",
+      "bytes": 58348,
+      "sha256": "f1ff7d09c1a56f3d42ebc921b97e28a6db732a27f662af87dfc3b869d72ecef8"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NikketaSSR--5660e9746c.webp",
+      "bytes": 75424,
+      "sha256": "5660e9746c6f7a601eee7e7a10052afea892d159f909a19a254e9c04ba441566"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NikketaSSR01--bf1e0db485.webp",
+      "bytes": 63534,
+      "sha256": "bf1e0db48546b1270a9513d1dc35a46cab1ca20152569e36c0c5df1f06d43f2f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NikketaSSR02--d7af261cda.webp",
+      "bytes": 52520,
+      "sha256": "d7af261cda96c0d5a8049279cb07e3eb6b965500ec77579d802a0096ad933aa7"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_NikketaSSR03--6da80c2f5c.webp",
+      "bytes": 57030,
+      "sha256": "6da80c2f5cf6f0ba6ed3fab673fa86948045db260fbdab69df1b364321ada1a2"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_OTs14SSR--c6682b2926.webp",
+      "bytes": 54116,
+      "sha256": "c6682b292615b3d53740caba4e37be7bc913c017b51ea6452d55dae8b5095b75"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_OTs14SSR01--51249a8299.webp",
+      "bytes": 39566,
+      "sha256": "51249a8299140511e1adee28932549de7551fee06880168001a19c98c2429ebf"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_PapashaSSR--5d3e51a384.webp",
+      "bytes": 72664,
+      "sha256": "5d3e51a3849961f0fa0f55209bd3f47c2202084bff6e5ef712c316e669d8ee40"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_PeriSSR--ac9e620105.webp",
+      "bytes": 62950,
+      "sha256": "ac9e6201053a0563336233d4593c873ac9c2ac7c4df7495e1066246632fefcad"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_PeriSSR01--34ad227296.webp",
+      "bytes": 42078,
+      "sha256": "34ad227296be5a118e3a587a54f9cb215bcdd7083beb13ed2eb5ccd95d717e64"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_PerityaSSR--e80df4bb3d.webp",
+      "bytes": 69968,
+      "sha256": "e80df4bb3d6f6f83026e7dfe8f682d097ce0a70d4e066f8c3582589bb87bd9c2"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_PerityaSSR01--7c4b0bdc43.webp",
+      "bytes": 47552,
+      "sha256": "7c4b0bdc43c5d44623d435440224d856de9657f68ab245755574e943642b4e32"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_PerityaSSR02--5de82d2ccb.webp",
+      "bytes": 66000,
+      "sha256": "5de82d2ccb0c84a71aefe257c50cfb116397034dc500e18a77a24d5690b03e52"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_PhaetusaSSR--60cc406684.webp",
+      "bytes": 69028,
+      "sha256": "60cc406684f31692af7623b5e3053f70e5bab135d1037c765c1895a340359245"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_PhaetusaSSR01--8a5e5e4182.webp",
+      "bytes": 88838,
+      "sha256": "8a5e5e418286bf719a7f2c62ace1407fcab58724b59508d323e9cb905944748b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_Player_Female--f57637105c.webp",
+      "bytes": 41846,
+      "sha256": "f57637105c230f018748d15c3fb8c2fea76f65fb7c9a0ca0d986610598fa59ee"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_Player_Female02--7c328477ab.webp",
+      "bytes": 33112,
+      "sha256": "7c328477abc0e9843f498f3cf73aa413828a8946b702cd36915b6413f1217b4c"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_Player_Female03--e9116bd423.webp",
+      "bytes": 39998,
+      "sha256": "e9116bd42307725108f578f950222aec802017b545a9dde3fe27e82684740fd8"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_Player_Male--52ec6eeb49.webp",
+      "bytes": 43992,
+      "sha256": "52ec6eeb49b5063c3ae14f619750772aee3dc3cb87f6742cfa9c27c34fc0cbe2"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_Player_Male02--1cd6f74046.webp",
+      "bytes": 34970,
+      "sha256": "1cd6f74046cf6babcfe82611fe20fee9f7ee121243318eaa885f26d231e8e915"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_Player_Male03--ef69702273.webp",
+      "bytes": 44610,
+      "sha256": "ef6970227353eb1d6a05e62e5458b51a061a10f2d2825a20b3de0720756ae981"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_QiongjiuSSR--218334fefb.webp",
+      "bytes": 77434,
+      "sha256": "218334fefbe33f3f8c9c2cb71d019efbba5464ebf267fe2a3e948969142e99e9"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_QiongjiuSSR01--293d1a651e.webp",
+      "bytes": 94622,
+      "sha256": "293d1a651e8f02927b734a4d4fcf65e95fb898e0da43a11d7bd13aa71ec1f81d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_QiuhuaSSR--9ccad76182.webp",
+      "bytes": 63166,
+      "sha256": "9ccad76182cc777ed8d0a514eeb7a00b2e0a2a16797ba45737a9f9383b316213"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_QiuhuaSSR01--16566edb1f.webp",
+      "bytes": 49830,
+      "sha256": "16566edb1f228a7344685ea57d611780fa6bf2ec79a0247193fa35b7d5c73458"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_QiuhuaSSR02--0e3ce00535.webp",
+      "bytes": 62254,
+      "sha256": "0e3ce00535447d081c49f4f73765f5f68a0fe69cb72bed3d6952e5b7adc5a3f2"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_QiuhuaSSR03--e5ac6057bf.webp",
+      "bytes": 42638,
+      "sha256": "e5ac6057bf0ebda816522bf6448229e0206dad2cb7ebd27c9e487987beaffc85"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_RobellaSSR--7051c4e6de.webp",
+      "bytes": 69378,
+      "sha256": "7051c4e6def5be7fa0331e2d5c19e9aad6a7962a2dafbce92f1b6db829b61aa4"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_RobellaSSR01--b9c0ff662d.webp",
+      "bytes": 60970,
+      "sha256": "b9c0ff662d7b040eb94e044b688eeac24bd516199dc36c9b6a10cc21047812e9"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_RobellaSSR02--b55aab170b.webp",
+      "bytes": 72438,
+      "sha256": "b55aab170bc12c65c973af0c3176eea6d496fb2a42cb70a5d70eab8bd568c76b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SabrinaSSR--8d1c16c835.webp",
+      "bytes": 63948,
+      "sha256": "8d1c16c83520249dda178b320a2c4b25836aa975f0db81881760bab9f948509c"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SabrinaSSR01--b7f791e3d1.webp",
+      "bytes": 50538,
+      "sha256": "b7f791e3d19f01c656e9ef423e6901eff0d35603462067cc9e6cf89276516ea2"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SakuraSSR--c2d9054dd7.webp",
+      "bytes": 60412,
+      "sha256": "c2d9054dd7a45cb75966bfd83453fa8bec692a6e1b4eeceb0b99f8e707fbe22e"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SakuraSSR01--19f2593a84.webp",
+      "bytes": 40608,
+      "sha256": "19f2593a84850f301af2480d6b43a78527289130dccc8645c5a811394a8c378c"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SextansSSR--5e5f626ca1.webp",
+      "bytes": 65596,
+      "sha256": "5e5f626ca1696d41c695e2a204eebc07748a9c1de15596fd9b10147a81bddbe8"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SextansSSR01--e33d316a43.webp",
+      "bytes": 55926,
+      "sha256": "e33d316a437b78a261584ee28ba86a2fa2d091c51182d1202f7c4d0f16a2a60b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SharkrySR--8fe97ca160.webp",
+      "bytes": 72014,
+      "sha256": "8fe97ca160a7a2dbd8503ebf4eee4875709cbb53692b43ccf0161d4df9e027c5"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SharkrySR01--8d4826cc99.webp",
+      "bytes": 65628,
+      "sha256": "8d4826cc99482bd9f45a217fcee75f3c19295a85bab88ec3478df563b21f4efa"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SharkrySR02--8809aea484.webp",
+      "bytes": 48634,
+      "sha256": "8809aea48454ddf36392b7f17e53b6557877ec9a199ad801e115af301b79b89b"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SoppoSSR--4bab92ceb9.webp",
+      "bytes": 54624,
+      "sha256": "4bab92ceb93856672c3c12f445c3686ffa17231088838784f8ca0f5b005fef7d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SoppoSSR01--3da7a4d9b7.webp",
+      "bytes": 61282,
+      "sha256": "3da7a4d9b73aa51fba19d8510ed7664c3e6cb736896ba726020eb5e1beb81c21"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SpringfieldSSR--8ef0aaafac.webp",
+      "bytes": 78590,
+      "sha256": "8ef0aaafacbe7446852de78ecd76c43a8d481ca31bb034071ce16fc1ab049f40"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SpringfieldSSR01--a512c64cdf.webp",
+      "bytes": 62972,
+      "sha256": "a512c64cdf4dbf814d939a9608fe1db477586d3adaed7ccb48f7ea8da7768f15"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SpringfieldSSR02--bbf9c7d577.webp",
+      "bytes": 52316,
+      "sha256": "bbf9c7d5778be06621fc2504dfa4c037d37bbd1abda91b35860e8c221a60f61a"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SpringfieldSSR03--8f228f7e01.webp",
+      "bytes": 63440,
+      "sha256": "8f228f7e015c7658927c399ec9955fe594555b94148f17d1e2e72b7b18aeeb01"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SuomiSSR--f7c1947459.webp",
+      "bytes": 87336,
+      "sha256": "f7c1947459f3c86042c29df3daee688c5b86a3431be2766753af448cfc6119cf"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SuomiSSR01--0cae8612e5.webp",
+      "bytes": 97810,
+      "sha256": "0cae8612e5aacf3ccbbecb285018a6ee82541dce453f01d7947d2e7efcf47c1e"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_SuomiSSR02--550b565a61.webp",
+      "bytes": 78580,
+      "sha256": "550b565a61ed9cba986224276e8ef973da0d1f043b0c2b3e870b8ce7fc4ac9e3"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_TololoSSR--0380cd7313.webp",
+      "bytes": 62904,
+      "sha256": "0380cd731352904200c50568171086c6aa07c87eb476271fc48afd5bc8951873"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_TololoSSR01--88f4c9b988.webp",
+      "bytes": 66694,
+      "sha256": "88f4c9b9885272c96596dee2acc58a5ff78ae4ea05b2d9bbcc6ec59354d8a8c6"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_TololoSSR02--758d21dd93.webp",
+      "bytes": 61680,
+      "sha256": "758d21dd93367df47fcf8211e100d7dae5300343ca23469210337bafc68a1139"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_UllridSSR--b14e27cba0.webp",
+      "bytes": 73636,
+      "sha256": "b14e27cba0740ae7deb41cccd59f4a9b73fca7ee3440b69b8d158f30c4241236"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VectorSSR--a7379d16e9.webp",
+      "bytes": 68092,
+      "sha256": "a7379d16e9f0629bd2f2ce5fa67107f81796c50c08deb66658b5c49832202550"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VectorSSR01--c7038c8467.webp",
+      "bytes": 52784,
+      "sha256": "c7038c8467b14af61e1692b261ca397a11b694e8cbb955d85d01794f9e9974ea"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VectorSSR02--836a8dcd70.webp",
+      "bytes": 71208,
+      "sha256": "836a8dcd7035187a9f2b522946d319ae9834dafac3065dd276ab02a5c4351b56"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VepleySSR--a570a85ab5.webp",
+      "bytes": 65540,
+      "sha256": "a570a85ab5a5ea8538bc052b07be011ae7bf8e3cc378bf6f285850c5a81dda97"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VepleySSR01--5ee53cb235.webp",
+      "bytes": 65942,
+      "sha256": "5ee53cb235baade7aa311b00d38f4e1535f4bc472f18fa38f70223f5955742ec"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VepleySSR02--0a1b46a8b2.webp",
+      "bytes": 69814,
+      "sha256": "0a1b46a8b269d6a235f6d6bee977df40cc82cee838e080432152e0da3393525d"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VoymastinaSSR--aa7f0b5d86.webp",
+      "bytes": 70970,
+      "sha256": "aa7f0b5d86bf118c21bf5cc96520eca487efdb51302196c81dc021fb0b1f7ab5"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VoymastinaSSR01--7a3380bffb.webp",
+      "bytes": 45478,
+      "sha256": "7a3380bffb316a040e7f0ab2cf2b30dbeda25c3db12db9b2c92a81d5569dc86f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_VoymastinaSSR02--3af7fde1b5.webp",
+      "bytes": 51744,
+      "sha256": "3af7fde1b5efbf9b5af00a821d1edf5c384a42cd7bb8eb3b2c8f1ce2482587ce"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_WelrodSSR--2c173bb0e6.webp",
+      "bytes": 55810,
+      "sha256": "2c173bb0e642600decf38d21c368126096874282fc1bcf738452a6edac15ac1f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_WelrodSSR01--c120720e66.webp",
+      "bytes": 59700,
+      "sha256": "c120720e6655a61fa395f7bca23de0ceef491787c3c76f0b2e525c2e92c4a09f"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_YooHeeSSR--99f9472e14.webp",
+      "bytes": 67642,
+      "sha256": "99f9472e14cc056dc32f75151f100dd4605b5e7954ce6f2071dddfff6b11c1fe"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_YooHeeSSR01--e4ed5879ad.webp",
+      "bytes": 68754,
+      "sha256": "e4ed5879adf639f6c25ab954d2882f419e5d884ec1a73b8ef8a19bca7e270763"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ZhaohuiSSR--d7eefcc970.webp",
+      "bytes": 93064,
+      "sha256": "d7eefcc970b85e723f91bb1501aa15de683dc6261974db89224b6a8c93574c66"
+    },
+    {
+      "path": "assets/skins/Img_ChrSkinPic_ZhaohuiSSR01--68f8277bbe.webp",
+      "bytes": 51406,
+      "sha256": "68f8277bbe3eb03390b25fbc0405308324ab22791f97a24d0113b519fa746073"
+    },
+    {
+      "path": "assets/weapons/Weapon_AA12_3_256--b8819b21fa.webp",
+      "bytes": 13776,
+      "sha256": "b8819b21fa480c94a13b5354d4373733477ed9513bbd9fe69fa43312f23361de"
+    },
+    {
+      "path": "assets/weapons/Weapon_AA12_4_256--6aeac11fe5.webp",
+      "bytes": 15438,
+      "sha256": "6aeac11fe5c41cc39d489c3bb7bc44ac05c46abcaee39ea020818dca6009098d"
+    },
+    {
+      "path": "assets/weapons/Weapon_AA12_5_256--1c50926548.webp",
+      "bytes": 18720,
+      "sha256": "1c509265482a17fa02b6a9db02cff7c1f1d24f31eeda0b0d58a680e0d7987a51"
+    },
+    {
+      "path": "assets/weapons/Weapon_Agent_3_256--c57257ae5b.webp",
+      "bytes": 13104,
+      "sha256": "c57257ae5bdc2f094ee7909d32d4dfcd46d65677390cb0713a8613ddcc35ca6f"
+    },
+    {
+      "path": "assets/weapons/Weapon_Agent_4_256--3db03bfd80.webp",
+      "bytes": 15046,
+      "sha256": "3db03bfd806c7936932c1e95b721ee5718ebc9e2490fd33613050ac426cb8465"
+    },
+    {
+      "path": "assets/weapons/Weapon_Agent_5_256--aac16438e5.webp",
+      "bytes": 18446,
+      "sha256": "aac16438e5ba99e76026faa42ca78d66a4a967f29a777cec39bbdaa6314d2d15"
+    },
+    {
+      "path": "assets/weapons/Weapon_AK-Alfa_3_256--b59695d378.webp",
+      "bytes": 17894,
+      "sha256": "b59695d37885569c341b94bc46c321da54c3b1cb7664a965a25883f58909f651"
+    },
+    {
+      "path": "assets/weapons/Weapon_AK-Alfa_4_256--3c9b0d56f3.webp",
+      "bytes": 20698,
+      "sha256": "3c9b0d56f3ebf05345f33655f951899d9ab074b3c6f7b895049e0fba398d80dc"
+    },
+    {
+      "path": "assets/weapons/Weapon_AK-Alfa_5_256--2a519a83b0.webp",
+      "bytes": 20022,
+      "sha256": "2a519a83b06abd51d598f89d1e2532a554743a3074cc97e41ce2005d6d633901"
+    },
+    {
+      "path": "assets/weapons/Weapon_AK15_3_256--4c00a160f9.webp",
+      "bytes": 13686,
+      "sha256": "4c00a160f911417160b480c4d883dc4449fa91a504750fda92759cb733f85007"
+    },
+    {
+      "path": "assets/weapons/Weapon_AK15_4_256--e7e206f537.webp",
+      "bytes": 15542,
+      "sha256": "e7e206f537aa894d8c095a12d5678224315f7ccab66eaad9ed9e9172ade320f3"
+    },
+    {
+      "path": "assets/weapons/Weapon_AK15_5_256--88eea9bfe6.webp",
+      "bytes": 20388,
+      "sha256": "88eea9bfe60953a9a26c2c67a898b74e0ab6d90a3209cfc796248310f8efe23f"
+    },
+    {
+      "path": "assets/weapons/Weapon_AN94_3_256--d54293a78f.webp",
+      "bytes": 14750,
+      "sha256": "d54293a78f27082e8dd816cbe3ee16e7716c90aea2caff548049e61086f68d07"
+    },
+    {
+      "path": "assets/weapons/Weapon_AN94_4_256--3fbf48b76a.webp",
+      "bytes": 16126,
+      "sha256": "3fbf48b76a576a375a795507e3fd3b0c3acaf4901c71ef1bf50713fa8948bc93"
+    },
+    {
+      "path": "assets/weapons/Weapon_AN94_5_256--88a0f3d04b.webp",
+      "bytes": 20498,
+      "sha256": "88a0f3d04b477486907bd10f0f042de7e593614d6295cb69682c7234e0033d6d"
+    },
+    {
+      "path": "assets/weapons/Weapon_APS_3_256--cd158093f8.webp",
+      "bytes": 11400,
+      "sha256": "cd158093f8a044c46d83b081e85f5e7504ce0b021d35ea60e192366a77df42d6"
+    },
+    {
+      "path": "assets/weapons/Weapon_APS_4_256--409e149ee5.webp",
+      "bytes": 11178,
+      "sha256": "409e149ee57b6acca2eec16c90a71e053b988bee9cab5a2eec1a8f58a40f28b1"
+    },
+    {
+      "path": "assets/weapons/Weapon_Asteria_3_256--ad541585c5.webp",
+      "bytes": 17828,
+      "sha256": "ad541585c5eb38ca10c5ad67b0cbe36e23bf11919ab770950d53ae2284441fb5"
+    },
+    {
+      "path": "assets/weapons/Weapon_Asteria_4_256--a43c54beb6.webp",
+      "bytes": 19010,
+      "sha256": "a43c54beb62ffa79dee9492bc1e13bb38df92d35dfd92f4ed9ba374b289af3e9"
+    },
+    {
+      "path": "assets/weapons/Weapon_Asteria_5_256--a30c6c771d.webp",
+      "bytes": 19368,
+      "sha256": "a30c6c771dd45a3344977281eded20476ed8aca6371fe1afa59e7d09710dee0e"
+    },
+    {
+      "path": "assets/weapons/Weapon_BlackOTs14_3_256--2260c6ea9b.webp",
+      "bytes": 13014,
+      "sha256": "2260c6ea9b36cf43cd8b64d6ddc3f207585de55ae92f00745c055f6af80c5d0a"
+    },
+    {
+      "path": "assets/weapons/Weapon_BlackOTs14_4_256--421396b5a7.webp",
+      "bytes": 15088,
+      "sha256": "421396b5a7085b732ef9cece46636f8c35c720cc1be68c600e21731d06cb0084"
+    },
+    {
+      "path": "assets/weapons/Weapon_BlackOTs14_5_256--473ee25a8f.webp",
+      "bytes": 18966,
+      "sha256": "473ee25a8ff4490fe32602c7926367262fbb0f540e0ce09e4f013070cdb4bc4f"
+    },
+    {
+      "path": "assets/weapons/Weapon_Blade_3_256--ba19c705d8.webp",
+      "bytes": 11292,
+      "sha256": "ba19c705d8ce7c2e2c5fd6fe43d4a42e334e2d449df554613147236f6e0d512c"
+    },
+    {
+      "path": "assets/weapons/Weapon_Blade_4_256--af677f40cd.webp",
+      "bytes": 11594,
+      "sha256": "af677f40cd733b4b0d0288d9a2ed3f0001be497d341fad0d1cdbaa530c128ebf"
+    },
+    {
+      "path": "assets/weapons/Weapon_BpARssr001_5_256--3c78db9629.webp",
+      "bytes": 22642,
+      "sha256": "3c78db96294d838fb9c3dbf1a55dae30311dc7187b332674cd8aad71f6af298d"
+    },
+    {
+      "path": "assets/weapons/Weapon_BpHRssr001_5_256--543c5ba831.webp",
+      "bytes": 12278,
+      "sha256": "543c5ba83134810f07317d35be94461d409c61886bc6db77abcf04ee5aa0e944"
+    },
+    {
+      "path": "assets/weapons/Weapon_BpKnifessr001_5_256--299836134c.webp",
+      "bytes": 11938,
+      "sha256": "299836134c9641815eeb72e624f591b433b69758b603cdd73908bef2fdb60b9f"
+    },
+    {
+      "path": "assets/weapons/Weapon_BpMGssr001_5_256--eff5fcdf98.webp",
+      "bytes": 20752,
+      "sha256": "eff5fcdf9846a1a8c9e40f44c1e981c0393d72ed109df81c55a87ce8701916d7"
+    },
+    {
+      "path": "assets/weapons/Weapon_BpRFssr001_5_256--0b507a8fa9.webp",
+      "bytes": 16718,
+      "sha256": "0b507a8fa908e57e9f187e72849f4494eae8d249a60e56feec47e3602a155137"
+    },
+    {
+      "path": "assets/weapons/Weapon_BpSGssr001_5_256--7c700716a6.webp",
+      "bytes": 14604,
+      "sha256": "7c700716a6e660615a4289dc251ecbd5a3c5e2022ab8a617774e5b43835f9a90"
+    },
+    {
+      "path": "assets/weapons/Weapon_BpSGssr001_5_Core_5--19b113c041.webp",
+      "bytes": 16342,
+      "sha256": "19b113c041bbf86dffc44bbfdbf7e83a14b197a29d9d9ca31234e017bc1164af"
+    },
+    {
+      "path": "assets/weapons/Weapon_BpSMGssr001_5_256--9664ca5d3f.webp",
+      "bytes": 18102,
+      "sha256": "9664ca5d3f47793257d093bbeb9c6eb81f94095333928cef0341ba686f7843cb"
+    },
+    {
+      "path": "assets/weapons/Weapon_Cecilia_3_256--83d04751b7.webp",
+      "bytes": 14748,
+      "sha256": "83d04751b762ea91651f37de8267a994c9baf4293e3ba5b72337c1bf0850f5ec"
+    },
+    {
+      "path": "assets/weapons/Weapon_Cecilia_4_256--4b4b18e363.webp",
+      "bytes": 14992,
+      "sha256": "4b4b18e363397eba6d17c6966939f2c9ed1eb62d53dd46368c66b4f8ad2c775b"
+    },
+    {
+      "path": "assets/weapons/Weapon_Cecilia_5_256--2bbdf4ebf1.webp",
+      "bytes": 17374,
+      "sha256": "2bbdf4ebf1ddcc770de6da5e33aceb93207bcb78d2ef75a3e52843618e318ea2"
+    },
+    {
+      "path": "assets/weapons/Weapon_ColphneDoppelgaenger_5_256--dbad14ab6b.webp",
+      "bytes": 11304,
+      "sha256": "dbad14ab6b5f85738bfe97665a13670a42f92b58319475bef234e55262e5bc19"
+    },
+    {
+      "path": "assets/weapons/Weapon_CSLS06_3_256--e1e1d44c56.webp",
+      "bytes": 12714,
+      "sha256": "e1e1d44c567ec939876fafaf237e5fe24c99d32d45222a6dc82c578d13f11eda"
+    },
+    {
+      "path": "assets/weapons/Weapon_CSLS06_4--b2002369d8.webp",
+      "bytes": 15602,
+      "sha256": "b2002369d8975fddee6071cdf3e95dfc39cb4e832d90a3819acc9ce03c072722"
+    },
+    {
+      "path": "assets/weapons/Weapon_CSLS06_4_256--f845c4773f.webp",
+      "bytes": 13308,
+      "sha256": "f845c4773f17b65448cfa45e694805e33b1d1f001f3cbc8b21988cf121bff963"
+    },
+    {
+      "path": "assets/weapons/Weapon_CSLS06_5_256--5e9c9c5b6e.webp",
+      "bytes": 19030,
+      "sha256": "5e9c9c5b6ee97dfebcc75d01cd54fa60874a857a3dd66b375aa7e938e88a33e6"
+    },
+    {
+      "path": "assets/weapons/Weapon_CZ75_3_256--414484701d.webp",
+      "bytes": 10180,
+      "sha256": "414484701d5067e12c27330d554a37f1f490bfe3adc5ffd27a6e8577e1f13d89"
+    },
+    {
+      "path": "assets/weapons/Weapon_CZ75_4_256--06ac069892.webp",
+      "bytes": 11484,
+      "sha256": "06ac069892590d23f92e313de39655ae2b618377c9027a01a8072d508f680040"
+    },
+    {
+      "path": "assets/weapons/Weapon_CZ75_5_256--70cba2220a.webp",
+      "bytes": 12586,
+      "sha256": "70cba2220ae0178c65c330a41c8720fbbac5ddae3a2747bad9781b5bc6266912"
+    },
+    {
+      "path": "assets/weapons/Weapon_DP12_3_256--3b0fa01c3c.webp",
+      "bytes": 12162,
+      "sha256": "3b0fa01c3ca62fd9726cd209e26ff9ac1a4d7ad8801a158f29a9ff4c1f804c3e"
+    },
+    {
+      "path": "assets/weapons/Weapon_DP12_4_256--83ce03fe76.webp",
+      "bytes": 14032,
+      "sha256": "83ce03fe76dd4d92a4cab3ebdd81016696d7c8d807811a8c2b723aa765ca99cc"
+    },
+    {
+      "path": "assets/weapons/Weapon_DP12_5_256--edf3c9c306.webp",
+      "bytes": 17026,
+      "sha256": "edf3c9c306ab3ce9fd1d4022c09fe8a6095e373fc35f86cd0dc0a3308cd8c0b5"
+    },
+    {
+      "path": "assets/weapons/Weapon_DSR50_3_256--164f8b024d.webp",
+      "bytes": 13922,
+      "sha256": "164f8b024df3c17d2b50ac0cbc173a43355d5aaece7cc35364a971f200b037c0"
+    },
+    {
+      "path": "assets/weapons/Weapon_DSR50_4_256--acb7fff10f.webp",
+      "bytes": 16358,
+      "sha256": "acb7fff10fd331ea24f450200d029094c5b1ab7f2d2dcd028b8c0fcf444f7f40"
+    },
+    {
+      "path": "assets/weapons/Weapon_DSR50_5_256--1472990a00.webp",
+      "bytes": 17492,
+      "sha256": "1472990a00cad07cdfb93efecce9e399c9c40fcb4523c152259a87afd65551a3"
+    },
+    {
+      "path": "assets/weapons/Weapon_Eagletta_3_256--8abefcd68e.webp",
+      "bytes": 9684,
+      "sha256": "8abefcd68e813d3e5d427ecc022d20e147b13440f44a544095e7c8ab72a888f4"
+    },
+    {
+      "path": "assets/weapons/Weapon_Eagletta_4_256--08e28d1e57.webp",
+      "bytes": 10496,
+      "sha256": "08e28d1e57f924b0a35ec32b3f8807bfe69f6e66370b170130d48e83dc2d686f"
+    },
+    {
+      "path": "assets/weapons/Weapon_Eagletta_5_256--15d17be85f.webp",
+      "bytes": 11446,
+      "sha256": "15d17be85fa1516ee5a2fa57356b4a0adfa402d7ec61c61ff33766ced06548fc"
+    },
+    {
+      "path": "assets/weapons/Weapon_Faelynn_3_256--50edc12b8a.webp",
+      "bytes": 12298,
+      "sha256": "50edc12b8a08c960419d82b07e34f4e99720c34c8617a9052325c06abad55672"
+    },
+    {
+      "path": "assets/weapons/Weapon_Faelynn_4_256--5e67adab25.webp",
+      "bytes": 14130,
+      "sha256": "5e67adab2501c604d7a22dbd700b4f253dc6551c4c02b98a26c3b8700fe96a93"
+    },
+    {
+      "path": "assets/weapons/Weapon_Faelynn_5_256--7b01402d99.webp",
+      "bytes": 17466,
+      "sha256": "7b01402d99d75e9a3cd54112200ffba5e2622f44aa63d10306fb6ac71d91d973"
+    },
+    {
+      "path": "assets/weapons/Weapon_G11_3_256--0ef982073e.webp",
+      "bytes": 12330,
+      "sha256": "0ef982073e38b973a087886f2ded24635724969aaf378490ccb5a972632c8fc2"
+    },
+    {
+      "path": "assets/weapons/Weapon_G11_4_256--2a46c32462.webp",
+      "bytes": 13006,
+      "sha256": "2a46c32462518c2c98e09ea8f6b82b13b57d3bde2d82d33cd2255992c64667bd"
+    },
+    {
+      "path": "assets/weapons/Weapon_G11_5_256--eaf87e31ed.webp",
+      "bytes": 14232,
+      "sha256": "eaf87e31edf5bcf7c3178dc5770a408b4a3ec36b21feaed43e43ea8bb4e17634"
+    },
+    {
+      "path": "assets/weapons/Weapon_G28_3_256--be16bb5df0.webp",
+      "bytes": 16616,
+      "sha256": "be16bb5df079882ef842ec2fea5434371660f38f997da1ae58d389f993d4e21b"
+    },
+    {
+      "path": "assets/weapons/Weapon_G28_4_256--3b63576698.webp",
+      "bytes": 18670,
+      "sha256": "3b6357669887152ceeb6f7074c417e363dd0b47534754e5c17a7418a3929ed02"
+    },
+    {
+      "path": "assets/weapons/Weapon_G28_5_256--b7c3fc8ded.webp",
+      "bytes": 21548,
+      "sha256": "b7c3fc8ded2685a0ae7b232f0a6cd93cd5c7db4a99ca57de73b33805da98f052"
+    },
+    {
+      "path": "assets/weapons/Weapon_G36_3_256--994b69e09b.webp",
+      "bytes": 19750,
+      "sha256": "994b69e09b8a0b594e657ab7aaa92ac8935855f732b95586e52c3a4daaea1d5b"
+    },
+    {
+      "path": "assets/weapons/Weapon_G36_4_256--8dae479fc0.webp",
+      "bytes": 19610,
+      "sha256": "8dae479fc03e2a78bf8c5100a67b63a7723288dadcce1d572f38895370d4c7e8"
+    },
+    {
+      "path": "assets/weapons/Weapon_G36_5_256--ba9050d17e.webp",
+      "bytes": 24800,
+      "sha256": "ba9050d17e92f1117a762e4627c8ebd7f29385af02a36a92507e4badfe7a1608"
+    },
+    {
+      "path": "assets/weapons/Weapon_G36KKSK_3_256--40be6b6f60.webp",
+      "bytes": 14374,
+      "sha256": "40be6b6f602a272f0d4507246d56581a63b9f58ecc89fd03d5739f840ba3767e"
+    },
+    {
+      "path": "assets/weapons/Weapon_G36KKSK_4_256--0665ba9273.webp",
+      "bytes": 16450,
+      "sha256": "0665ba9273a574eb85120ec01689fb36deeda3ed4dace2541fbe6d15d3f6f9d8"
+    },
+    {
+      "path": "assets/weapons/Weapon_G36KKSK_5_256--2741a19618.webp",
+      "bytes": 19990,
+      "sha256": "2741a19618a1b0b5d7a99f9050a91183e22579498a0f363f202d2bf71c617029"
+    },
+    {
+      "path": "assets/weapons/Weapon_Galil_3_256--3172c2f2e8.webp",
+      "bytes": 17726,
+      "sha256": "3172c2f2e879c90fb56be98f450ea4a7313420f0b698b7cd3ae0f4b37e7cf1d1"
+    },
+    {
+      "path": "assets/weapons/Weapon_Galil_4_256--5b7edf2fe8.webp",
+      "bytes": 19372,
+      "sha256": "5b7edf2fe8df004ea38615b850c9439f29453374846a40aa1df751627f89686d"
+    },
+    {
+      "path": "assets/weapons/Weapon_HAWK12_3_256--934b87554c.webp",
+      "bytes": 8970,
+      "sha256": "934b87554ce527f2a0639d5122c5d32c3248d9304f9c8a1d887273075b100d72"
+    },
+    {
+      "path": "assets/weapons/Weapon_HAWK12_4_256--1b2119e19a.webp",
+      "bytes": 9832,
+      "sha256": "1b2119e19a28b3156f93e4509068ed5cfc1e539ebce28ec8bf9dd1335becbb97"
+    },
+    {
+      "path": "assets/weapons/Weapon_HAWK12_5_256--5b7516b9a8.webp",
+      "bytes": 14666,
+      "sha256": "5b7516b9a8d9ff30059d56ddae1ef6d70da8d239078a0006172912d8544476c5"
+    },
+    {
+      "path": "assets/weapons/Weapon_HK416_3_256--32e5f43937.webp",
+      "bytes": 14132,
+      "sha256": "32e5f43937ccf3afc52eb0cc6e449dc95dd9eeb49be669fa66a78d962f034818"
+    },
+    {
+      "path": "assets/weapons/Weapon_HK416_4_256--3e3cf80cb6.webp",
+      "bytes": 16882,
+      "sha256": "3e3cf80cb65710e5fbf311e90fb3711be1667f8d5522ea9c332d5fda0b7ee85d"
+    },
+    {
+      "path": "assets/weapons/Weapon_HK416_5_256--123bb00b8c.webp",
+      "bytes": 17878,
+      "sha256": "123bb00b8c46a0a11bf6d66e2a14584bd623ba99cb4788bd71116c384cdccfca"
+    },
+    {
+      "path": "assets/weapons/Weapon_K2_3_256--eeb2b7db6f.webp",
+      "bytes": 14410,
+      "sha256": "eeb2b7db6ff61ad7f9f69d8b1d5a7b0437fa32cbabe16ad769e6bc6383b770ae"
+    },
+    {
+      "path": "assets/weapons/Weapon_K2_4_256--01acaf9650.webp",
+      "bytes": 15850,
+      "sha256": "01acaf965045518b943dfa2d3c00a016d2c30e0a68da074bed7c71a9145c1a1c"
+    },
+    {
+      "path": "assets/weapons/Weapon_K2_5_256--cadc90b583.webp",
+      "bytes": 18984,
+      "sha256": "cadc90b583041de1fe698486fa22aa58ead8dcaa1db14fd20b9470c047914262"
+    },
+    {
+      "path": "assets/weapons/Weapon_Koleda_3_256--2da7c7bfad.webp",
+      "bytes": 14942,
+      "sha256": "2da7c7bfad9e513576b3f5b49120b394ee3fabcb7bef1682f147d4d62c44596b"
+    },
+    {
+      "path": "assets/weapons/Weapon_Koleda_4_256--6fd27408cc.webp",
+      "bytes": 16850,
+      "sha256": "6fd27408cc7d499e90fdbe34179eaa2d7c04a308dac8db95724b9bc3ea2e028a"
+    },
+    {
+      "path": "assets/weapons/Weapon_Koleda_5_256--5220446850.webp",
+      "bytes": 20790,
+      "sha256": "5220446850995c884bedd590e90ab651eb99656dd3e4a4afdb36c2c1b80b26be"
+    },
+    {
+      "path": "assets/weapons/Weapon_KSVK_3_256--c4c344f44e.webp",
+      "bytes": 13586,
+      "sha256": "c4c344f44ee75e56865b462d78ee1cf52db941c866be2f398163b6065b326e22"
+    },
+    {
+      "path": "assets/weapons/Weapon_KSVK_4_256--d83ae76974.webp",
+      "bytes": 17896,
+      "sha256": "d83ae7697483be9173c8107ab9d6f776cc3d4e7f33dbc72b268c19402879bf8c"
+    },
+    {
+      "path": "assets/weapons/Weapon_KSVK_5_256--2ed7088fe5.webp",
+      "bytes": 17932,
+      "sha256": "2ed7088fe52d54c746d475b6a9f38a313a8b0c4e064c67f4fedbe5f0d205458e"
+    },
+    {
+      "path": "assets/weapons/Weapon_Lewisgun_3_256--73b0ac74cc.webp",
+      "bytes": 15102,
+      "sha256": "73b0ac74cc3ced3083a47b0f3dd47c14c47578bfe291fbca79554d087a39a7b2"
+    },
+    {
+      "path": "assets/weapons/Weapon_Lewisgun_4_256--36d3a5ce3d.webp",
+      "bytes": 14868,
+      "sha256": "36d3a5ce3dc2a80bc1081f7be89b98fff6078a6bf9ac79196daf51a879fc979a"
+    },
+    {
+      "path": "assets/weapons/Weapon_Lewisgun_5_256--1bf843470e.webp",
+      "bytes": 17170,
+      "sha256": "1bf843470eb25074cb440d557c8f3aa211243cee5c40ac0fc186742dbd9f1545"
+    },
+    {
+      "path": "assets/weapons/Weapon_Liushih_3_256--eac945c6aa.webp",
+      "bytes": 10652,
+      "sha256": "eac945c6aab5d7088b8f5ab2fab8c1cae471600d2a6754d719f5b925e5513ddf"
+    },
+    {
+      "path": "assets/weapons/Weapon_Liushih_4_256--989ba59a08.webp",
+      "bytes": 10850,
+      "sha256": "989ba59a0830cd6aaae618ec950b93d41d35b93fad59d1fe43fbf149837514cc"
+    },
+    {
+      "path": "assets/weapons/Weapon_Liushih_5_256--a6070a672b.webp",
+      "bytes": 14690,
+      "sha256": "a6070a672b5b9bf518df39e85b85e4f780613f6965f4997c1afdcf8da33c533e"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1891_3_256--d846ec0002.webp",
+      "bytes": 13826,
+      "sha256": "d846ec0002b0985af07be31f68a0d79c43114bf0c5d8e281b21250c4ea25e571"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1891_4_256--5e5738e920.webp",
+      "bytes": 15960,
+      "sha256": "5e5738e920c94e7f5aa489c447c0d2dd59cdbc6724aba7d35f5c53ed9261fde7"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1891_5_256--b53166c10a.webp",
+      "bytes": 19350,
+      "sha256": "b53166c10aed70d5b404f62f8b8e36e7954b15099653d3b60e7def85444bebf1"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1895_3_256--8a1f955365.webp",
+      "bytes": 11400,
+      "sha256": "8a1f955365a1b6039e564c934d24c1e9ea92db02355a5c114f851a50364f0da2"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1895_4_256--22df7de6bb.webp",
+      "bytes": 10856,
+      "sha256": "22df7de6bb416a7c16ab99b2412c01bfb422b5dcf877815546b3e73aee38e04c"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1903_3_256--41296023fb.webp",
+      "bytes": 9376,
+      "sha256": "41296023fbd8eb6791743f154ab94b5cec743a50005777789173789c8c3434bd"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1903_4_256--dcc2c98f19.webp",
+      "bytes": 10602,
+      "sha256": "dcc2c98f196057c585b6bc0be1a520b551bf5f12221e6c1616a9deac55a2f0c0"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1903_5_256--9fed9969ad.webp",
+      "bytes": 12236,
+      "sha256": "9fed9969adcbf1d7953a9a26ec1545d0b5e14cd787d3da0dcdec0d0588b4de58"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1931_3_256--8466dd9686.webp",
+      "bytes": 14522,
+      "sha256": "8466dd9686297d6abb8bd36b81c9c2b2ed51ec31f7c58ce9ca13d4eea9e5e9df"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1931_4_256--a3b47a547e.webp",
+      "bytes": 14786,
+      "sha256": "a3b47a547e518ae38bb321b5600eefb8b0e67a2f12178ef2bf5fc73d2d9a2330"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1931_5_256--b187329b58.webp",
+      "bytes": 15972,
+      "sha256": "b187329b5857629ee64cfa8401a36954782882bc285d2f7f5721674d90732077"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1_3_256--c6b2ee37ec.webp",
+      "bytes": 10072,
+      "sha256": "c6b2ee37ecc0464f0087ede730e903e32af20181a4bd3bda1c9e88c3b5d3896e"
+    },
+    {
+      "path": "assets/weapons/Weapon_M1_4_256--62d6033300.webp",
+      "bytes": 14550,
+      "sha256": "62d6033300cd3801ed222f76f34910692271b16a510f27a7822ad270c2ea82e2"
+    },
+    {
+      "path": "assets/weapons/Weapon_M200_3_256--5801b9e9fa.webp",
+      "bytes": 14986,
+      "sha256": "5801b9e9fa525c007b8f34466cf3586ade3c3a21370c5137125354385e0de58d"
+    },
+    {
+      "path": "assets/weapons/Weapon_M200_4_256--68a59504df.webp",
+      "bytes": 16212,
+      "sha256": "68a59504df49cb70926b1837f053bebf567c9c476c726c99cc5e5e1df269f9af"
+    },
+    {
+      "path": "assets/weapons/Weapon_M200_5_256--9143258cad.webp",
+      "bytes": 17372,
+      "sha256": "9143258cad3af0da0c9c4aea81e2ae5c8faef2acf75dae9402e45b224f2c5b46"
+    },
+    {
+      "path": "assets/weapons/Weapon_M26_3_256--3a7a7ebbe1.webp",
+      "bytes": 11392,
+      "sha256": "3a7a7ebbe1cc62d918254818a0d04a5cd6f0da02f91188f77445ab773293f1c5"
+    },
+    {
+      "path": "assets/weapons/Weapon_M26_4_256--c464d65808.webp",
+      "bytes": 12294,
+      "sha256": "c464d6580833698663c994e338c29861d74acf4d89c5bce8ac33baca666dc745"
+    },
+    {
+      "path": "assets/weapons/Weapon_M26_5_256--2883c30c14.webp",
+      "bytes": 18216,
+      "sha256": "2883c30c1405ba47403ac0dc6c0ad0f33417b317287a746cee62a2f435707bb2"
+    },
+    {
+      "path": "assets/weapons/Weapon_Mityl_3_256--6d1a89bedc.webp",
+      "bytes": 12770,
+      "sha256": "6d1a89bedcf5833b0b183272a2b9989cb60a95d2afd8ad3116c4e9567965f8ff"
+    },
+    {
+      "path": "assets/weapons/Weapon_Mityl_4_256--77cb5a91ee.webp",
+      "bytes": 13582,
+      "sha256": "77cb5a91ee2dde412d6ba6dd2fac2566ac2c8357847f79f28cf0fa83e855dc98"
+    },
+    {
+      "path": "assets/weapons/Weapon_Mityl_5_256--c17356858a.webp",
+      "bytes": 18040,
+      "sha256": "c17356858a4e59352073292410e15fea3a987861fcfc311ab00223f068239505"
+    },
+    {
+      "path": "assets/weapons/Weapon_MK23_3_256--66670311d1.webp",
+      "bytes": 9044,
+      "sha256": "66670311d1f9c59c86991c09c68cabb071ee53c7989c0324ad11a2903d36c6ae"
+    },
+    {
+      "path": "assets/weapons/Weapon_MK23_4_256--2f07692047.webp",
+      "bytes": 9594,
+      "sha256": "2f076920476b7f5b7ea8ac17274b5bae6ab650d816db57ba4392dd627676ebe9"
+    },
+    {
+      "path": "assets/weapons/Weapon_MK23_5_256--5113a162ec.webp",
+      "bytes": 13686,
+      "sha256": "5113a162ec1d53757912b6c9f868069bd3e50c51c9fd60058f0b75de44c13cbf"
+    },
+    {
+      "path": "assets/weapons/Weapon_MP5_3_256--9592baebbd.webp",
+      "bytes": 14734,
+      "sha256": "9592baebbdb170f9b7f7054bb82044de188a831c650e9d6a1f704e3d7dc869b6"
+    },
+    {
+      "path": "assets/weapons/Weapon_MP5_4_256--855a6c242a.webp",
+      "bytes": 16036,
+      "sha256": "855a6c242af067cf11ee69c5bc917dc432c73eec161582b0df196fb2dc50a581"
+    },
+    {
+      "path": "assets/weapons/Weapon_MP5_5_256--f64ad99518.webp",
+      "bytes": 17726,
+      "sha256": "f64ad99518d159f33b1be9dc6a0842a0c67abf4551798a47079d6f7b4d1ac6ef"
+    },
+    {
+      "path": "assets/weapons/Weapon_MP7_3_256--f4d28aab52.webp",
+      "bytes": 17610,
+      "sha256": "f4d28aab52456bec75022feed836810426e06b98457eb93008d0233b51f8c0da"
+    },
+    {
+      "path": "assets/weapons/Weapon_MP7_4_256--0f8704d048.webp",
+      "bytes": 19258,
+      "sha256": "0f8704d048fc57f60e306f2da336fd64d3dc7c8b7c9993f00d0fbc941ff86f87"
+    },
+    {
+      "path": "assets/weapons/Weapon_NemesisGnosis_5_256--f36f3fe1b9.webp",
+      "bytes": 17004,
+      "sha256": "f36f3fe1b9a211844645621a70a3132b5dc566fd0a737ad184d0fe961df93760"
+    },
+    {
+      "path": "assets/weapons/Weapon_OM50_3_256--18b4b2bd8d.webp",
+      "bytes": 12820,
+      "sha256": "18b4b2bd8ddcfa323984789e7445c4cadecc3035c9375b0a7777ba3eb05f688f"
+    },
+    {
+      "path": "assets/weapons/Weapon_OM50_4_256--fd597eac38.webp",
+      "bytes": 13466,
+      "sha256": "fd597eac38889ca34f620f1abdded788bc5f66f2c9f6167bde27878482e6e441"
+    },
+    {
+      "path": "assets/weapons/Weapon_OTS14_3_256--8f8d2628e0.webp",
+      "bytes": 17580,
+      "sha256": "8f8d2628e0beb384a49b798dd0ef3920ac1cdc482ef4148c23f70b979c0dda16"
+    },
+    {
+      "path": "assets/weapons/Weapon_OTS14_4_256--fb3071815f.webp",
+      "bytes": 20094,
+      "sha256": "fb3071815f163ed06ee0652a6099c759d14d32f9a7d481c86b1f2ad49c90447d"
+    },
+    {
+      "path": "assets/weapons/Weapon_PA15_3_256--c00b498803.webp",
+      "bytes": 9568,
+      "sha256": "c00b49880350fdb077a66328a387cca5c9c0fce88198b013bb285cf40580b311"
+    },
+    {
+      "path": "assets/weapons/Weapon_PA15_4_256--3aca6190b0.webp",
+      "bytes": 10842,
+      "sha256": "3aca6190b0f20671dbd2ae2df46cadcda743052416051f589a724b5f1f3f1884"
+    },
+    {
+      "path": "assets/weapons/Weapon_PA15_5_256--e79b7a0ee4.webp",
+      "bytes": 11604,
+      "sha256": "e79b7a0ee4543f27f1583f640a1d7814bf4e4ea05250a1c17959feda9de6a35f"
+    },
+    {
+      "path": "assets/weapons/Weapon_Pecheng_3_256--6cce0ef171.webp",
+      "bytes": 18456,
+      "sha256": "6cce0ef1713fd0c40addef4cf9e82c0a6cb8f2c9ba3667ddc692dbff06c0ad72"
+    },
+    {
+      "path": "assets/weapons/Weapon_Pecheng_4_256--fb1a7835b8.webp",
+      "bytes": 19788,
+      "sha256": "fb1a7835b8ecc1e5463c0e5b49978e1ffc018f860c6eb332aae9455f7982ff2a"
+    },
+    {
+      "path": "assets/weapons/Weapon_Pecheng_5_256--664e8d13b2.webp",
+      "bytes": 20322,
+      "sha256": "664e8d13b27030096d45a920865c2eea51298b2d6f1d6184031a1db83c46cff8"
+    },
+    {
+      "path": "assets/weapons/Weapon_Phaetusa_3_256--e3d2ccf160.webp",
+      "bytes": 7568,
+      "sha256": "e3d2ccf160ea27d621a4e670976e1701ca9ed69dccf7e3d56ab11a7317acdbef"
+    },
+    {
+      "path": "assets/weapons/Weapon_Phaetusa_4_256--14cd45742a.webp",
+      "bytes": 8580,
+      "sha256": "14cd45742a927e6f666d9ef84647f72629f100126eb7679ba39f4322efe28ba6"
+    },
+    {
+      "path": "assets/weapons/Weapon_Phaetusa_5_256--7ad65bee4a.webp",
+      "bytes": 10282,
+      "sha256": "7ad65bee4ae7f17ee2d1f7733528516be897d4b72535707589060c7382ecbe56"
+    },
+    {
+      "path": "assets/weapons/Weapon_PPSh41_3_256--b61f67385e.webp",
+      "bytes": 14556,
+      "sha256": "b61f67385e5a4c779feb423769966baac633a4f0b6f500eec57c7665af237b66"
+    },
+    {
+      "path": "assets/weapons/Weapon_PPSh41_4_256--408cb3efed.webp",
+      "bytes": 16170,
+      "sha256": "408cb3efed3c4a38ff5bba2dd4645915cb3c73de6562b884a7dacb55b8ad2273"
+    },
+    {
+      "path": "assets/weapons/Weapon_PPSh41_5_256--8b5616dcec.webp",
+      "bytes": 16944,
+      "sha256": "8b5616dcec4c266565d0d50bb4a3b18defa5199f2d8ebf045977866d4b6718d4"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ-191_3_256--53e54f13f5.webp",
+      "bytes": 12008,
+      "sha256": "53e54f13f5a4fa60d938590a8bf2247c13a23a52d98e5c1632c7946365f3be6e"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ-191_4_256--3633c2821b.webp",
+      "bytes": 13656,
+      "sha256": "3633c2821b5944a6845ddb09af8c29baaa0984b95791fd234e79b04a63d2caf3"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ-191_5_256--9a6353a1e3.webp",
+      "bytes": 20942,
+      "sha256": "9a6353a1e3f0240f951349967d27420b10a5758237d9ac5a709427a6ff6c6d33"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ-95_3_256--1b6405c311.webp",
+      "bytes": 18504,
+      "sha256": "1b6405c3115323dd32204e85506869393d0dce3b0e8d29df8cae9905506a067a"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ-95_4_256--eaf990ed5a.webp",
+      "bytes": 21302,
+      "sha256": "eaf990ed5a70c956883314fa0273bebb805386b157f75250d0c4ba493bdb470b"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ-95_5_256--2fce62591c.webp",
+      "bytes": 22720,
+      "sha256": "2fce62591c7a8eea37890d5f5f78d71dac1156c5884bae5216340deb983bf3ca"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ97_3_256--f9069225b8.webp",
+      "bytes": 15984,
+      "sha256": "f9069225b8b0ea90feee8cc6274e458911bff1d6bf5d0e8376f80ff2158dc579"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ97_4_256--0f2dca1a66.webp",
+      "bytes": 18034,
+      "sha256": "0f2dca1a66c774412fc0f0a2f9110c4e58b29d25acc552e97743eedb7751fb42"
+    },
+    {
+      "path": "assets/weapons/Weapon_QBZ97_5_256--15c89fb890.webp",
+      "bytes": 21644,
+      "sha256": "15c89fb890107b2c32b416486eed90fd2b8078e75399d4ef94436b1fb9058f8c"
+    },
+    {
+      "path": "assets/weapons/Weapon_RFClaNemesis_5_256--610aca9844.webp",
+      "bytes": 21466,
+      "sha256": "610aca984485df79ec3b771838808148b560e30077924bc46567aabbd88bf04d"
+    },
+    {
+      "path": "assets/weapons/Weapon_RO635_3_256--dc8ca87d03.webp",
+      "bytes": 14034,
+      "sha256": "dc8ca87d03f2dfc9af32021be87ae1235655fa174b13f7363e4062a7e4d972ab"
+    },
+    {
+      "path": "assets/weapons/Weapon_RO635_4_256--706d1dc91c.webp",
+      "bytes": 16016,
+      "sha256": "706d1dc91c4593e397d6780a199b55be1605a2e950848632100a03023ceb7fcd"
+    },
+    {
+      "path": "assets/weapons/Weapon_RO635_5_256--f30bb6a04f.webp",
+      "bytes": 20854,
+      "sha256": "f30bb6a04fe0a0d680f88262e45eca07143f97422c5f7e78b0429c1eee6cbf11"
+    },
+    {
+      "path": "assets/weapons/Weapon_ROBINSONXCR_3_256--3294feeabf.webp",
+      "bytes": 16762,
+      "sha256": "3294feeabfc351c0ce40c7115ed399ee3131e8dd364246075a2c2e26fad7ad59"
+    },
+    {
+      "path": "assets/weapons/Weapon_ROBINSONXCR_4_256--52994eee9a.webp",
+      "bytes": 17560,
+      "sha256": "52994eee9a44a98c56b1b448ca28e0f19e0ba6dc074ee6200c34a2cd1e092bad"
+    },
+    {
+      "path": "assets/weapons/Weapon_Sakura_3_256--cf2a94680c.webp",
+      "bytes": 12776,
+      "sha256": "cf2a94680c9348523ac9021cbff1e4cdc8faac632175e76df589b44b666cdeba"
+    },
+    {
+      "path": "assets/weapons/Weapon_Sakura_4_256--ed095d1443.webp",
+      "bytes": 13186,
+      "sha256": "ed095d14436e237b7c3d51c071c74c82cb27120664f14ed9a5762d2eb14aaaa4"
+    },
+    {
+      "path": "assets/weapons/Weapon_Sakura_5_256--e0454d9276.webp",
+      "bytes": 16530,
+      "sha256": "e0454d92761ac34806178dc71d59a4d7172062f212bc48663ca092c89b9ecb9b"
+    },
+    {
+      "path": "assets/weapons/Weapon_Sextans_3_256--a95eb8a008.webp",
+      "bytes": 10032,
+      "sha256": "a95eb8a008a08312a621450b2e0d94f2276ae2a74be13be07b07417c356f174b"
+    },
+    {
+      "path": "assets/weapons/Weapon_Sextans_4_256--c64339418f.webp",
+      "bytes": 12642,
+      "sha256": "c64339418fd347fc144985ba2f4eed10087160800bca365464431a87fefcdbf2"
+    },
+    {
+      "path": "assets/weapons/Weapon_Sextans_5_256--87196212ae.webp",
+      "bytes": 15084,
+      "sha256": "87196212aef6bbf3c4d0f8d911e565d01cbcad31526c27aa3af6f3b1976ce159"
+    },
+    {
+      "path": "assets/weapons/Weapon_Soppo_3_256--a9f62feb10.webp",
+      "bytes": 17736,
+      "sha256": "a9f62feb102a044ec7b199209def995d3bba5101cc2ba42985339dfa73ab5b3f"
+    },
+    {
+      "path": "assets/weapons/Weapon_Soppo_4_256--660fb75bce.webp",
+      "bytes": 19240,
+      "sha256": "660fb75bce61bd209c45cc13446fe77199f6d0dea2df5da434382d535f656418"
+    },
+    {
+      "path": "assets/weapons/Weapon_Soppo_5_256--96c19a6cac.webp",
+      "bytes": 19772,
+      "sha256": "96c19a6cacc665093daeaa7f0e52bde09976a8d3befd93be4cbe0c10be2232ea"
+    },
+    {
+      "path": "assets/weapons/Weapon_SPAS-12_3_256--f913879761.webp",
+      "bytes": 9990,
+      "sha256": "f913879761f31c824029455247400a4a9e91d73e03e4bbf6da2c928dd7a0da8b"
+    },
+    {
+      "path": "assets/weapons/Weapon_SPAS-12_4_256--b695fb56dd.webp",
+      "bytes": 11908,
+      "sha256": "b695fb56dd1451c129609b204916a5e3bb7e2624fb8c4e4ac320c25f42eeb117"
+    },
+    {
+      "path": "assets/weapons/Weapon_SPAS-12_5_256--186d29d4ba.webp",
+      "bytes": 12730,
+      "sha256": "186d29d4ba942241a5923ec35e78fd1ddc58f56f7bc7740d823b2733f01f224e"
+    },
+    {
+      "path": "assets/weapons/Weapon_SteyrTMP_3_256--f14ece22af.webp",
+      "bytes": 11558,
+      "sha256": "f14ece22afe4d51a1d1dd16f40400593423bb4b7aebb8e631b8bd851120fdf02"
+    },
+    {
+      "path": "assets/weapons/Weapon_SteyrTMP_4_256--ca78975ca1.webp",
+      "bytes": 13262,
+      "sha256": "ca78975ca133745e00b2921d1fe0270b65572fa2ddb7c2b3446abbc2a2dde0aa"
+    },
+    {
+      "path": "assets/weapons/Weapon_SteyrTMP_5--fcc2998bd5.webp",
+      "bytes": 17316,
+      "sha256": "fcc2998bd51d0ac9223c6abb5f3e6266617b1b9d55a24495dd5dbb1d18eed70f"
+    },
+    {
+      "path": "assets/weapons/Weapon_SteyrTMP_5_256--4d28c3dc5b.webp",
+      "bytes": 16726,
+      "sha256": "4d28c3dc5b0bf970f744fc0cf89c319b56ff86cb78d84a60ab3f16ec09805952"
+    },
+    {
+      "path": "assets/weapons/Weapon_TaurusCurve_3_256--6ac0a38518.webp",
+      "bytes": 8308,
+      "sha256": "6ac0a3851801f4786c6230c148785e7668791dd83439f2e353c8459863ce1e6e"
+    },
+    {
+      "path": "assets/weapons/Weapon_TaurusCurve_4_256--4c760148bb.webp",
+      "bytes": 10214,
+      "sha256": "4c760148bb3d6a659d43e600b387224c64c90ee518fdd1e0a7ca9f7fb369f81f"
+    },
+    {
+      "path": "assets/weapons/Weapon_Ullr_3_256--643fe7db4d.webp",
+      "bytes": 10394,
+      "sha256": "643fe7db4d30133e8c108f29b81ca644b3bf40aac7defca3d90a05422596b012"
+    },
+    {
+      "path": "assets/weapons/Weapon_Ullr_4_256--e777f78d62.webp",
+      "bytes": 9632,
+      "sha256": "e777f78d620dc61485a289066dc5005d76eb91a9dacb4702ef0039ca6c49b329"
+    },
+    {
+      "path": "assets/weapons/Weapon_Ullr_5_256--0098c753d6.webp",
+      "bytes": 13614,
+      "sha256": "0098c753d6e2587dcdf8cb67902adbf3290bf3bbe3c7ce289863fcb1cdc52eac"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP40_3_256--68d011b16e.webp",
+      "bytes": 13286,
+      "sha256": "68d011b16e4dab41413245120a9fd1378d7e99839cab6c5d66e58eeefc256c67"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP40_4_256--bcb7e98fbb.webp",
+      "bytes": 14426,
+      "sha256": "bcb7e98fbb143ab34fbaceaa4792298359aba1d7f90beaec783084bcfb3ea8ea"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP40_5_256--201db161f2.webp",
+      "bytes": 18988,
+      "sha256": "201db161f2e4f92ce17391ec9c02eab5b7de9edcced4e7091214dd19096e9d1d"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP45_3_256--5010081121.webp",
+      "bytes": 13066,
+      "sha256": "501008112162555e8037bb78446da4104a3d0a08a64e274e8e856fe7ad889414"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP45_4_256--43ae2ff2f0.webp",
+      "bytes": 14702,
+      "sha256": "43ae2ff2f09bb80e73912ff93393a500f0fc9a105aac544760b0a61859816f66"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP45_5_256--1d0cd11c4e.webp",
+      "bytes": 19880,
+      "sha256": "1d0cd11c4eddbd2e6e450e768a83ea9b51cb1fa30dcb7f60f46a19ab9bdfcf30"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP9_3_256--eb1b3574c9.webp",
+      "bytes": 14378,
+      "sha256": "eb1b3574c96516494b1fb7479c8665ee6336f64dd31aef31866d38ab2d1f9f24"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP9_4_256--34f079cf51.webp",
+      "bytes": 15756,
+      "sha256": "34f079cf511c3d216147e167fddb63538d971b38a2eb8f69b3e2ff0f8af2edd6"
+    },
+    {
+      "path": "assets/weapons/Weapon_UMP9_5_256--9b528df1b5.webp",
+      "bytes": 16368,
+      "sha256": "9b528df1b58cee6e8c49018e7b52b0e88f72e77173b60201e177b11e7b0637e0"
+    },
+    {
+      "path": "assets/weapons/Weapon_Vector_3_256--b866392049.webp",
+      "bytes": 13260,
+      "sha256": "b8663920493ca064e035bd20579553222704705e01773b5fdd5d1a395a5974aa"
+    },
+    {
+      "path": "assets/weapons/Weapon_Vector_4_256--29187aa452.webp",
+      "bytes": 14900,
+      "sha256": "29187aa4526567cd4da16f1e337332d661240f3f09664998e193a73dfa05aa73"
+    },
+    {
+      "path": "assets/weapons/Weapon_Vector_5_256--a6021219f9.webp",
+      "bytes": 17128,
+      "sha256": "a6021219f9b90857696671232266d8ab66bf82b63af7943dcc7b6d45855f4add"
+    },
+    {
+      "path": "assets/weapons/Weapon_Vepr12_3_256--cad94d170f.webp",
+      "bytes": 16314,
+      "sha256": "cad94d170f84eb42ab20ae30fb2a9927c3065372a2a8a7617a6d14ae83629baf"
+    },
+    {
+      "path": "assets/weapons/Weapon_Vepr12_4_256--6e0634e14f.webp",
+      "bytes": 19152,
+      "sha256": "6e0634e14ff5f4c0afdbe7373c450264b284d5e4571b19735de428b549095cda"
+    },
+    {
+      "path": "assets/weapons/Weapon_Vepr12_5_256--cef73f3bd2.webp",
+      "bytes": 20418,
+      "sha256": "cef73f3bd2642b51ea846d96a9c5081d2a52879d51219b128802be1901938d13"
+    },
+    {
+      "path": "assets/weapons/Weapon_VSK94_3_256--52edb54077.webp",
+      "bytes": 15464,
+      "sha256": "52edb540771723ebb60bc7611e5d2a37ba0d2502a169018452d6c6a2245fbe71"
+    },
+    {
+      "path": "assets/weapons/Weapon_VSK94_4_256--4872522541.webp",
+      "bytes": 16196,
+      "sha256": "48725225413380b60fa33a0732f857d9f5f03a4d09a0d617dbf873e4fd29266c"
+    },
+    {
+      "path": "assets/weapons/Weapon_VSK94_5_256--21067b9588.webp",
+      "bytes": 19046,
+      "sha256": "21067b95884e44ea37439c6f5939675b9dc05f6decccd06723b896fdafa47a18"
+    },
+    {
+      "path": "assets/weapons/Weapon_WA2000_3_256--31946c7b27.webp",
+      "bytes": 17632,
+      "sha256": "31946c7b27eaafa3f3f0268ace20125e7baf54ad1582814329579ab2f3607975"
+    },
+    {
+      "path": "assets/weapons/Weapon_WA2000_4_256--09779abaaf.webp",
+      "bytes": 19480,
+      "sha256": "09779abaaf87ff9d003a7c43c6ad41778955bb1bdb619abc442884c2be92ca90"
+    },
+    {
+      "path": "assets/weapons/Weapon_WA2000_5_256--95042be9ad.webp",
+      "bytes": 20576,
+      "sha256": "95042be9ad470be847104f62de964b28a3337eb7d7e99739b0fb888e9e491723"
+    },
+    {
+      "path": "assets/weapons/Weapon_Welrodmk2_3_256--388ddb8aa2.webp",
+      "bytes": 8562,
+      "sha256": "388ddb8aa284f25a2c3a9f5908c1ae289f6ea805c698926b472bf3d2386efe78"
+    },
+    {
+      "path": "assets/weapons/Weapon_Welrodmk2_4_256--2d30e8e1ab.webp",
+      "bytes": 8496,
+      "sha256": "2d30e8e1ab86488b1a5143b1fe8f470e638b84da3966a1df1f4362bfe958022b"
+    },
+    {
+      "path": "assets/weapons/Weapon_Welrodmk2_5_256--d0109e5879.webp",
+      "bytes": 10004,
+      "sha256": "d0109e587938ec8f49176f24ed89d4c54de35486e21f7eaa1ea42e4682e74697"
+    }
+  ],
+  "install_contract": {
+    "validation": "Verify every listed SHA-256 before activation.",
+    "activation": "Extract to staging, validate, then replace the active local data cache.",
+    "compatibility": "The extracted root mirrors the GitHub Pages paths so HTTP/local providers share parsing logic."
+  }
+}

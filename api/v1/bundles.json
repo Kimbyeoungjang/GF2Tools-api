@@ -1,1 +1,36 @@
-{"schema_version":2,"data_version":"table.1168918","pages_assets":{"image_count":771,"image_bytes":44632098,"image_mib":42.56,"theoretical_full_image_sets_per_100gb":2405},"strategy":{"recommended_client_flow":["GET latest.json","GET api/v1/manifest.json only when version changes","GET the recommended core-data .json.gz once and cache it locally","Download images only on demand and cache by sha256","Use release/offline image bundles only for explicit bulk installation"],"pages_note":"GitHub Pages serves selected optimized runtime images on demand. Fullbody/skin release ZIPs are generated only when explicitly requested, so normal Import/Pages builds do not duplicate the heavy image payload."},"items":[{"type":"core_gzip","path":"bundles/core-data-table.1168918.json.gz","bytes":209132,"sha256":"8cb7c9683a413cc8fada5e6fabd7fbd7d378f1a07c44e754babad9a42b532dd3","recommended":true},{"type":"core_zip","path":"bundles/core-data-table.1168918.zip","bytes":213126,"sha256":"1fd1a68302ef5febcc4f920d4d62be8ad9330591817d913bcd5f0ece5f25aee8","recommended":false}]}
+{
+  "schema_version": 2,
+  "data_version": "table.1199366",
+  "pages_assets": {
+    "image_count": 832,
+    "image_bytes": 48139978,
+    "image_mib": 45.91,
+    "theoretical_full_image_sets_per_100gb": 2230
+  },
+  "strategy": {
+    "recommended_client_flow": [
+      "GET latest.json",
+      "GET api/v1/manifest.json only when version changes",
+      "GET the recommended core-data .json.gz once and cache it locally",
+      "Download images only on demand and cache by sha256",
+      "Use release/offline image bundles only for explicit bulk installation"
+    ],
+    "pages_note": "GitHub Pages serves selected optimized runtime images on demand. Fullbody/skin release ZIPs are generated only when explicitly requested, so normal Import/Pages builds do not duplicate the heavy image payload."
+  },
+  "items": [
+    {
+      "type": "core_gzip",
+      "path": "bundles/core-data-table.1199366.json.gz",
+      "bytes": 225105,
+      "sha256": "fc8518e5ca62c9f89df6b39c6533b940416bfbe802fa8569b47f87cfc4bb5bf8",
+      "recommended": true
+    },
+    {
+      "type": "core_zip",
+      "path": "bundles/core-data-table.1199366.zip",
+      "bytes": 229453,
+      "sha256": "28b51df217a00e035097ac5c957c39c1f8f64d7e759a40a4b53902613ebbfde4",
+      "recommended": false
+    }
+  ]
+}

@@ -1,1 +1,14 @@
-{"schema_version":2,"dolls":{"total":62,"portrait":62,"gacha":62,"fullbody":62,"skins":62},"weapons":{"total":181,"image":181}}
+{
+  "schema_version": 2,
+  "dolls": {
+    "total": 67,
+    "portrait": 67,
+    "gacha": 67,
+    "fullbody": 67,
+    "skins": 67
+  },
+  "weapons": {
+    "total": 194,
+    "image": 194
+  }
+}

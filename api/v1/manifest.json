@@ -1,1 +1,137 @@
-{"schema_version":2,"data_version":"table.1168918","game_version":"2.0.3936","source_table_version":"1168918","bv_version":"1166184","updated_at":"2026-09-17T01:01:22.961773Z","recommended_sync":{"check":"latest.json","manifest":"api/v1/manifest.json","bulk":"bundles/core-data-table.1168918.json.gz","policy":"Download bulk data only when data_version changes; cache images locally by sha256."},"files":{"dolls":{"path":"dolls.json","sha256":"604c093bb05feed94c8712d1551f52a6ba1c49b1cc7284b9fb1fe16ae94dde8e","bytes":93875,"count":62},"weapons":{"path":"weapons.json","sha256":"e603e154db8f9d8b60e9e75ced600d6eae70262f9c0a9d0eaaced04a29b47838","bytes":106906,"count":181},"remolding":{"path":"remolding.json","sha256":"34bbc4c660aa058bce044ca546c6a9cb8c2371fb3c19c911ce0ccf6a55869177","bytes":28768,"count":139},"weapon_part_effects":{"path":"weapon_part_effects.json","sha256":"15f7a50acd10c86e37dc09d73157804723820e23d0df0a3da6490d2306fc983c","bytes":1556,"count":16},"weapon_part_power_map":{"path":"weapon_part_power_map.json","sha256":"93f505fa8478cf9ee885d2b730189678d24a656738cd211c73d451e00a44fcbd","bytes":2466,"count":33},"weapon_part_types":{"path":"weapon_part_types.json","sha256":"e9f4ddc533b1ead1b615b1307c5ffa9f208c0e3c331bc49e15fec0951ec6ebeb","bytes":6459,"count":37},"item_ranks":{"path":"item_ranks.json","sha256":"acc8b52d8fb8833d08cfb49ec49ba7d79eed06790f9205434a6ee1c6f8fb7928","bytes":310,"count":4},"unclassified_polarity_plans":{"path":"unclassified_polarity_plans.json","sha256":"70d321015d6b2a321626f07889ef2324526e18100e792deca2f3d474206b4b5e","bytes":316,"count":6},"common_keys":{"path":"common_keys.json","sha256":"d4afedc293bb73bdd6d10e575d5e02307e8dcbcf0d36e28a8c72e6038c2f9f67","bytes":80618,"count":153},"unique_keys":{"path":"unique_keys.json","sha256":"f03657e03619b9bed18d3cda6e6c2d37d6f9e0777189dc654b8f04ad5310f6cf","bytes":264926,"count":372},"expansion_keys":{"path":"expansion_keys.json","sha256":"0e58f6e2c300d365307837366fe0295d6cebdf0751757c669e1b6eec99a08147","bytes":61054,"count":46},"combined_keys":{"path":"combined_keys.json","sha256":"a9a02d12018dc55373bb72463c386348d3cfe9608c4d72d40c100bcf85decaca","bytes":27731,"count":61},"game_config":{"path":"game_config.json","sha256":"cce53886e83eefcc6a9d1a55111edad7a718b5643a2a5055e34bfe3f2626a1c0","bytes":3268},"game_version":{"path":"game_version.json","sha256":"9fac4243aa73beced9f27b585094dced73c32158ae7bb1fb01803ca44d53c77d","bytes":489},"images":{"path":"images.json","sha256":"8b6bb0300e82ebbd6d4a799f529ff7fd3c42e356bf17bc217b24921051f90069","bytes":728838,"count":771},"image_catalog":{"path":"image_catalog.json","sha256":"54c786ba78c33798826636378a051a9f837f11d78f86bd6a6c4fe0ac7542e124","bytes":502298,"count":771},"asset_coverage":{"path":"asset_coverage.json","sha256":"134c4f6580affb84a69ec4a08275081fc6dfab89b54ed5522128758bde966012","bytes":129},"bundles":{"path":"bundles.json","sha256":"5995d54ea19f009a6ff9688bf9cbb79ac331fa8071ac889f1868b28c1e49ba80","bytes":1069,"count":2}},"bundles":{"core_gzip":{"type":"core_gzip","path":"bundles/core-data-table.1168918.json.gz","bytes":209132,"sha256":"8cb7c9683a413cc8fada5e6fabd7fbd7d378f1a07c44e754babad9a42b532dd3","recommended":true},"core_zip":{"type":"core_zip","path":"bundles/core-data-table.1168918.zip","bytes":213126,"sha256":"1fd1a68302ef5febcc4f920d4d62be8ad9330591817d913bcd5f0ece5f25aee8","recommended":false}}}
+{
+  "schema_version": 2,
+  "data_version": "table.1199366",
+  "game_version": "3.0.5388",
+  "source_table_version": "1199366",
+  "bv_version": "1198375",
+  "updated_at": "2026-10-29T05:27:07.245495Z",
+  "recommended_sync": {
+    "check": "latest.json",
+    "manifest": "api/v1/manifest.json",
+    "bulk": "bundles/core-data-table.1199366.json.gz",
+    "policy": "Download bulk data only when data_version changes; cache images locally by sha256."
+  },
+  "files": {
+    "dolls": {
+      "path": "dolls.json",
+      "sha256": "6009a39ab6ed0af2e0c311946891f456995f987117afd1f40ab1c805994891d5",
+      "bytes": 123808,
+      "count": 67
+    },
+    "weapons": {
+      "path": "weapons.json",
+      "sha256": "1c39b4f920f1b1779060ee8d82aebca423c734d2a1b018577e0d1c04517e82c0",
+      "bytes": 144809,
+      "count": 194
+    },
+    "remolding": {
+      "path": "remolding.json",
+      "sha256": "5018372966f4ee1bb229427a2a475f025a7f92208bd438eec71a0678082c9c75",
+      "bytes": 38609,
+      "count": 141
+    },
+    "weapon_part_effects": {
+      "path": "weapon_part_effects.json",
+      "sha256": "88fb83d7fd32212e9e47d378e5b3972a3b1d19bd7962e541f580ae4fb348f5ad",
+      "bytes": 2251,
+      "count": 16
+    },
+    "weapon_part_power_map": {
+      "path": "weapon_part_power_map.json",
+      "sha256": "f995911879034cc6d8c208308c9b3023ce69a58482c72f7570cf624146e1d0d0",
+      "bytes": 3875,
+      "count": 33
+    },
+    "weapon_part_types": {
+      "path": "weapon_part_types.json",
+      "sha256": "180ed057ba7cb462c1ee2e6906cbae0b60a2570f26eef0f83a58b712f9b19d79",
+      "bytes": 9220,
+      "count": 37
+    },
+    "item_ranks": {
+      "path": "item_ranks.json",
+      "sha256": "ec6ebc2ce760768e58683491ca00e62e37023a0bf83e7711b9c1d1b69d1def0a",
+      "bytes": 469,
+      "count": 4
+    },
+    "unclassified_polarity_plans": {
+      "path": "unclassified_polarity_plans.json",
+      "sha256": "f946469f110c4de2bf3354763fd45ca3b0f6e29193c6b4a573c6cfa179ec477a",
+      "bytes": 547,
+      "count": 6
+    },
+    "common_keys": {
+      "path": "common_keys.json",
+      "sha256": "49218198c0be54c0f21201f5faade4f2caaeb04c68b0af81a7fff41f4e7fb998",
+      "bytes": 104313,
+      "count": 158
+    },
+    "unique_keys": {
+      "path": "unique_keys.json",
+      "sha256": "deeb1c0326dce7fe2097687b65d525a99932d6d38d63a0bfab0dab4e478de65d",
+      "bytes": 338471,
+      "count": 402
+    },
+    "expansion_keys": {
+      "path": "expansion_keys.json",
+      "sha256": "21943ddedc9416305aa1fad38234f39c64bb0c14494324b73ff0f3bc50dbf061",
+      "bytes": 73534,
+      "count": 50
+    },
+    "combined_keys": {
+      "path": "combined_keys.json",
+      "sha256": "7212982a45ce0a3c944388c60d81b43ef6481fcacb73622ca636e0a28c884c84",
+      "bytes": 38019,
+      "count": 65
+    },
+    "game_config": {
+      "path": "game_config.json",
+      "sha256": "196e551738c9cbc0ce96d8e86623ba73f3e9df58bc89de4d8a318ebe93918a72",
+      "bytes": 4782
+    },
+    "game_version": {
+      "path": "game_version.json",
+      "sha256": "e1ac62fb7bc766db1adc08d011e7cee976566489fbe035c61821c0603347e46e",
+      "bytes": 560
+    },
+    "images": {
+      "path": "images.json",
+      "sha256": "cbf9c537a698fb336414960e53ee27ed9a204973170f7e9bdb09da776d3e691a",
+      "bytes": 968900,
+      "count": 832
+    },
+    "image_catalog": {
+      "path": "image_catalog.json",
+      "sha256": "9db5446e2bc396ec3e1cdd38b346a60e25832ab5bf3cb89f072e051c1ca46c16",
+      "bytes": 542499,
+      "count": 832
+    },
+    "asset_coverage": {
+      "path": "asset_coverage.json",
+      "sha256": "c73411f28e24d0a3023bd33c53354ada02e4c475899645e431b54e6df013c586",
+      "bytes": 189
+    },
+    "bundles": {
+      "path": "bundles.json",
+      "sha256": "87599c68784a11240711c5ee2b8ff4d353cd1f66db5d907101eb747421f4609d",
+      "bytes": 1274,
+      "count": 2
+    }
+  },
+  "bundles": {
+    "core_gzip": {
+      "type": "core_gzip",
+      "path": "bundles/core-data-table.1199366.json.gz",
+      "bytes": 225105,
+      "sha256": "fc8518e5ca62c9f89df6b39c6533b940416bfbe802fa8569b47f87cfc4bb5bf8",
+      "recommended": true
+    },
+    "core_zip": {
+      "type": "core_zip",
+      "path": "bundles/core-data-table.1199366.zip",
+      "bytes": 229453,
+      "sha256": "28b51df217a00e035097ac5c957c39c1f8f64d7e759a40a4b53902613ebbfde4",
+      "recommended": false
+    }
+  }
+}

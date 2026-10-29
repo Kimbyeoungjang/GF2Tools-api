@@ -1,1 +1,184 @@
-{"schema_version":1,"game":"Girls' Frontline 2: Exilium","locale":"ko-KR","source":"game Table archive","game_version":"2.0.3936","game_version_source":"LocalCache/StreamingAssets ClientRes_Windows directory","game_version_info":{"version":"2.0.3936","source":"LocalCache/StreamingAssets ClientRes_Windows directory","unity_bundle_version":null,"client_resource_version":"2.0.3936","text_version":null,"text_version_source":null},"source_table_version":"1168918","bv_version":"1166184","counts":{"dolls":62,"weapons":181,"unique_keys":372,"common_keys":153,"expansion_keys":46,"combined_keys":61,"remolding_properties":139,"weapon_part_effects":16,"weapon_part_power_map":33,"weapon_part_types":37,"item_ranks":4,"unclassified_polarity_plans":6},"enums":{"duties":[{"id":1,"name_tid":7084,"name_ko":"불워크","code":"Guard","description_tid":3201,"description_ko":"자체 생존력이 뛰어나면서 동료의 생존력을 대폭 상향시켜줍니다. 보통 어느 정도의 반격 능력을 지니고 있습니다."},{"id":2,"name_tid":7086,"name_ko":"뱅가드","code":"Scout","description_tid":3205,"description_ko":"뛰어난 기동력과 폭발적인 타격 능력을 지니고 있어, 우회 격파에 능합니다."},{"id":3,"name_tid":3207,"name_ko":"서포트","code":"Assist","description_tid":4598,"description_ko":"여러 방면에서 부대의 생존 및 타격 능력을 강화합니다, 인형의 특기에 따라서 빠르게 안정 깎기, 치료, 안정 회복, 피해 증폭, 정화 등 각종 능력을 지닙니다."},{"id":4,"name_tid":7090,"name_ko":"센티널","code":"Suppress","description_tid":4922,"description_ko":"뛰어난 타격 능력을 지니고 있습니다. 인형의 특기에 따라 높은 단일 피해 또는 범위 피해를 줄 수 있는 부대의 핵심적인 공격수입니다."}],"weapon_types":[{"id":1,"name_tid":11124,"name_ko":"권총","code":"HG","icon":"Icon_Weapon_HG"},{"id":2,"name_tid":11797,"name_ko":"기관단총","code":"SMG","icon":"Icon_Weapon_SMG"},{"id":3,"name_tid":11799,"name_ko":"저격소총","code":"RF","icon":"Icon_Weapon_RF"},{"id":4,"name_tid":11801,"name_ko":"돌격소총","code":"AR","icon":"Icon_Weapon_AR"},{"id":5,"name_tid":11803,"name_ko":"기관총","code":"MG","icon":"Icon_Weapon_MG"},{"id":6,"name_tid":11805,"name_ko":"산탄총","code":"SG","icon":"Icon_Weapon_SG"},{"id":7,"name_tid":11807,"name_ko":"도검","code":"BLD","icon":"Icon_Weapon_BLD"}],"elements":[{"id":0,"name_tid":4669,"name_ko":"물리","code":"Physical","icon":"Icon_BulletHit_Physical"},{"id":1,"name_tid":4793,"name_ko":"연소","code":"Fire","icon":"Icon_BulletHit_Fire"},{"id":2,"name_tid":6301,"name_ko":"전도","code":"Electric","icon":"Icon_BulletHit_Electric"},{"id":3,"name_tid":6302,"name_ko":"빙결","code":"Ice","icon":"Icon_BulletHit_Ice"},{"id":4,"name_tid":4796,"name_ko":"산성","code":"Poison","icon":"Icon_BulletHit_Poison"},{"id":5,"name_tid":21299,"name_ko":"탁류","code":"Water","icon":"Icon_BulletHit_Water"},{"id":6,"name_tid":6305,"name_ko":"중압","code":"Soil","icon":"Icon_BulletHit_Soil"},{"id":7,"name_tid":6306,"name_ko":"기생","code":"Grass","icon":"Icon_BulletHit_Grass"},{"id":31,"name_tid":445747,"name_ko":"공진","code":"All","icon":"Icon_BulletHit_All"}]}}
+{
+  "schema_version": 1,
+  "game": "Girls' Frontline 2: Exilium",
+  "locale": "ko-KR",
+  "source": "game Table archive",
+  "game_version": "3.0.5388",
+  "game_version_source": "LocalCache/StreamingAssets ClientRes_Windows directory",
+  "game_version_info": {
+    "version": "3.0.5388",
+    "source": "LocalCache/StreamingAssets ClientRes_Windows directory",
+    "unity_bundle_version": null,
+    "client_resource_version": "3.0.5388",
+    "text_version": null,
+    "text_version_source": null
+  },
+  "source_table_version": "1199366",
+  "bv_version": "1198375",
+  "counts": {
+    "dolls": 67,
+    "weapons": 194,
+    "unique_keys": 402,
+    "common_keys": 158,
+    "expansion_keys": 50,
+    "combined_keys": 65,
+    "remolding_properties": 141,
+    "weapon_part_effects": 16,
+    "weapon_part_power_map": 33,
+    "weapon_part_types": 37,
+    "item_ranks": 4,
+    "unclassified_polarity_plans": 6
+  },
+  "enums": {
+    "duties": [
+      {
+        "id": 1,
+        "name_tid": 7084,
+        "name_ko": "불워크",
+        "code": "Guard",
+        "description_tid": 3201,
+        "description_ko": "자체 생존력이 뛰어나면서 동료의 생존력을 대폭 상향시켜줍니다. 보통 어느 정도의 반격 능력을 지니고 있습니다."
+      },
+      {
+        "id": 2,
+        "name_tid": 7086,
+        "name_ko": "뱅가드",
+        "code": "Scout",
+        "description_tid": 3205,
+        "description_ko": "뛰어난 기동력과 폭발적인 타격 능력을 지니고 있어, 우회 격파에 능합니다."
+      },
+      {
+        "id": 3,
+        "name_tid": 3207,
+        "name_ko": "서포트",
+        "code": "Assist",
+        "description_tid": 4598,
+        "description_ko": "여러 방면에서 부대의 생존 및 타격 능력을 강화합니다, 인형의 특기에 따라서 빠르게 안정 깎기, 치료, 안정 회복, 피해 증폭, 정화 등 각종 능력을 지닙니다."
+      },
+      {
+        "id": 4,
+        "name_tid": 7090,
+        "name_ko": "센티널",
+        "code": "Suppress",
+        "description_tid": 4922,
+        "description_ko": "뛰어난 타격 능력을 지니고 있습니다. 인형의 특기에 따라 높은 단일 피해 또는 범위 피해를 줄 수 있는 부대의 핵심적인 공격수입니다."
+      }
+    ],
+    "weapon_types": [
+      {
+        "id": 1,
+        "name_tid": 11124,
+        "name_ko": "권총",
+        "code": "HG",
+        "icon": "Icon_Weapon_HG"
+      },
+      {
+        "id": 2,
+        "name_tid": 11797,
+        "name_ko": "기관단총",
+        "code": "SMG",
+        "icon": "Icon_Weapon_SMG"
+      },
+      {
+        "id": 3,
+        "name_tid": 11799,
+        "name_ko": "저격소총",
+        "code": "RF",
+        "icon": "Icon_Weapon_RF"
+      },
+      {
+        "id": 4,
+        "name_tid": 11801,
+        "name_ko": "돌격소총",
+        "code": "AR",
+        "icon": "Icon_Weapon_AR"
+      },
+      {
+        "id": 5,
+        "name_tid": 11803,
+        "name_ko": "기관총",
+        "code": "MG",
+        "icon": "Icon_Weapon_MG"
+      },
+      {
+        "id": 6,
+        "name_tid": 11805,
+        "name_ko": "산탄총",
+        "code": "SG",
+        "icon": "Icon_Weapon_SG"
+      },
+      {
+        "id": 7,
+        "name_tid": 11807,
+        "name_ko": "도검",
+        "code": "BLD",
+        "icon": "Icon_Weapon_BLD"
+      }
+    ],
+    "elements": [
+      {
+        "id": 0,
+        "name_tid": 4669,
+        "name_ko": "물리",
+        "code": "Physical",
+        "icon": "Icon_BulletHit_Physical"
+      },
+      {
+        "id": 1,
+        "name_tid": 4793,
+        "name_ko": "연소",
+        "code": "Fire",
+        "icon": "Icon_BulletHit_Fire"
+      },
+      {
+        "id": 2,
+        "name_tid": 6301,
+        "name_ko": "전도",
+        "code": "Electric",
+        "icon": "Icon_BulletHit_Electric"
+      },
+      {
+        "id": 3,
+        "name_tid": 6302,
+        "name_ko": "빙결",
+        "code": "Ice",
+        "icon": "Icon_BulletHit_Ice"
+      },
+      {
+        "id": 4,
+        "name_tid": 4796,
+        "name_ko": "산성",
+        "code": "Poison",
+        "icon": "Icon_BulletHit_Poison"
+      },
+      {
+        "id": 5,
+        "name_tid": 21299,
+        "name_ko": "탁류",
+        "code": "Water",
+        "icon": "Icon_BulletHit_Water"
+      },
+      {
+        "id": 6,
+        "name_tid": 6305,
+        "name_ko": "중압",
+        "code": "Soil",
+        "icon": "Icon_BulletHit_Soil"
+      },
+      {
+        "id": 7,
+        "name_tid": 6306,
+        "name_ko": "기생",
+        "code": "Grass",
+        "icon": "Icon_BulletHit_Grass"
+      },
+      {
+        "id": 31,
+        "name_tid": 445747,
+        "name_ko": "공진",
+        "code": "All",
+        "icon": "Icon_BulletHit_All"
+      }
+    ]
+  }
+}
