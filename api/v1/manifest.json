@@ -1,109 +1,109 @@
 {
   "schema_version": 2,
-  "data_version": "table.1199366",
+  "data_version": "table.1212770",
   "game_version": "3.0.5388",
-  "source_table_version": "1199366",
-  "bv_version": "1198375",
-  "updated_at": "2026-10-29T05:27:07.245495Z",
+  "source_table_version": "1212770",
+  "bv_version": "1211079",
+  "updated_at": "2026-11-19T02:45:19.720120Z",
   "recommended_sync": {
     "check": "latest.json",
     "manifest": "api/v1/manifest.json",
-    "bulk": "bundles/core-data-table.1199366.json.gz",
+    "bulk": "bundles/core-data-table.1212770.json.gz",
     "policy": "Download bulk data only when data_version changes; cache images locally by sha256."
   },
   "files": {
     "dolls": {
       "path": "dolls.json",
-      "sha256": "6009a39ab6ed0af2e0c311946891f456995f987117afd1f40ab1c805994891d5",
+      "sha256": "d153b6ffd30eeaf79b47043c68aa1eebe367daf4e7b12f5d2d5b505aaaecfa4c",
       "bytes": 123808,
       "count": 67
     },
     "weapons": {
       "path": "weapons.json",
-      "sha256": "1c39b4f920f1b1779060ee8d82aebca423c734d2a1b018577e0d1c04517e82c0",
-      "bytes": 144809,
+      "sha256": "acdce79e98f0cf7d4a8ac0cb8b9cff07d91f7ffd896ad937eb3512429f3da744",
+      "bytes": 144779,
       "count": 194
     },
     "remolding": {
       "path": "remolding.json",
-      "sha256": "5018372966f4ee1bb229427a2a475f025a7f92208bd438eec71a0678082c9c75",
+      "sha256": "b9a2bd718604faa35cf40cbfa0356cb324c63de751ab1507be131e76164b16d2",
       "bytes": 38609,
       "count": 141
     },
     "weapon_part_effects": {
       "path": "weapon_part_effects.json",
-      "sha256": "88fb83d7fd32212e9e47d378e5b3972a3b1d19bd7962e541f580ae4fb348f5ad",
+      "sha256": "670cd1b34f9cf0b4ac676d130367451078d33009813fa47a72f83bfb5a1b712f",
       "bytes": 2251,
       "count": 16
     },
     "weapon_part_power_map": {
       "path": "weapon_part_power_map.json",
-      "sha256": "f995911879034cc6d8c208308c9b3023ce69a58482c72f7570cf624146e1d0d0",
+      "sha256": "07c620d2d81c2ec621374323a08bf7b85e9b744e491b2837cf8fdd2ac62046a4",
       "bytes": 3875,
       "count": 33
     },
     "weapon_part_types": {
       "path": "weapon_part_types.json",
-      "sha256": "180ed057ba7cb462c1ee2e6906cbae0b60a2570f26eef0f83a58b712f9b19d79",
+      "sha256": "23220725d4fb82de25afdfbd0ff2d05d1c9d9d7065e6e2e133bdcc93575364ff",
       "bytes": 9220,
       "count": 37
     },
     "item_ranks": {
       "path": "item_ranks.json",
-      "sha256": "ec6ebc2ce760768e58683491ca00e62e37023a0bf83e7711b9c1d1b69d1def0a",
+      "sha256": "84f9a75265ddf35236b149c2b5da7bd359d5ac70d7ae6f7ec58e35c639192143",
       "bytes": 469,
       "count": 4
     },
     "unclassified_polarity_plans": {
       "path": "unclassified_polarity_plans.json",
-      "sha256": "f946469f110c4de2bf3354763fd45ca3b0f6e29193c6b4a573c6cfa179ec477a",
+      "sha256": "c52ef731557102e35f6604cd9f040684f28c49a8224b9f87102a9513ec581d99",
       "bytes": 547,
       "count": 6
     },
     "common_keys": {
       "path": "common_keys.json",
-      "sha256": "49218198c0be54c0f21201f5faade4f2caaeb04c68b0af81a7fff41f4e7fb998",
-      "bytes": 104313,
+      "sha256": "1879c161e8f3f523380a9c87b05ec1b9044cecc6873b719a0d81c105e9d3b41e",
+      "bytes": 104333,
       "count": 158
     },
     "unique_keys": {
       "path": "unique_keys.json",
-      "sha256": "deeb1c0326dce7fe2097687b65d525a99932d6d38d63a0bfab0dab4e478de65d",
-      "bytes": 338471,
+      "sha256": "d1e1ad3f31eec38b4886975fa97d5ba002679bdb53e55ed9ccead8617fb2e2ce",
+      "bytes": 338447,
       "count": 402
     },
     "expansion_keys": {
       "path": "expansion_keys.json",
-      "sha256": "21943ddedc9416305aa1fad38234f39c64bb0c14494324b73ff0f3bc50dbf061",
+      "sha256": "aa016a30b470d3216ec9235855736d7e925d8517ef63043fc69567cb46aaaaa4",
       "bytes": 73534,
       "count": 50
     },
     "combined_keys": {
       "path": "combined_keys.json",
-      "sha256": "7212982a45ce0a3c944388c60d81b43ef6481fcacb73622ca636e0a28c884c84",
+      "sha256": "2e248f170ec06db3d53f06403e58900b161da22e1cf25e9796f5426b1e6a307d",
       "bytes": 38019,
       "count": 65
     },
     "game_config": {
       "path": "game_config.json",
-      "sha256": "196e551738c9cbc0ce96d8e86623ba73f3e9df58bc89de4d8a318ebe93918a72",
+      "sha256": "6c5d2b28115a4fc818f982df3555fb81bcca8eb91951078b07602f96ac3582a6",
       "bytes": 4782
     },
     "game_version": {
       "path": "game_version.json",
-      "sha256": "e1ac62fb7bc766db1adc08d011e7cee976566489fbe035c61821c0603347e46e",
+      "sha256": "bd8f4ed33f7c3d93b079904abeb5ea4155ece273e6f026018fb064f054deeb43",
       "bytes": 560
     },
     "images": {
       "path": "images.json",
-      "sha256": "cbf9c537a698fb336414960e53ee27ed9a204973170f7e9bdb09da776d3e691a",
-      "bytes": 968900,
+      "sha256": "525b5c98b63d1822c079f542e3f33fa7e97c75c79916c046248e03d72d912d94",
+      "bytes": 968880,
       "count": 832
     },
     "image_catalog": {
       "path": "image_catalog.json",
-      "sha256": "9db5446e2bc396ec3e1cdd38b346a60e25832ab5bf3cb89f072e051c1ca46c16",
-      "bytes": 542499,
+      "sha256": "f57949c4227ea72cde85468d7d7548341711a9d5417150d24d632dd4fc581fca",
+      "bytes": 542479,
       "count": 832
     },
     "asset_coverage": {
@@ -113,7 +113,7 @@
     },
     "bundles": {
       "path": "bundles.json",
-      "sha256": "87599c68784a11240711c5ee2b8ff4d353cd1f66db5d907101eb747421f4609d",
+      "sha256": "a8db33837a2991618e64e3d65d380cc2cea6788e8791513abb2e280e5df3110d",
       "bytes": 1274,
       "count": 2
     }
@@ -121,16 +121,16 @@
   "bundles": {
     "core_gzip": {
       "type": "core_gzip",
-      "path": "bundles/core-data-table.1199366.json.gz",
-      "bytes": 225105,
-      "sha256": "fc8518e5ca62c9f89df6b39c6533b940416bfbe802fa8569b47f87cfc4bb5bf8",
+      "path": "bundles/core-data-table.1212770.json.gz",
+      "bytes": 225117,
+      "sha256": "5016f4c13f8545e4470da48a472eb9c76e0643c37bea9cb903952660c05e84aa",
       "recommended": true
     },
     "core_zip": {
       "type": "core_zip",
-      "path": "bundles/core-data-table.1199366.zip",
-      "bytes": 229453,
-      "sha256": "28b51df217a00e035097ac5c957c39c1f8f64d7e759a40a4b53902613ebbfde4",
+      "path": "bundles/core-data-table.1212770.zip",
+      "bytes": 229450,
+      "sha256": "36b769581e72f5aafa9130e58cf3e0c0534aec26e909bab470f0da76f6a870be",
       "recommended": false
     }
   }

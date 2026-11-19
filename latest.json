@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "data_version": "table.1199366",
+  "data_version": "table.1212770",
   "manifest": "api/v1/manifest.json",
-  "bulk": "bundles/core-data-table.1199366.json.gz",
+  "bulk": "bundles/core-data-table.1212770.json.gz",
   "offline_package": true
 }

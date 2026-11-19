@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_table_version": "1199366",
+  "source_table_version": "1212770",
   "count": 158,
   "items": [
     {
@@ -2595,10 +2595,10 @@
       "category_ko": "기믹·파생키",
       "name_tid": 513426,
       "name_ko": "공용키·킬링 비전",
-      "description_ko": "치명률 +5%\n자신 또는 자신의 실체 소환물의 이동력이 대상 이상이라면 주는 피해 <color=#f26c1c>+10%</color>.",
+      "description_ko": "치명률 +5%\n자신 또는 자신의 실체 소환물의 이동력이 대상의 이동력 이상이면 주는 피해 <color=#f26c1c>+10%</color>.",
       "stat_description_ko": "치명률 +5%",
       "effect_description_tid": 10177,
-      "effect_description_ko": "자신 또는 자신의 실체 소환물의 이동력이 대상 이상이라면 주는 피해 <color=#f26c1c>+10%</color>.",
+      "effect_description_ko": "자신 또는 자신의 실체 소환물의 이동력이 대상의 이동력 이상이면 주는 피해 <color=#f26c1c>+10%</color>.",
       "battle_skill_id": 10790907,
       "gun_id": null,
       "source_ref_id": 8001042,

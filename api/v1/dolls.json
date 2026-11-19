@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_table_version": "1199366",
+  "source_table_version": "1212770",
   "count": 67,
   "items": [
     {
@@ -826,7 +826,7 @@
       "assets": {
         "portrait": "assets/portraits/Avatar_Bust_SuomiSSR--67136d193f.webp",
         "gacha": "assets/gacha/Avatar_Gacha_SuomiSSR--b4dede95b7.webp",
-        "fullbody": "assets/fullbody/Avatar_Whole_SuomiSSR--f8f30fc2fe.webp",
+        "fullbody": "assets/fullbody/Avatar_Whole_SuomiSSR--1ae4e63a77.webp",
         "skins": [
           "assets/skins/Img_ChrSkinPic_SuomiSSR--f7c1947459.webp",
           "assets/skins/Img_ChrSkinPic_SuomiSSR01--0cae8612e5.webp",
@@ -1667,7 +1667,7 @@
       "assets": {
         "portrait": "assets/portraits/Avatar_Bust_WelrodSSR--1122951a0e.webp",
         "gacha": "assets/gacha/Avatar_Gacha_WelrodSSR--18e0e53034.webp",
-        "fullbody": "assets/fullbody/Avatar_Whole_WelrodSSR--446fac8fa3.webp",
+        "fullbody": "assets/fullbody/Avatar_Whole_WelrodSSR--d44592e52c.webp",
         "skins": [
           "assets/skins/Img_ChrSkinPic_WelrodSSR--2c173bb0e6.webp",
           "assets/skins/Img_ChrSkinPic_WelrodSSR01--c120720e66.webp"

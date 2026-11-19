@@ -1,9 +1,63 @@
 {
   "schema_version": 1,
-  "source_table_version": "1199366",
+  "source_table_version": "1212770",
   "count": 33,
   "source_table": "ModPowerData.bytes",
   "items": [
+    {
+      "id": 1,
+      "plan_id": 102,
+      "effect_id": 1,
+      "effect_name_ko": "결전 추진"
+    },
+    {
+      "id": 2,
+      "plan_id": 103,
+      "effect_id": 2,
+      "effect_name_ko": "이중 대책"
+    },
+    {
+      "id": 3,
+      "plan_id": 104,
+      "effect_id": 3,
+      "effect_name_ko": "위상 타격"
+    },
+    {
+      "id": 4,
+      "plan_id": 105,
+      "effect_id": 4,
+      "effect_name_ko": "위상 증폭"
+    },
+    {
+      "id": 5,
+      "plan_id": 106,
+      "effect_id": 5,
+      "effect_name_ko": "응급 회복"
+    },
+    {
+      "id": 6,
+      "plan_id": 107,
+      "effect_id": 6,
+      "effect_name_ko": "방어 지원"
+    },
+    {
+      "id": 7,
+      "plan_id": 108,
+      "effect_id": 7,
+      "effect_name_ko": "실탄 증폭"
+    },
+    {
+      "id": 8,
+      "plan_id": 109,
+      "effect_id": 8,
+      "effect_name_ko": "작열 증폭"
+    },
+    {
+      "id": 9,
+      "plan_id": 110,
+      "effect_id": 9,
+      "effect_name_ko": "빙점 증폭"
+    },
     {
       "id": 10,
       "plan_id": 111,
@@ -147,60 +201,6 @@
       "plan_id": 301,
       "effect_id": 1,
       "effect_name_ko": "결전 추진"
-    },
-    {
-      "id": 1,
-      "plan_id": 102,
-      "effect_id": 1,
-      "effect_name_ko": "결전 추진"
-    },
-    {
-      "id": 2,
-      "plan_id": 103,
-      "effect_id": 2,
-      "effect_name_ko": "이중 대책"
-    },
-    {
-      "id": 3,
-      "plan_id": 104,
-      "effect_id": 3,
-      "effect_name_ko": "위상 타격"
-    },
-    {
-      "id": 4,
-      "plan_id": 105,
-      "effect_id": 4,
-      "effect_name_ko": "위상 증폭"
-    },
-    {
-      "id": 5,
-      "plan_id": 106,
-      "effect_id": 5,
-      "effect_name_ko": "응급 회복"
-    },
-    {
-      "id": 6,
-      "plan_id": 107,
-      "effect_id": 6,
-      "effect_name_ko": "방어 지원"
-    },
-    {
-      "id": 7,
-      "plan_id": 108,
-      "effect_id": 7,
-      "effect_name_ko": "실탄 증폭"
-    },
-    {
-      "id": 8,
-      "plan_id": 109,
-      "effect_id": 8,
-      "effect_name_ko": "작열 증폭"
-    },
-    {
-      "id": 9,
-      "plan_id": 110,
-      "effect_id": 9,
-      "effect_name_ko": "빙점 증폭"
     }
   ]
 }

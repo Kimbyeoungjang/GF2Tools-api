@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "data_version": "table.1199366",
+  "data_version": "table.1212770",
   "pages_assets": {
     "image_count": 832,
-    "image_bytes": 48139978,
+    "image_bytes": 48139808,
     "image_mib": 45.91,
     "theoretical_full_image_sets_per_100gb": 2230
   },
@@ -20,16 +20,16 @@
   "items": [
     {
       "type": "core_gzip",
-      "path": "bundles/core-data-table.1199366.json.gz",
-      "bytes": 225105,
-      "sha256": "fc8518e5ca62c9f89df6b39c6533b940416bfbe802fa8569b47f87cfc4bb5bf8",
+      "path": "bundles/core-data-table.1212770.json.gz",
+      "bytes": 225117,
+      "sha256": "5016f4c13f8545e4470da48a472eb9c76e0643c37bea9cb903952660c05e84aa",
       "recommended": true
     },
     {
       "type": "core_zip",
-      "path": "bundles/core-data-table.1199366.zip",
-      "bytes": 229453,
-      "sha256": "28b51df217a00e035097ac5c957c39c1f8f64d7e759a40a4b53902613ebbfde4",
+      "path": "bundles/core-data-table.1212770.zip",
+      "bytes": 229450,
+      "sha256": "36b769581e72f5aafa9130e58cf3e0c0534aec26e909bab470f0da76f6a870be",
       "recommended": false
     }
   ]

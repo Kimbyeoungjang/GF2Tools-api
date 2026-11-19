@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_table_version": "1199366",
+  "source_table_version": "1212770",
   "count": 402,
   "items": [
     {
@@ -6233,10 +6233,10 @@
       "category_ko": "강화키",
       "name_tid": 513419,
       "name_ko": "고유키·신조",
-      "description_ko": "전투 시작 시, <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> <color=#f26c1c>2스택</color>을 <color=#f26c1c>3턴간</color> 얻는다.\n<color=#3487e0>{2}</color> 생성 시, <color=#3487e0>{2}</color>가 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>3턴간</color> 얻는다.",
+      "description_ko": "전투 시작 시 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color> 효과 <color=#f26c1c>2스택</color>을 <color=#f26c1c>3턴간</color> 얻는다.\n<color=#3487e0>{2}</color> 소환 시 <color=#3487e0>{2}</color>가 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>3턴간</color> 얻는다.",
       "stat_description_ko": null,
       "effect_description_tid": 10177,
-      "effect_description_ko": "전투 시작 시, <color=#3487e0>{0}</color> 효과와 <color=#3487e0>{1}</color> <color=#f26c1c>2스택</color>을 <color=#f26c1c>3턴간</color> 얻는다.\n<color=#3487e0>{2}</color> 생성 시, <color=#3487e0>{2}</color>가 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>3턴간</color> 얻는다.",
+      "effect_description_ko": "전투 시작 시 <color=#3487e0>{0}</color>와 <color=#3487e0>{1}</color> 효과 <color=#f26c1c>2스택</color>을 <color=#f26c1c>3턴간</color> 얻는다.\n<color=#3487e0>{2}</color> 소환 시 <color=#3487e0>{2}</color>가 <color=#3487e0>{0}</color> 효과를 <color=#f26c1c>3턴간</color> 얻는다.",
       "battle_skill_id": 10790901,
       "gun_id": 1079,
       "source_ref_id": 10790901,
@@ -6250,10 +6250,10 @@
       "category_ko": "강화키",
       "name_tid": 513420,
       "name_ko": "고유키·노 타임 투 다이",
-      "description_ko": "<color=#3487e0>{0}</color> 상태에서 쓰러질 피해를 받았을 때, 전체턴 종료 시까지 체력이 1 미만으로 떨어지지 않는다. 쿨타임 <color=#f26c1c>2개 전체턴</color>.",
+      "description_ko": "<color=#3487e0>{0}</color>가 쓰러질 피해를 받았을 때, 전체턴 종료 시까지 체력이 1 미만으로 떨어지지 않는다. 쿨타임 <color=#f26c1c>2개 전체턴</color>.",
       "stat_description_ko": null,
       "effect_description_tid": 10177,
-      "effect_description_ko": "<color=#3487e0>{0}</color> 상태에서 쓰러질 피해를 받았을 때, 전체턴 종료 시까지 체력이 1 미만으로 떨어지지 않는다. 쿨타임 <color=#f26c1c>2개 전체턴</color>.",
+      "effect_description_ko": "<color=#3487e0>{0}</color>가 쓰러질 피해를 받았을 때, 전체턴 종료 시까지 체력이 1 미만으로 떨어지지 않는다. 쿨타임 <color=#f26c1c>2개 전체턴</color>.",
       "battle_skill_id": 10790902,
       "gun_id": 1079,
       "source_ref_id": 10790902,

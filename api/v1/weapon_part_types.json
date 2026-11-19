@@ -1,129 +1,9 @@
 {
   "schema_version": 1,
-  "source_table_version": "1199366",
+  "source_table_version": "1212770",
   "count": 37,
   "source_table": "WeaponModTypeData.bytes",
   "items": [
-    {
-      "id": 11,
-      "category_id": 1,
-      "weapon_type_id": null,
-      "name_tid": 3954,
-      "name_ko": "모듈 걸쇠",
-      "description_tid": 3955,
-      "description_ko": "",
-      "icon": "WeaponPart_orbment_None"
-    },
-    {
-      "id": 12,
-      "category_id": 1,
-      "weapon_type_id": null,
-      "name_tid": 3956,
-      "name_ko": "범용 그립",
-      "description_tid": 3955,
-      "description_ko": "",
-      "icon": "WeaponPart_Grip_None"
-    },
-    {
-      "id": 13,
-      "category_id": 1,
-      "weapon_type_id": null,
-      "name_tid": 3957,
-      "name_ko": "범용 양각대",
-      "description_tid": 3955,
-      "description_ko": "",
-      "icon": "WeaponPart_Stool_None"
-    },
-    {
-      "id": 1011,
-      "category_id": 2,
-      "weapon_type_id": 1,
-      "name_tid": 4364,
-      "name_ko": "AR 조준기",
-      "description_tid": 3502,
-      "description_ko": "적합: AR",
-      "icon": "WeaponPart_Scope_None"
-    },
-    {
-      "id": 1012,
-      "category_id": 2,
-      "weapon_type_id": 1,
-      "name_tid": 4365,
-      "name_ko": "SMG 조준기",
-      "description_tid": 3504,
-      "description_ko": "적합: SMG",
-      "icon": "WeaponPart_Scope_None"
-    },
-    {
-      "id": 1013,
-      "category_id": 2,
-      "weapon_type_id": 1,
-      "name_tid": 4366,
-      "name_ko": "MG 조준기",
-      "description_tid": 3506,
-      "description_ko": "적합: MG",
-      "icon": "WeaponPart_Scope_None"
-    },
-    {
-      "id": 1021,
-      "category_id": 2,
-      "weapon_type_id": 1,
-      "name_tid": 3958,
-      "name_ko": "RF 조준기",
-      "description_tid": 3509,
-      "description_ko": "적합: RF",
-      "icon": "WeaponPart_Scope_None"
-    },
-    {
-      "id": 2041,
-      "category_id": 2,
-      "weapon_type_id": 2,
-      "name_tid": 3945,
-      "name_ko": "HG 총구",
-      "description_tid": 3532,
-      "description_ko": "적합: HG",
-      "icon": "WeaponPart_Muzzle_None"
-    },
-    {
-      "id": 4011,
-      "category_id": 2,
-      "weapon_type_id": 4,
-      "name_tid": 3524,
-      "name_ko": "BLD 칼끝",
-      "description_tid": 3525,
-      "description_ko": "적합: BLD",
-      "icon": "WeaponPart_Ensharp_None"
-    },
-    {
-      "id": 8011,
-      "category_id": 2,
-      "weapon_type_id": 8,
-      "name_tid": 3950,
-      "name_ko": "BLD 튜닝",
-      "description_tid": 3525,
-      "description_ko": "적합: BLD",
-      "icon": "WeaponPart_Adjust_None"
-    },
-    {
-      "id": 12011,
-      "category_id": 2,
-      "weapon_type_id": 12,
-      "name_tid": 3961,
-      "name_ko": "AR 그립",
-      "description_tid": 3502,
-      "description_ko": "적합: AR",
-      "icon": "WeaponPart_Grip_None"
-    },
-    {
-      "id": 12012,
-      "category_id": 2,
-      "weapon_type_id": 12,
-      "name_tid": 3962,
-      "name_ko": "SMG 그립",
-      "description_tid": 3504,
-      "description_ko": "적합: SMG",
-      "icon": "WeaponPart_Grip_None"
-    },
     {
       "id": 1031,
       "category_id": 2,
@@ -165,44 +45,94 @@
       "icon": "WeaponPart_Muzzle_None"
     },
     {
-      "id": 2031,
+      "id": 3011,
       "category_id": 2,
-      "weapon_type_id": 2,
-      "name_tid": 3499,
-      "name_ko": "SG 총구",
-      "description_tid": 3500,
-      "description_ko": "적합: SG",
-      "icon": "WeaponPart_Muzzle_None"
+      "weapon_type_id": 3,
+      "name_tid": 3946,
+      "name_ko": "AR 총열덮개",
+      "description_tid": 3502,
+      "description_ko": "적합: AR",
+      "icon": "WeaponPart_Lightweight_None"
     },
     {
-      "id": 11011,
+      "id": 3012,
       "category_id": 2,
-      "weapon_type_id": 11,
-      "name_tid": 3528,
-      "name_ko": "SG 걸쇠",
-      "description_tid": 3500,
-      "description_ko": "적합: SG",
-      "icon": "WeaponPart_orbment_None"
+      "weapon_type_id": 3,
+      "name_tid": 3947,
+      "name_ko": "SMG 총열덮개",
+      "description_tid": 3504,
+      "description_ko": "적합: SMG",
+      "icon": "WeaponPart_Lightweight_None"
     },
     {
-      "id": 11012,
+      "id": 3013,
       "category_id": 2,
-      "weapon_type_id": 11,
-      "name_tid": 3531,
-      "name_ko": "HG 걸쇠",
-      "description_tid": 3532,
-      "description_ko": "적합: HG",
-      "icon": "WeaponPart_orbment_None"
+      "weapon_type_id": 3,
+      "name_tid": 3948,
+      "name_ko": "MG 총열덮개",
+      "description_tid": 3506,
+      "description_ko": "적합: MG",
+      "icon": "WeaponPart_Lightweight_None"
     },
     {
-      "id": 11013,
+      "id": 3014,
       "category_id": 2,
-      "weapon_type_id": 11,
-      "name_tid": 3944,
-      "name_ko": "BLD 걸쇠",
+      "weapon_type_id": 3,
+      "name_tid": 3949,
+      "name_ko": "RF 총열덮개",
+      "description_tid": 3509,
+      "description_ko": "적합: RF",
+      "icon": "WeaponPart_Lightweight_None"
+    },
+    {
+      "id": 4011,
+      "category_id": 2,
+      "weapon_type_id": 4,
+      "name_tid": 3524,
+      "name_ko": "BLD 칼끝",
       "description_tid": 3525,
       "description_ko": "적합: BLD",
-      "icon": "WeaponPart_orbment_None"
+      "icon": "WeaponPart_Ensharp_None"
+    },
+    {
+      "id": 12011,
+      "category_id": 2,
+      "weapon_type_id": 12,
+      "name_tid": 3961,
+      "name_ko": "AR 그립",
+      "description_tid": 3502,
+      "description_ko": "적합: AR",
+      "icon": "WeaponPart_Grip_None"
+    },
+    {
+      "id": 12012,
+      "category_id": 2,
+      "weapon_type_id": 12,
+      "name_tid": 3962,
+      "name_ko": "SMG 그립",
+      "description_tid": 3504,
+      "description_ko": "적합: SMG",
+      "icon": "WeaponPart_Grip_None"
+    },
+    {
+      "id": 13011,
+      "category_id": 2,
+      "weapon_type_id": 13,
+      "name_tid": 3964,
+      "name_ko": "MG 양각대",
+      "description_tid": 3506,
+      "description_ko": "적합: MG",
+      "icon": "WeaponPart_Stool_None"
+    },
+    {
+      "id": 13012,
+      "category_id": 2,
+      "weapon_type_id": 13,
+      "name_tid": 3965,
+      "name_ko": "RF 양각대",
+      "description_tid": 3509,
+      "description_ko": "적합: RF",
+      "icon": "WeaponPart_Stool_None"
     },
     {
       "id": 1,
@@ -265,6 +195,86 @@
       "icon": "WeaponPart_Link_None"
     },
     {
+      "id": 11,
+      "category_id": 1,
+      "weapon_type_id": null,
+      "name_tid": 3954,
+      "name_ko": "모듈 걸쇠",
+      "description_tid": 3955,
+      "description_ko": "",
+      "icon": "WeaponPart_orbment_None"
+    },
+    {
+      "id": 12,
+      "category_id": 1,
+      "weapon_type_id": null,
+      "name_tid": 3956,
+      "name_ko": "범용 그립",
+      "description_tid": 3955,
+      "description_ko": "",
+      "icon": "WeaponPart_Grip_None"
+    },
+    {
+      "id": 13,
+      "category_id": 1,
+      "weapon_type_id": null,
+      "name_tid": 3957,
+      "name_ko": "범용 양각대",
+      "description_tid": 3955,
+      "description_ko": "",
+      "icon": "WeaponPart_Stool_None"
+    },
+    {
+      "id": 1021,
+      "category_id": 2,
+      "weapon_type_id": 1,
+      "name_tid": 3958,
+      "name_ko": "RF 조준기",
+      "description_tid": 3509,
+      "description_ko": "적합: RF",
+      "icon": "WeaponPart_Scope_None"
+    },
+    {
+      "id": 8011,
+      "category_id": 2,
+      "weapon_type_id": 8,
+      "name_tid": 3950,
+      "name_ko": "BLD 튜닝",
+      "description_tid": 3525,
+      "description_ko": "적합: BLD",
+      "icon": "WeaponPart_Adjust_None"
+    },
+    {
+      "id": 1011,
+      "category_id": 2,
+      "weapon_type_id": 1,
+      "name_tid": 4364,
+      "name_ko": "AR 조준기",
+      "description_tid": 3502,
+      "description_ko": "적합: AR",
+      "icon": "WeaponPart_Scope_None"
+    },
+    {
+      "id": 1012,
+      "category_id": 2,
+      "weapon_type_id": 1,
+      "name_tid": 4365,
+      "name_ko": "SMG 조준기",
+      "description_tid": 3504,
+      "description_ko": "적합: SMG",
+      "icon": "WeaponPart_Scope_None"
+    },
+    {
+      "id": 1013,
+      "category_id": 2,
+      "weapon_type_id": 1,
+      "name_tid": 4366,
+      "name_ko": "MG 조준기",
+      "description_tid": 3506,
+      "description_ko": "적합: MG",
+      "icon": "WeaponPart_Scope_None"
+    },
+    {
       "id": 2011,
       "category_id": 2,
       "weapon_type_id": 2,
@@ -285,64 +295,24 @@
       "icon": "WeaponPart_Muzzle_None"
     },
     {
-      "id": 3011,
+      "id": 2031,
       "category_id": 2,
-      "weapon_type_id": 3,
-      "name_tid": 3946,
-      "name_ko": "AR 총열덮개",
-      "description_tid": 3502,
-      "description_ko": "적합: AR",
-      "icon": "WeaponPart_Lightweight_None"
+      "weapon_type_id": 2,
+      "name_tid": 3499,
+      "name_ko": "SG 총구",
+      "description_tid": 3500,
+      "description_ko": "적합: SG",
+      "icon": "WeaponPart_Muzzle_None"
     },
     {
-      "id": 3012,
+      "id": 2041,
       "category_id": 2,
-      "weapon_type_id": 3,
-      "name_tid": 3947,
-      "name_ko": "SMG 총열덮개",
-      "description_tid": 3504,
-      "description_ko": "적합: SMG",
-      "icon": "WeaponPart_Lightweight_None"
-    },
-    {
-      "id": 3013,
-      "category_id": 2,
-      "weapon_type_id": 3,
-      "name_tid": 3948,
-      "name_ko": "MG 총열덮개",
-      "description_tid": 3506,
-      "description_ko": "적합: MG",
-      "icon": "WeaponPart_Lightweight_None"
-    },
-    {
-      "id": 3014,
-      "category_id": 2,
-      "weapon_type_id": 3,
-      "name_tid": 3949,
-      "name_ko": "RF 총열덮개",
-      "description_tid": 3509,
-      "description_ko": "적합: RF",
-      "icon": "WeaponPart_Lightweight_None"
-    },
-    {
-      "id": 13011,
-      "category_id": 2,
-      "weapon_type_id": 13,
-      "name_tid": 3964,
-      "name_ko": "MG 양각대",
-      "description_tid": 3506,
-      "description_ko": "적합: MG",
-      "icon": "WeaponPart_Stool_None"
-    },
-    {
-      "id": 13012,
-      "category_id": 2,
-      "weapon_type_id": 13,
-      "name_tid": 3965,
-      "name_ko": "RF 양각대",
-      "description_tid": 3509,
-      "description_ko": "적합: RF",
-      "icon": "WeaponPart_Stool_None"
+      "weapon_type_id": 2,
+      "name_tid": 3945,
+      "name_ko": "HG 총구",
+      "description_tid": 3532,
+      "description_ko": "적합: HG",
+      "icon": "WeaponPart_Muzzle_None"
     },
     {
       "id": 9011,
@@ -373,6 +343,36 @@
       "description_tid": 3525,
       "description_ko": "적합: BLD",
       "icon": "WeaponPart_Link_None"
+    },
+    {
+      "id": 11011,
+      "category_id": 2,
+      "weapon_type_id": 11,
+      "name_tid": 3528,
+      "name_ko": "SG 걸쇠",
+      "description_tid": 3500,
+      "description_ko": "적합: SG",
+      "icon": "WeaponPart_orbment_None"
+    },
+    {
+      "id": 11012,
+      "category_id": 2,
+      "weapon_type_id": 11,
+      "name_tid": 3531,
+      "name_ko": "HG 걸쇠",
+      "description_tid": 3532,
+      "description_ko": "적합: HG",
+      "icon": "WeaponPart_orbment_None"
+    },
+    {
+      "id": 11013,
+      "category_id": 2,
+      "weapon_type_id": 11,
+      "name_tid": 3944,
+      "name_ko": "BLD 걸쇠",
+      "description_tid": 3525,
+      "description_ko": "적합: BLD",
+      "icon": "WeaponPart_orbment_None"
     }
   ]
 }
